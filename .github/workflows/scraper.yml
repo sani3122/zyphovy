@@ -1,17 +1,12 @@
-name: TFLIX Auto Scraper
+name: TFLIX M3U Scraper
 
 on:
   schedule:
-    # Runs every 15 minutes
     - cron: '*/15 * * * *'
-  # Allows manual triggering from the GitHub Actions tab
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  run-scraper:
+  scrape-tflix:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,20 +17,29 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
-      - name: Install Dependencies
+      - name: Install All Python Packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install aiohttp "camoufox[geoip]" Pillow pycountry
+
+      - name: Install Display Drivers & System Fonts
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb libgbm-dev libasound2 fonts-dejavu-core
           python -m camoufox fetch
 
-      - name: Run Scraper
-        run: python tflix_scrapper.py
-
-      - name: Commit and Push Updated Playlist & Logos
+      - name: Execute TFLIX Scraper
+        env:
+          TZ: 'Asia/Dhaka'
+          HEADLESS: 'false'
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          xvfb-run --auto-servernum python tflix_scrapper.py
+
+      - name: Commit and Push Updated Playlist
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
           git add live_playlist.m3u logos/
-          git commit -m "Auto-update stream playlist & banners [skip ci]" || exit 0
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update TFLIX live streams [skip ci]" && git push)
