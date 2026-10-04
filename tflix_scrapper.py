@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-TFLIX Live Stream M3U Scraper (IPTV Ready)
-- Context-level network request sniffing (captures frame & iframe traffic).
-- Broadened URL pattern detection for dynamic proxy stream links.
-- Uses native Playwright click events to cycle through valid stream tabs.
+TFLIX Master Live Stream M3U Scraper (IPTV Ready)
+- Extracts real unencrypted .m3u8 / HLS media streams from embedded player frames.
+- Ignores internal API routes (/api/chat/...) and DRM/AQ streams.
+- Generates M3U playlist formatted with raw GitHub asset logos.
 """
 
 import asyncio
@@ -20,10 +20,10 @@ from PIL import Image, ImageDraw, ImageFont
 TARGET_URL = "https://tflix.su/watch"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
-WAIT_PLAYER = 10  # Seconds to wait per stream tab to allow video player load
+WAIT_PLAYER = 8  # Seconds to wait per stream tab to allow player iframe buffer
 
-GITHUB_USER = "YOUR_GITHUB_USERNAME"
-GITHUB_REPO = "YOUR_REPO_NAME"
+GITHUB_USER = "sani3122"
+GITHUB_REPO = "zyphovy"
 GITHUB_BRANCH = "main"
 
 TEAM_NAME_MAP = {
@@ -124,10 +124,13 @@ async def generate_vs_banner(
 
 
 def is_stream_url(url: str) -> bool:
-    """Enhanced stream detection supporting HLS, proxies, and dynamic manifest URLs."""
+    """Strictly validates actual HLS / M3U8 streaming media feeds."""
     lower = url.lower()
 
-    # Skip standard static web resources
+    # Reject internal TFLIX API routes, static web resources, and DRM DASH (.mpd)
+    if "tflix.su/api/" in lower or "/api/chat/" in lower:
+        return False
+
     if any(
         lower.endswith(ext)
         for ext in [
@@ -137,20 +140,17 @@ def is_stream_url(url: str) -> bool:
     ):
         return False
 
-    # Primary video stream patterns (M3U8 / HLS / Media Proxies)
+    # Targeted HLS / M3U8 video stream signatures
     stream_keywords = [
         ".m3u8",
         "/hls/",
         "chunklist",
         "playlist.m3u",
         "index.m3u",
-        "/live/",
-        "/stream",
-        ".m3u",
         "m3u8=",
-        "stream.php",
-        "playlist.php",
-        "/hls"
+        "/mono.m3u8",
+        "/master.m3u8",
+        "/index.m3u8"
     ]
     return any(kw in lower for kw in stream_keywords)
 
@@ -256,7 +256,7 @@ class TflixStreamScraper:
         found_streams = []
         captured_urls = set()
 
-        # Listen at CONTEXT level to capture requests inside player IFrames
+        # Listen at CONTEXT level to capture cross-origin iframe requests
         def handle_request(request):
             url = request.url
             if is_stream_url(url) and url not in captured_urls:
@@ -267,7 +267,7 @@ class TflixStreamScraper:
                     "url": url,
                     "logo": match_logo,
                     "headers": headers,
-                    "referer": match_url,
+                    "referer": request.headers.get("referer", match_url),
                 })
                 print(f"        -> [HIT] Captured Stream: {url[:85]}")
 
@@ -277,6 +277,7 @@ class TflixStreamScraper:
             await page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
             await asyncio.sleep(3)
 
+            # Discover non-DRM channel tabs
             tabs_info = await page.evaluate("""
                 () => {
                     const IGNORED = [
@@ -327,6 +328,19 @@ class TflixStreamScraper:
                             """,
                             tab_text,
                         )
+
+                    # Trigger playback on video/iframe containers to unblock player initialization
+                    try:
+                        for frame in page.frames:
+                            if frame != page.main_frame:
+                                await frame.evaluate("""() => {
+                                    const v = document.querySelector('video');
+                                    if (v) v.play().catch(()=>{});
+                                    const overlay = document.querySelector('.play-button, .vjs-big-play-button, #play-btn');
+                                    if (overlay) overlay.click();
+                                }""").catch(lambda e: None)
+                    except Exception:
+                        pass
 
                     await asyncio.sleep(WAIT_PLAYER)
             else:
