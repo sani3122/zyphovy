@@ -2,7 +2,8 @@
 """
 TFLIX Live Stream M3U Scraper (AQ Stream & IPTV Ready)
 - Uses passive request sniffing to capture m3u8/HLS streams without stalling the player.
-- Uses native Playwright click events so AQ stream buttons switch properly.
+- Filters out DRM/ClearKey AQ streams to focus on standard IPTV-ready m3u8 playlists.
+- Uses native Playwright click events to cycle through valid stream tabs.
 - Automatically clears the logos/ directory on each run to prevent clutter.
 - Outputs full raw.githubusercontent.com URLs for IPTV player compatibility.
 """
@@ -153,10 +154,10 @@ async def generate_vs_banner(
 
 
 def is_stream_url(url: str) -> bool:
-    """Checks if a network request URL is an active HLS/M3U8 video stream."""
+    """Checks if a network request URL is an active unencrypted HLS/M3U8 video stream."""
     lower = url.lower()
 
-    # Ignore standard static web files
+    # Ignore standard static web files and DRM DASH manifests (.mpd)
     if any(
         lower.endswith(ext)
         for ext in [
@@ -172,18 +173,17 @@ def is_stream_url(url: str) -> bool:
             ".ttf",
             ".html",
             ".json",
+            ".mpd",
         ]
     ):
         return False
 
-    # Primary video stream signatures
+    # Primary unencrypted video stream keywords
     stream_keywords = [
         ".m3u8",
-        ".mpd",
         "/hls/",
         "chunklist",
         "playlist",
-        "manifest",
         "index.m3u",
         "/live/",
         "/stream/",
@@ -328,7 +328,7 @@ class TflixStreamScraper:
     async def _process_match_page(
         self, browser, match_url, match_title, match_logo
     ):
-        """Navigates to match page and captures stream links passively."""
+        """Navigates to match page and captures non-DRM stream links passively."""
         context = await browser.new_context()
         page = await context.new_page()
         found_streams = []
@@ -355,10 +355,15 @@ class TflixStreamScraper:
             await page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
             await asyncio.sleep(3)
 
-            # Locate stream tab buttons on the page
+            # Locate stream tab buttons on the page (excluding DRM/AQ and UI tabs)
             tabs_info = await page.evaluate("""
                 () => {
-                    const IGNORED = ['APPS', 'DISCORD', 'DARK MODE', 'CHANNELS', 'ALL MATCHES', 'TFLIX', 'JOIN', 'TELEGRAM', 'MIRROR', 'LOG IN', 'SIGN UP', 'SEARCH', 'HOME', 'WATCH', 'MATCHES', 'REFRESH', 'CLOSE', 'LIVE CHAT'];
+                    const IGNORED = [
+                        'APPS', 'DISCORD', 'DARK MODE', 'CHANNELS', 'ALL MATCHES', 
+                        'TFLIX', 'JOIN', 'TELEGRAM', 'MIRROR', 'LOG IN', 'SIGN UP', 
+                        'SEARCH', 'HOME', 'WATCH', 'MATCHES', 'REFRESH', 'CLOSE', 
+                        'LIVE CHAT', 'RELOAD STREAM', 'STATS', 'EVENTS', 'LINEUP', 'STATSEVENTSLINEUP'
+                    ];
                     
                     const elements = Array.from(document.querySelectorAll('button, div[class*="channel"], div[class*="server"], div[class*="tab"], div[class*="stream"]'));
                     const tabs = [];
@@ -372,29 +377,26 @@ class TflixStreamScraper:
                         if (!text || text.length > 40) return;
                         if (IGNORED.some(kw => upper.includes(kw))) return;
                         
+                        // Explicitly skip DRM / ClearKey AQ streams
+                        if (upper.includes('AQ')) return;
+                        
                         if (tabs.some(t => t.text === text)) return;
 
-                        tabs.push({
-                            text: text,
-                            isAQ: upper.includes('AQ')
-                        });
+                        tabs.push({ text: text });
                     });
 
-                    // Prioritize AQ tabs first
-                    tabs.sort((a, b) => (b.isAQ ? 1 : 0) - (a.isAQ ? 1 : 0));
                     return tabs;
                 }
             """)
 
             if tabs_info:
-                print(f"    -> Found {len(tabs_info)} stream tab(s).")
+                print(f"    -> Found {len(tabs_info)} standard stream tab(s).")
                 for tab in tabs_info:
                     tab_text = tab["text"]
-                    tag = " [AQ Priority]" if tab["isAQ"] else ""
-                    print(f"    -> Switching to Stream Tab: {tab_text}{tag}")
+                    print(f"    -> Switching to Stream Tab: {tab_text}")
 
                     try:
-                        # Use native Playwright click on element matching the exact text
+                        # Use native Playwright click on element matching text
                         tab_locator = page.get_by_text(tab_text, exact=False).last
                         if await tab_locator.count() > 0:
                             await tab_locator.click(timeout=3000)
