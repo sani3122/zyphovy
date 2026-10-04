@@ -1,5 +1,2 @@
 aiohttp
 camoufox
-playwright
-pillow
-pycountry
