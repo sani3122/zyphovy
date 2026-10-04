@@ -1,122 +1,108 @@
 #EXTM3U
-# generated: 2026-10-04 18:49 UTC
-# streams: 17
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aELz5heYMAJzcQfECakgU5kBBCILEpkgp9hs+ijAqUXD+XpZZXky0uqL0oUA.webp" group-title="Football",Kosovo VS Austria (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb10.strmd.st/secure/QaartyHspDtzcCShnXmObHMfwUqgIeDV/admin/stream/ppv-kosovo-vs-austria/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rYGCmRcYPmG4gDfECakgU5kBBCILjYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Malta VS Andorra (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb30.strmd.st/secure/eUZaXCYljyKWxsPFwngcmzkMSAXHXqKA/admin/stream/ppv-malta-vs-andorra/1/playlist.m3u8
+# generated: 2026-10-04 19:04 UTC
+# streams: 15
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rFMCRgkwAAwgy3EEb4gzUkCksgINkDGMFNFPsNn0UYFRrZfy9LFkNJlowLzFRCCA.webp" group-title="Football",Ireland VS Israel (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb1.strmd.st/secure/YqRsCpYbKWsgjKMVMghYtCOGVKbbCjFo/rtmp/stream/ZtblljYxjBhvTgGIJUGqZcGlmhb-Zins_TQeYWZqCj9TvxJB-dUy8el6c7w3I50erlI0uFoKdwW1ug/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb21.strmd.st/secure/ZEIBKmZqEUwyTzlwwNUmLvgKcIruSaFS/rtmp/stream/7qDfAxVs8IDdIDN2Wb4nguGw20b1pBNorez7dZ3ZQctn7vNCKshb7iwYqHXcNYfengzIHqZ2Y-Co2w/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rFMCRgkwAAwgy3EEb4gzUkCksgINkDGMFNFPsNn0UYFRrZfy9LFkNJlowLzFRCCA.webp" group-title="Football",Ireland VS Israel (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-b-gr-3_ireland-israel-live-streaming-539533008/1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-b-gr-3_ireland-israel-live-streaming-539533008/1&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb7.strmd.st/secure/HszqwBrICxNhnUwgaEXaEnTxEJBIrzVS/delta/stream/live_uefa-nations-league-league-b-gr-3_ireland-israel-live-streaming-539533008/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-b-gr-3_ireland-israel-live-streaming-539533008/1&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb28.strmd.st/secure/lQROXTBcuBYwYkYxOuQSVpuGAUlXsqbV/delta/stream/live_uefa-nations-league-league-b-gr-3_ireland-israel-live-streaming-539533008/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rFMCRgkwAAwgy3EEb4gzUkCksgINkDGMFNFPsNn0UYFRrZfy9LFkNJlowLzFRCCA.webp" group-title="Football",Ireland VS Israel (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb16.strmd.st/secure/USPLumlriEEbPswDJzQYsvoFKMbFCgsk/hotel/stream/republic-of-ireland-vs-israel-uefa-nations-league-1791139500/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb9.strmd.st/secure/qjrLfDPJEbnXyydsolTwojvNqvyoRHyJ/hotel/stream/republic-of-ireland-vs-israel-uefa-nations-league-1791139500/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aENzCaYXWtw0g+IY1JAozICJZAwbBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Wales VS Denmark (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb11.strmd.st/secure/vBXCTeIqqfapjWvJpDYCwhFfuDUqNinV/rtmp/stream/kpCLt_pVYKMfLXbhP2Dq_3LfAIcRoPS3EBtiEuJHglZ3BuUD7XUDFLxpTb5x2cMa2k82FqguWaFBAg/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb29.strmd.st/secure/CvsXAxgKvFNgLkOEgjVcvRXODnXTGQyN/rtmp/stream/oSFfrWtBI_WNhPH5msYUTsKHCa-qvFsTkEkyLo1c__vbpIGRUzV6JgB447GhkK4wwusKkmF-VYFkLg/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aENzCaYXWtw0g+IY1JAozICJZAwbBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Wales VS Denmark (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-4_wales-denmark-live-streaming-539532144/1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-4_wales-denmark-live-streaming-539532144/1&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb12.strmd.st/secure/mHxjUsVDzfarDMkdirrulIXzVmgHMSBq/delta/stream/live_uefa-nations-league-league-a-gr-4_wales-denmark-live-streaming-539532144/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-4_wales-denmark-live-streaming-539532144/1&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb8.strmd.st/secure/IpTJqkItAyUaBqMQQYhANamSjFUUQEQY/delta/stream/live_uefa-nations-league-league-a-gr-4_wales-denmark-live-streaming-539532144/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aENzCaYXWtw0g+IY1JAozICJZAwbBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Wales VS Denmark (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb20.strmd.st/secure/JYhOlqLpewmNsocnXukStuMVAHxdKPZi/hotel/stream/wales-vs-denmark-uefa-nations-league-1791139500/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb23.strmd.st/secure/dJaBrqHQcLJonDPZUQZSLbQSpZvdDDWf/hotel/stream/wales-vs-denmark-uefa-nations-league-1791139500/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rGVja4Q8MFJDcQfECf0oQ5iDosmCwJBT7DZ9FGBUou78vU2jPTLRg7mKiEEA.webp" group-title="Football",Portugal VS Norway (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb6.strmd.st/secure/gKqvWxYHYTAOnYQeXdKguSZNHvjpdWez/rtmp/stream/rPcwQYPtUdqX9dr3Px0LkwOSde26JztxJJIFRe9T14xv6hkfnwqsHtfE27rnM73Ux3izQAl85qCTjQ/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb14.strmd.st/secure/KfiUhKdlXiRgiyJKdnZDAflahDPRmQnF/rtmp/stream/NgnR9ozIQuICcZlsiNWPsfq178xxOmOXhFvMI1vx50Ljn7y5aW71YBvDofCcI2q5RUoaJF2TlZMcNA/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rGVja4Q8MFJDcQfECf0oQ5iDosmCwJBT7DZ9FGBUou78vU2jPTLRg7mKiEEA.webp" group-title="Football",Portugal VS Norway (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-4_portugal-norway-live-streaming-539531712/1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-4_portugal-norway-live-streaming-539531712/1&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb2.strmd.st/secure/qxEaYlSZOPjcZpBzCNhfHoYDYguRbumD/delta/stream/live_uefa-nations-league-league-a-gr-4_portugal-norway-live-streaming-539531712/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-4_portugal-norway-live-streaming-539531712/1&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb1.strmd.st/secure/QUgHVwlcKYdzZTrPhuxAZjgIjvHczIit/delta/stream/live_uefa-nations-league-league-a-gr-4_portugal-norway-live-streaming-539531712/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rGVja4Q8MFJDcQfECf0oQ5iDosmCwJBT7DZ9FGBUou78vU2jPTLRg7mKiEEA.webp" group-title="Football",Portugal VS Norway (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb27.strmd.st/secure/fSGRXRnYYqtpmYteKaMrJCuhDFnscqiK/hotel/stream/portugal-vs-norway-uefa-nations-league-1791139500/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb2.strmd.st/secure/xQanpdradKivVbEhKeedYDHdARJgXOcq/hotel/stream/portugal-vs-norway-uefa-nations-league-1791139500/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXiErAkCUCG4g+IY1JAozICCETmpBbRT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Netherlands VS Serbia (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb10.strmd.st/secure/GhBwIgDnPExDmMyHejjDykqjemNrKBxV/rtmp/stream/OwPHIhLx6Cl133dBSwUrLRlZqp0WtTV6lIrUA-OpQpV3onAGVHo_6wJuluWrr030Ij6EUZTANDgvzQ/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb16.strmd.st/secure/mjIMRxJGcIPAGdIgiQqjpEYqUtnISdQh/rtmp/stream/DkdgWf2GTougwj6zn5MlBd1Bb6cJFGKldfJnC64YJLlw1ZZDnvzYyFGhPg6ajsJUSNqZ7e1HL3UfPA/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXiErAkCUCG4g+IY1JAozICCETmpBbRT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Netherlands VS Serbia (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-2_netherlands-serbia-live-streaming-539531280/1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-2_netherlands-serbia-live-streaming-539531280/1&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb4.strmd.st/secure/sgBYZQvOVVVFcDWdnrBKJwsNxDmatzZK/delta/stream/live_uefa-nations-league-league-a-gr-2_netherlands-serbia-live-streaming-539531280/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-2_netherlands-serbia-live-streaming-539531280/1&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb26.strmd.st/secure/MLVsrYwtaqXyxPYodpXhaYkwWnjDKVmh/delta/stream/live_uefa-nations-league-league-a-gr-2_netherlands-serbia-live-streaming-539531280/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXiErAkCUCG4g+IY1JAozICCETmpBbRT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Netherlands VS Serbia (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb3.strmd.st/secure/WyKAnAgFXFyuUEATTGigbAnixfOgdjiO/hotel/stream/netherlands-vs-serbia-uefa-nations-league-1791139500/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb10.strmd.st/secure/UumcKslhNAJaGLhUlunlSqdCjJNtRmOJ/hotel/stream/netherlands-vs-serbia-uefa-nations-league-1791139500/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKdCTUZKENxB8QRqSF26IIROYLAtMfsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Football",Greece VS Germany (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb23.strmd.st/secure/wxajwmYmlJreUKjRYItNdZWjDurhtJDP/rtmp/stream/MaPwCxbMK7Xw41z7xtHSuxxKbxeIgsp--ppEziUJk2FDI3wi6Y-pSNUR8dCHlWShfyGgCLYAjqP6dw/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb3.strmd.st/secure/vStreWYzVARwyYmAVKWzOexsriGqRMNr/rtmp/stream/qYmmpZYxD60jWxOZQI7MPZ9PMgsmg0cZDhWxpAZRVX1SmJ9sJHoZF4oKdg8lx9CYNGPZDYV9jOu-6g/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKdCTUZKENxB8QRqSF26IIROYLAtMfsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Football",Greece VS Germany (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-2_greece-germany-live-streaming-539530848/1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-2_greece-germany-live-streaming-539530848/1&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb30.strmd.st/secure/McBoBGwJVzmBDZGgyubIZIZnkVdVnNpN/delta/stream/live_uefa-nations-league-league-a-gr-2_greece-germany-live-streaming-539530848/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-a-gr-2_greece-germany-live-streaming-539530848/1&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb5.strmd.st/secure/FBprcAvAPBygldEuGITvwwTNmqqdcTZy/delta/stream/live_uefa-nations-league-league-a-gr-2_greece-germany-live-streaming-539530848/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKdCTUZKENxB8QRqSF26IIROYLAtMfsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Football",Greece VS Germany (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb5.strmd.st/secure/hCsfMsiButAiFWkZWRVnDvPsBRHRaGbs/hotel/stream/greece-vs-germany-uefa-nations-league-1791139500/1/playlist.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb29.strmd.st/secure/IzNKanxOTbiPhXlblUghLjZpJsdRaAGH/hotel/stream/greece-vs-germany-uefa-nations-league-1791139500/1/playlist.m3u8
