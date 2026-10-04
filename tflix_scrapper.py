@@ -1,28 +1,33 @@
 #!/usr/bin/env python3
 """
-TFLIX Live Stream M3U Scraper (Universal Flag & Logo Support)
-- Scrapes live matches from https://tflix.su/watch
-- Automatically loads HD flags for ALL 200+ countries dynamically via pycountry
-- Searches online for club badges (TheSportsDB & Wikipedia)
-- Safely processes WebP/PNG/JPG images
+TFLIX Live Stream M3U Scraper (GitHub Actions & IPTV Ready)
+- Automatically wipes and resets the logos/ directory on each run to prevent bloat.
+- Generates clean, high-contrast text banners (TEAM 1 VS TEAM 2).
+- Builds full raw.githubusercontent.com URLs so IPTV players render logos properly.
+- Includes timeout safeguards to prevent crashes on slow or unresponsive pages.
 """
 
 import asyncio
+from datetime import datetime, timezone
 import io
 import os
 import re
-from datetime import datetime, timezone
+import shutil
 import urllib.parse
 
 import aiohttp
 from camoufox.async_api import AsyncCamoufox
 from PIL import Image, ImageDraw, ImageFont
-import pycountry
 
 TARGET_URL = "https://tflix.su/watch"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
 WAIT_PLAYER = 5  # Seconds to wait per stream tab
+
+# Fallback GitHub settings (Used if GITHUB_REPOSITORY environment variable isn't found)
+GITHUB_USER = "YOUR_GITHUB_USERNAME"
+GITHUB_REPO = "YOUR_REPO_NAME"
+GITHUB_BRANCH = "main"
 
 STREAM_RE = re.compile(
     r"(\.m3u8(\?|$)|/hls/|manifest\.mpd|/chunklist|/index\.m3u)", re.IGNORECASE
@@ -43,127 +48,38 @@ TEAM_NAME_MAP = {
 }
 
 
+def clear_logos_dir():
+  """Deletes all previous banners to prevent storage bloat and stale repository files."""
+  if os.path.exists(LOGOS_DIR):
+    shutil.rmtree(LOGOS_DIR)
+  os.makedirs(LOGOS_DIR, exist_ok=True)
+  print(f"[+] Cleared and reset '{LOGOS_DIR}' folder.")
+
+
+def get_base_logo_url() -> str:
+  """Detects GitHub Actions environment or builds raw GitHub URL."""
+  repo = os.getenv("GITHUB_REPOSITORY")  # Automatically set in GitHub Actions
+  if repo:
+    return f"https://raw.githubusercontent.com/{repo}/{GITHUB_BRANCH}/{LOGOS_DIR}"
+  return f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{GITHUB_BRANCH}/{LOGOS_DIR}"
+
+
 def normalize_team_name(name: str) -> str:
   """Translates common French/slug team names to standard English names."""
+  if not name:
+    return ""
   clean = name.strip()
   lower = clean.lower()
   return TEAM_NAME_MAP.get(lower, clean)
 
 
-async def fetch_online_team_logo(
-    session: aiohttp.ClientSession, raw_team_name: str
-) -> str:
-  """Searches online for an official team logo/flag with dynamic 200+ country support."""
-  team_name = normalize_team_name(raw_team_name)
-  if not team_name:
-    return ""
-
-  lower_name = team_name.lower()
-
-  # 1. Manual Regional Flags (For nations without 2-letter ISO codes)
-  CUSTOM_FLAGS = {
-      "scotland": "https://flagcdn.com/w320/gb-sct.png",
-      "england": "https://flagcdn.com/w320/gb-eng.png",
-      "wales": "https://flagcdn.com/w320/gb-wls.png",
-      "northern ireland": "https://flagcdn.com/w320/gb-nir.png",
-  }
-  if lower_name in CUSTOM_FLAGS:
-    return CUSTOM_FLAGS[lower_name]
-
-  # 2. Dynamic Country Flag Generator (Works for Norway, Japan, Brazil, etc.)
-  try:
-    country = pycountry.countries.search_fuzzy(team_name)[0]
-    iso_code = country.alpha_2.lower()
-    return f"https://flagcdn.com/w320/{iso_code}.png"
-  except Exception:
-    pass
-
-  # 3. Fallback: Search TheSportsDB API for Club Teams
-  for query in [f"{team_name} Football", team_name]:
-    try:
-      encoded = urllib.parse.quote(query)
-      sports_db_url = f"https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t={encoded}"
-      async with session.get(sports_db_url, timeout=5) as resp:
-        if resp.status == 200:
-          data = await resp.json()
-          if data and data.get("teams"):
-            badge = data["teams"][0].get("strBadge")
-            if badge:
-              return badge
-    except Exception:
-      pass
-
-  # 4. Fallback: Wikipedia Thumbnail Search
-  try:
-    wiki_query = urllib.parse.quote(f"{team_name} FC")
-    wiki_url = f"https://en.wikipedia.org/w/api.php?action=query&titles={wiki_query}&prop=pageimages&format=json&pithumbsize=400"
-    async with session.get(wiki_url, timeout=5) as resp:
-      if resp.status == 200:
-        data = await resp.json()
-        pages = data.get("query", {}).get("pages", {})
-        for _, page_info in pages.items():
-          if "thumbnail" in page_info:
-            src = page_info["thumbnail"]["source"]
-            if not src.endswith(".svg"):
-              return src
-  except Exception:
-    pass
-
-  return ""
-
-
-async def load_image_safely(
-    session: aiohttp.ClientSession, url: str
-) -> Image.Image:
-  """Downloads and safely converts image into a Pillow RGBA object."""
-  if not url:
-    return None
-  try:
-    async with session.get(url, timeout=8) as resp:
-      if resp.status == 200:
-        content_type = resp.headers.get("Content-Type", "").lower()
-        if "svg" in content_type or url.endswith(".svg"):
-          return None
-
-        bytes_data = await resp.read()
-        img = Image.open(io.BytesIO(bytes_data)).convert("RGBA")
-        return img
-  except Exception:
-    pass
-  return None
-
-
 def get_fitted_font(
     text: str,
     font_path: str = "arial.ttf",
     max_width: int = 240,
     start_size: int = 28,
 ):
-  """Dynamically scales font size down so long team names don't overflow."""
-  size = start_size
-  while size >= 14:
-    try:
-      font = ImageFont.truetype(font_path, size)
-      bbox = font.getbbox(text)
-      width = bbox[2] - bbox[0]
-      if width <= max_width:
-        return font
-    except Exception:
-      return ImageFont.load_default()
-    size -= 2
-  try:
-    return ImageFont.truetype(font_path, 14)
-  except Exception:
-    return ImageFont.load_default()
-
-
-def get_fitted_font(
-    text: str,
-    font_path: str = "arial.ttf",
-    max_width: int = 240,
-    start_size: int = 28,
-):
-  """Dynamically scales font size down so long team names don't overflow."""
+  """Dynamically scales font size down so long team names don't overflow the canvas."""
   size = start_size
   while size >= 14:
     try:
@@ -189,9 +105,10 @@ async def generate_vs_banner(
     team2_img: str,
     match_slug: str,
 ) -> str:
-  """Generates a text banner: TEAM 1 (Red) VS (Yellow) TEAM 2 (Red)."""
+  """Generates a text banner: TEAM 1 (Red) VS (Yellow) TEAM 2 (Red) and returns full GitHub Raw URL."""
   os.makedirs(LOGOS_DIR, exist_ok=True)
-  output_path = os.path.join(LOGOS_DIR, f"{match_slug}.png")
+  file_name = f"{match_slug}.png"
+  local_path = os.path.join(LOGOS_DIR, file_name)
 
   t1_name = (normalize_team_name(team1) or "TEAM 1").upper()
   t2_name = (normalize_team_name(team2) or "TEAM 2").upper()
@@ -207,7 +124,6 @@ async def generate_vs_banner(
     except Exception:
       font_vs = ImageFont.load_default()
 
-    # Load auto-fitted fonts for team names
     font_t1 = get_fitted_font(t1_name)
     font_t2 = get_fitted_font(t2_name)
 
@@ -234,8 +150,10 @@ async def generate_vs_banner(
         font=font_t2,
     )
 
-    canvas.save(output_path, "PNG")
-    return output_path
+    canvas.save(local_path, "PNG")
+
+    # Return FULL HTTP link for IPTV player compatibility
+    return f"{get_base_logo_url()}/{file_name}"
   except Exception as e:
     print(f"    [!] Banner creation error for {match_slug}: {e}")
     return ""
@@ -248,6 +166,9 @@ class TflixStreamScraper:
     self.captured_streams = []
 
   async def run(self):
+    # Wipe old banners on every run
+    clear_logos_dir()
+
     print(f"[*] Initializing Stealth Browser for target: {self.target_url}")
     async with AsyncCamoufox(headless=True) as browser:
       page = await browser.new_page()
@@ -268,13 +189,13 @@ class TflixStreamScraper:
         ) in match_links:
           print(f"\n[Tier 2] Processing Match: {title}")
 
-          logo_path = await generate_vs_banner(
+          logo_url = await generate_vs_banner(
               http_session, team1, team2, team1_img, team2_img, slug
           )
 
           try:
             match_streams = await self._process_match_page(
-                browser, url, title, logo_path
+                browser, url, title, logo_url
             )
             self.captured_streams.extend(match_streams)
           except Exception as e:
@@ -287,31 +208,25 @@ class TflixStreamScraper:
       self._generate_m3u(self.captured_streams)
 
   async def _tier_1_find_live_matches(self, page):
-      """Scrapes match links and team names with timeout safety guards."""
-      try:
-        # Reduced timeout to 30s and use 'commit' so slow assets don't hang execution
-        await page.goto(self.target_url, wait_until="commit", timeout=30000)
-        await page.wait_for_selector('a[href*="/match/"]', timeout=15000)
-        await asyncio.sleep(2)
-      except Exception as e:
-        print(
-            f"[!] Target page load failed or timed out: {e}\n    -> Retrying"
-            " page evaluation on current state..."
-        )
-        # Check if any content loaded before giving up completely
-        body_exists = await page.evaluate(
-            "() => !!document.body && document.body.children.length > 0"
-        )
-        if not body_exists:
-          print("    [!] Page body is completely empty. Skipping scanning.")
-          return []
+    """Scrapes match links and team names with timeout safety guards."""
+    try:
+      await page.goto(self.target_url, wait_until="commit", timeout=30000)
+      await page.wait_for_selector('a[href*="/match/"]', timeout=15000)
+      await asyncio.sleep(2)
+    except Exception as e:
+      print(f"[!] Target page load failed or timed out: {e}")
+      body_exists = await page.evaluate(
+          "() => !!document.body && document.body.children.length > 0"
+      )
+      if not body_exists:
+        print("    [!] Page body is completely empty. Skipping scanning.")
+        return []
 
-      matches = await page.evaluate(r"""
+    matches = await page.evaluate(r"""
             () => {
                 const results = [];
                 const seen = new Set();
 
-                // Safe fallback for search area if document.body is missing/incomplete
                 const rootArea = document.body || document.documentElement || document;
                 if (!rootArea) return results;
 
@@ -392,7 +307,7 @@ class TflixStreamScraper:
                 return results;
             }
         """)
-      return matches
+    return matches
 
   async def _process_match_page(
       self, browser, match_url, match_title, match_logo
