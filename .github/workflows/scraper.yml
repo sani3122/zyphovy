@@ -1,45 +1,45 @@
-name: TFLIX M3U Scraper
+name: Auto Update Live Sports Playlist
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
-  workflow_dispatch:
+    # Runs at the top of every hour
+    - cron: '15 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
 
 jobs:
-  scrape-tflix:
+  scrape-and-update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: '3.10'
 
-      - name: Install All Python Packages
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install aiohttp "camoufox[geoip]" Pillow pycountry
-
-      - name: Install Display Drivers & System Fonts
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y xvfb libgbm-dev libasound2t64 fonts-dejavu-core
+          pip install -r requirements.txt
+          # Install Camoufox browser binaries
           python -m camoufox fetch
 
-      - name: Execute TFLIX Scraper
-        env:
-          TZ: 'Asia/Dhaka'
-          HEADLESS: 'false'
-        run: |
-          xvfb-run --auto-servernum python tflix_scrapper.py
+      - name: Run Scraper Script
+        run: python streamed.py
 
       - name: Commit and Push Updated Playlist
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
-          git add live_playlist.m3u logos/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update TFLIX live streams [skip ci]" && git push)
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add live_playlist.m3u
+          
+          # Only commit if live_playlist.m3u has changes
+          if git diff --staged --quiet; then
+            echo "No changes detected in live_playlist.m3u"
+          else
+            git commit -m "Auto-update live_playlist.m3u [skip ci]"
+            git push
+          fi
