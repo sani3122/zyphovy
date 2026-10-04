@@ -69,28 +69,32 @@ def normalize_team_name(name: str) -> str:
   return TEAM_NAME_MAP.get(lower, clean)
 
 
-def get_fitted_font(
-    text: str,
-    font_path: str = "arial.ttf",
-    max_width: int = 240,
-    start_size: int = 28,
-):
-  """Dynamically scales font size down so long team names fit nicely."""
-  size = start_size
-  while size >= 14:
-    try:
-      font = ImageFont.truetype(font_path, size)
-      bbox = font.getbbox(text)
-      width = bbox[2] - bbox[0]
-      if width <= max_width:
-        return font
-    except Exception:
-      return ImageFont.load_default()
-    size -= 2
-  try:
-    return ImageFont.truetype(font_path, 14)
-  except Exception:
+def get_system_font(size: int = 28):
+    font_candidates = [
+        "arial.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    ]
+    for font_path in font_candidates:
+        try:
+            return ImageFont.truetype(font_path, size)
+        except Exception:
+            continue
     return ImageFont.load_default()
+
+def get_fitted_font(text: str, max_width: int = 240, start_size: int = 28):
+    size = start_size
+    while size >= 14:
+        font = get_system_font(size)
+        try:
+            bbox = font.getbbox(text)
+            width = bbox[2] - bbox[0]
+            if width <= max_width:
+                return font
+        except Exception:
+            return ImageFont.load_default()
+        size -= 2
+    return get_system_font(14)
 
 
 async def generate_vs_banner(
@@ -200,7 +204,8 @@ class TflixStreamScraper:
     clear_logos_dir()
 
     print(f"[*] Initializing Stealth Browser for target: {self.target_url}")
-    async with AsyncCamoufox(headless=True) as browser:
+    is_headless = os.environ.get("HEADLESS", "true").lower() == "true"
+async with AsyncCamoufox(headless=is_headless) as browser:
       page = await browser.new_page()
 
       print("\n[Tier 1] Scanning 'LIVE' Section for Matches...")
