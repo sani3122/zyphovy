@@ -2,10 +2,9 @@
 """
 JSON Live Football M3U Scraper
 - Fetches matches directly from raw GitHub JSON.
-- Filters strictly for Category == "Football".
-- Filters streams strictly for Quality == "HD".
-- Checks 'Match Status' == "Live 🔴" OR compares 'Start Time' with Bangladesh Time (UTC+6).
-- Target streams strictly ending in 'mono.m3u8'.
+- Filters strictly for Category == "Football" and Quality == "HD".
+- Checks 'Match Status' == "Live 🔴" OR compares 'Start Time' with BD Time (UTC+6).
+- Captures mono.m3u8 directly or converts master playlist.m3u8 to mono.m3u8.
 """
 
 import asyncio
@@ -18,29 +17,28 @@ from camoufox.async_api import AsyncCamoufox
 
 JSON_URL = "https://raw.githubusercontent.com/srhady/data/refs/heads/main/live_sports_playlist.json"
 OUTPUT_FILE = "live_playlist.m3u"
-PAGE_TIMEOUT = 12  # Seconds to wait per embed link to let mono.m3u8 load
+PAGE_TIMEOUT = 12  # Seconds to wait per embed link
 
 
-def is_mono_stream_url(url: str) -> bool:
-    """Target strictly mono.m3u8 or sub-level quality variant streams."""
-    lower = url.lower()
+def convert_to_mono_url(url: str) -> str:
+    """Converts a master playlist.m3u8 URL to its mono.m3u8 variant URL."""
+    if "mono.m3u8" in url.lower():
+        return url
     
-    # Check for mono.m3u8 explicitly
-    if "mono.m3u8" in lower:
-        return True
-        
-    return False
+    # Standard replacement patterns used by strmd / embed.st players
+    if "playlist.m3u8" in url:
+        return url.replace("playlist.m3u8", "1/mono.m3u8")
+    
+    return url
 
 
 def is_match_live_or_due(match_item: dict) -> bool:
-    """Determines if a match is live or should be playing based on Bangladesh Time (UTC+6)."""
+    """Determines if a match is live or active based on BD Time (UTC+6)."""
     status = match_item.get("Match Status", "")
 
-    # Rule 1: Immediate match if status contains 'Live' or 🔴
     if "live" in str(status).lower() or "🔴" in str(status):
         return True
 
-    # Rule 2: Compare start time with Bangladesh Standard Time (UTC+6)
     start_time_str = match_item.get("Start Time", "")
     if not start_time_str:
         return False
@@ -105,7 +103,7 @@ class FootballJsonScraper:
             print("[!] No active football matches found right now.")
             return
 
-        print("\n[*] Initializing Camoufox browser for mono.m3u8 extraction...")
+        print("\n[*] Initializing Camoufox browser for stream extraction...")
         async with AsyncCamoufox(headless=True) as browser:
             for match in active_matches:
                 t1 = match.get("Team 1 Name", "").strip()
@@ -153,40 +151,65 @@ class FootballJsonScraper:
         self._generate_m3u(self.captured_streams)
 
     async def _scrape_embed_url(self, browser, embed_url, title, logo):
-        """Opens embed URL, plays video, and intercepts mono.m3u8."""
+        """Opens embed URL, forces user interaction, and captures HLS streams."""
         context = await browser.new_context()
         page = await context.new_page()
         found = []
         captured_urls = set()
+        master_candidates = []
 
         def handle_request(request):
             url = request.url
-            if is_mono_stream_url(url) and url not in captured_urls:
-                captured_urls.add(url)
-                headers = request.headers
-                found.append({
-                    "title": title,
-                    "url": url,
-                    "logo": logo,
-                    "referer": headers.get("referer", embed_url),
-                    "user_agent": headers.get("user-agent", "Mozilla/5.0"),
-                    "origin": headers.get("origin", "https://embed.st"),
-                })
-                print(f"        [HIT mono.m3u8] Captured Stream: {url[:95]}")
+            lower = url.lower()
 
-        # Attach request listener to entire context to capture iframe traffic
+            # Ignore non-media calls
+            if any(ext in lower for ext in [".js", ".css", ".png", ".jpg", ".svg", ".json", ".html"]):
+                return
+
+            if (".m3u8" in lower or "/hls/" in lower) and url not in captured_urls:
+                headers = request.headers
+                
+                # Priority 1: Direct mono.m3u8 stream request
+                if "mono.m3u8" in lower:
+                    captured_urls.add(url)
+                    found.append({
+                        "title": title,
+                        "url": url,
+                        "logo": logo,
+                        "referer": headers.get("referer", embed_url),
+                        "user_agent": headers.get("user-agent", "Mozilla/5.0"),
+                        "origin": headers.get("origin", "https://embed.st"),
+                    })
+                    print(f"        [HIT Direct mono.m3u8] {url[:85]}")
+                
+                # Priority 2: Store master playlist.m3u8 to convert if mono is not emitted
+                elif "playlist.m3u8" in lower:
+                    master_candidates.append({
+                        "title": title,
+                        "url": url,
+                        "logo": logo,
+                        "referer": headers.get("referer", embed_url),
+                        "user_agent": headers.get("user-agent", "Mozilla/5.0"),
+                        "origin": headers.get("origin", "https://embed.st"),
+                    })
+
         context.on("request", handle_request)
 
         try:
             await page.goto(embed_url, wait_until="domcontentloaded", timeout=25000)
             await asyncio.sleep(2)
 
-            # Trigger video play command across frames to force mono.m3u8 fetch
+            # Click video element or player overlay across all frames to trigger HLS stream load
             for frame in page.frames:
                 try:
                     await frame.evaluate("""() => {
+                        const playBtn = document.querySelector('.play-button, .vjs-big-play-button, #play-btn, .jw-display-icon-container');
+                        if (playBtn) playBtn.click();
                         const v = document.querySelector('video');
-                        if (v) v.play().catch(() => {});
+                        if (v) {
+                            v.muted = true;
+                            v.play().catch(() => {});
+                        }
                     }""")
                 except Exception:
                     pass
@@ -197,10 +220,18 @@ class FootballJsonScraper:
         finally:
             await context.close()
 
+        # Fallback: If no direct mono.m3u8 request was emitted, convert master playlist.m3u8
+        if not found and master_candidates:
+            for item in master_candidates:
+                converted_url = convert_to_mono_url(item["url"])
+                item["url"] = converted_url
+                found.append(item)
+                print(f"        [CONVERTED to mono.m3u8] {converted_url[:85]}")
+
         return found
 
     def _generate_m3u(self, streams):
-        """Saves playlist into clean M3U format with full IPTV headers."""
+        """Saves playlist into clean M3U format with IPTV headers."""
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         lines = [
             "#EXTM3U",
@@ -242,4 +273,3 @@ class FootballJsonScraper:
 if __name__ == "__main__":
     scraper = FootballJsonScraper()
     asyncio.run(scraper.run())
-          
