@@ -1,4 +1,124 @@
 #EXTM3U
-# generated: 2026-10-04 17:47 UTC
+# generated: 2026-10-04 18:01 UTC
 # source: https://tflix.su/watch
-# streams: 0
+# streams: 20
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/kosovo-vs-austria-1791116198129.png" group-title="Live Sports",Kosovo VS Austria
+#EXTVLCOPT:http-referrer=https://tflix.su/match/kosovo-vs-austria-1791116198129
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/kosovo-vs-austria-1791116198129&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-bein-eng-3-au/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/malta-vs-andorra-1791116120215.png" group-title="Live Sports",Malta VS Andorra
+#EXTVLCOPT:http-referrer=https://tflix.su/match/malta-vs-andorra-1791116120215
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/malta-vs-andorra-1791116120215&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-bein-eng-2-au/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/tampa-bay-buccaneers-vs-green-bay-packers-1791120617329.png" group-title="Live Sports",Tampa Bay Buccaneers VS Green Bay Packers
+#EXTVLCOPT:http-referrer=https://tflix.su/match/tampa-bay-buccaneers-vs-green-bay-packers-1791120617329
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/tampa-bay-buccaneers-vs-green-bay-packers-1791120617329&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-9/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/philadelphia-eagles-vs-los-angeles-rams-1791120604385.png" group-title="Live Sports",Philadelphia Eagles VS Los Angeles Rams
+#EXTVLCOPT:http-referrer=https://tflix.su/match/philadelphia-eagles-vs-los-angeles-rams-1791120604385
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/philadelphia-eagles-vs-los-angeles-rams-1791120604385&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-8/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-giants-vs-arizona-cardinals-1791120444704.png" group-title="Live Sports",New York Giants VS Arizona Cardinals
+#EXTVLCOPT:http-referrer=https://tflix.su/match/new-york-giants-vs-arizona-cardinals-1791120444704
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/new-york-giants-vs-arizona-cardinals-1791120444704&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-7/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/netherlands-vs-serbia-1791116535564.png" group-title="Live Sports",Netherlands VS Serbia
+#EXTVLCOPT:http-referrer=https://tflix.su/match/netherlands-vs-serbia-1791116535564
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/netherlands-vs-serbia-1791116535564&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-bein-eng-2-au/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/portugal-vs-norway-1791116444933.png" group-title="Live Sports",Portugal VS Norway
+#EXTVLCOPT:http-referrer=https://tflix.su/match/portugal-vs-norway-1791116444933
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/portugal-vs-norway-1791116444933&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-bein-eng-3-au/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/greece-vs-germany-1791116306551.png" group-title="Live Sports",Greece VS Germany
+#EXTVLCOPT:http-referrer=https://tflix.su/match/greece-vs-germany-1791116306551
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/greece-vs-germany-1791116306551&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-bein-eng-1-au/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/cincinnati-bengals-vs-jacksonville-jaguars-1791120420082.png" group-title="Live Sports",Cincinnati Bengals VS Jacksonville Jaguars
+#EXTVLCOPT:http-referrer=https://tflix.su/match/cincinnati-bengals-vs-jacksonville-jaguars-1791120420082
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/cincinnati-bengals-vs-jacksonville-jaguars-1791120420082&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-6/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/chicago-bears-vs-new-york-jets-1791120402151.png" group-title="Live Sports",Chicago Bears VS New York Jets
+#EXTVLCOPT:http-referrer=https://tflix.su/match/chicago-bears-vs-new-york-jets-1791120402151
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/chicago-bears-vs-new-york-jets-1791120402151&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-5/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/buffalo-bills-vs-new-england-patriots-1791120378941.png" group-title="Live Sports",Buffalo Bills VS New England Patriots
+#EXTVLCOPT:http-referrer=https://tflix.su/match/buffalo-bills-vs-new-england-patriots-1791120378941
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/buffalo-bills-vs-new-england-patriots-1791120378941&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-4/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/baltimore-ravens-vs-tennessee-titans-1791120368809.png" group-title="Live Sports",Baltimore Ravens VS Tennessee Titans
+#EXTVLCOPT:http-referrer=https://tflix.su/match/baltimore-ravens-vs-tennessee-titans-1791120368809
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/baltimore-ravens-vs-tennessee-titans-1791120368809&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-3/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/houston-texans-vs-dallas-cowboys-1791120352012.png" group-title="Live Sports",Houston Texans VS Dallas Cowboys
+#EXTVLCOPT:http-referrer=https://tflix.su/match/houston-texans-vs-dallas-cowboys-1791120352012
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/houston-texans-vs-dallas-cowboys-1791120352012&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-tsn-1-hd/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1791016363695.png" group-title="Live Sports",India VS West Indies
+#EXTVLCOPT:http-referrer=https://tflix.su/match/india-vs-west-indies-1791016363695
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/india-vs-west-indies-1791016363695&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-tnt-sports-2/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/minnesota-vikings-vs-miami-dolphins-1791120652256.png" group-title="Live Sports",Minnesota Vikings VS Miami Dolphins
+#EXTVLCOPT:http-referrer=https://tflix.su/match/minnesota-vikings-vs-miami-dolphins-1791120652256
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/minnesota-vikings-vs-miami-dolphins-1791120652256&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-11/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-seahawks-vs-los-angeles-chargers-1791120672207.png" group-title="Live Sports",Seattle Seahawks VS Los Angeles Chargers
+#EXTVLCOPT:http-referrer=https://tflix.su/match/seattle-seahawks-vs-los-angeles-chargers-1791120672207
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/seattle-seahawks-vs-los-angeles-chargers-1791120672207&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-13/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/las-vegas-raiders-vs-kansas-city-chiefs-1791120659826.png" group-title="Live Sports",Las Vegas Raiders VS Kansas City Chiefs
+#EXTVLCOPT:http-referrer=https://tflix.su/match/las-vegas-raiders-vs-kansas-city-chiefs-1791120659826
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/las-vegas-raiders-vs-kansas-city-chiefs-1791120659826&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-12/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/san-francisco-49ers-vs-denver-broncos-1791120535358.png" group-title="Live Sports",San Francisco 49ers VS Denver Broncos
+#EXTVLCOPT:http-referrer=https://tflix.su/match/san-francisco-49ers-vs-denver-broncos-1791120535358
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/san-francisco-49ers-vs-denver-broncos-1791120535358&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-tsn-1-hd/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/carolina-panthers-vs-detroit-lions-1791120703791.png" group-title="Live Sports",Carolina Panthers VS Detroit Lions
+#EXTVLCOPT:http-referrer=https://tflix.su/match/carolina-panthers-vs-detroit-lions-1791120703791
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/carolina-panthers-vs-detroit-lions-1791120703791&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-tsn-3-hd/stream
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-atlanta-falcons-1791124008884.png" group-title="Live Sports",New Orleans Saints VS Atlanta Falcons
+#EXTVLCOPT:http-referrer=https://tflix.su/match/new-orleans-saints-vs-atlanta-falcons-1791124008884
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/match/new-orleans-saints-vs-atlanta-falcons-1791124008884&User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:156.0) Gecko/20100101 Firefox/156.0
+https://tflix.su/api/chat/kanal-nfl-pass-15/stream
