@@ -1,32 +1,33 @@
 #!/usr/bin/env python3
 """
-TFLIX Live Stream M3U Scraper (Universal Flag & Logo Support)
-- Scrapes live matches from https://tflix.su/watch
-- Automatically loads HD flags for ALL 200+ countries dynamically via pycountry
-- Searches online for club badges (TheSportsDB & Wikipedia)
-- Safely processes WebP/PNG/JPG images
+TFLIX Live Stream M3U Scraper (AQ Stream & IPTV Ready)
+- Uses passive request sniffing to capture m3u8/HLS streams without stalling the player.
+- Uses native Playwright click events so AQ stream buttons switch properly.
+- Automatically clears the logos/ directory on each run to prevent clutter.
+- Outputs full raw.githubusercontent.com URLs for IPTV player compatibility.
 """
 
 import asyncio
+from datetime import datetime, timezone
 import io
 import os
 import re
-from datetime import datetime, timezone
+import shutil
 import urllib.parse
 
 import aiohttp
 from camoufox.async_api import AsyncCamoufox
 from PIL import Image, ImageDraw, ImageFont
-import pycountry
 
 TARGET_URL = "https://tflix.su/watch"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
-WAIT_PLAYER = 5  # Seconds to wait per stream tab
+WAIT_PLAYER = 6  # Seconds to wait per stream tab to allow HLS buffer
 
-STREAM_RE = re.compile(
-    r"(\.m3u8(\?|$)|/hls/|manifest\.mpd|/chunklist|/index\.m3u)", re.IGNORECASE
-)
+# Fallback GitHub settings
+GITHUB_USER = "YOUR_GITHUB_USERNAME"
+GITHUB_REPO = "YOUR_REPO_NAME"
+GITHUB_BRANCH = "main"
 
 # Non-English / Slug Name to Standard English Name Mappings
 TEAM_NAME_MAP = {
@@ -43,127 +44,38 @@ TEAM_NAME_MAP = {
 }
 
 
+def clear_logos_dir():
+  """Deletes all previous banners to prevent storage bloat."""
+  if os.path.exists(LOGOS_DIR):
+    shutil.rmtree(LOGOS_DIR)
+  os.makedirs(LOGOS_DIR, exist_ok=True)
+  print(f"[+] Cleared and reset '{LOGOS_DIR}' folder.")
+
+
+def get_base_logo_url() -> str:
+  """Detects GitHub Actions environment or builds raw GitHub URL."""
+  repo = os.getenv("GITHUB_REPOSITORY")
+  if repo:
+    return f"https://raw.githubusercontent.com/{repo}/{GITHUB_BRANCH}/{LOGOS_DIR}"
+  return f"https://raw.githubusercontent.com/{GITHUB_USER}/{GITHUB_REPO}/{GITHUB_BRANCH}/{LOGOS_DIR}"
+
+
 def normalize_team_name(name: str) -> str:
   """Translates common French/slug team names to standard English names."""
+  if not name:
+    return ""
   clean = name.strip()
   lower = clean.lower()
   return TEAM_NAME_MAP.get(lower, clean)
 
 
-async def fetch_online_team_logo(
-    session: aiohttp.ClientSession, raw_team_name: str
-) -> str:
-  """Searches online for an official team logo/flag with dynamic 200+ country support."""
-  team_name = normalize_team_name(raw_team_name)
-  if not team_name:
-    return ""
-
-  lower_name = team_name.lower()
-
-  # 1. Manual Regional Flags (For nations without 2-letter ISO codes)
-  CUSTOM_FLAGS = {
-      "scotland": "https://flagcdn.com/w320/gb-sct.png",
-      "england": "https://flagcdn.com/w320/gb-eng.png",
-      "wales": "https://flagcdn.com/w320/gb-wls.png",
-      "northern ireland": "https://flagcdn.com/w320/gb-nir.png",
-  }
-  if lower_name in CUSTOM_FLAGS:
-    return CUSTOM_FLAGS[lower_name]
-
-  # 2. Dynamic Country Flag Generator (Works for Norway, Japan, Brazil, etc.)
-  try:
-    country = pycountry.countries.search_fuzzy(team_name)[0]
-    iso_code = country.alpha_2.lower()
-    return f"https://flagcdn.com/w320/{iso_code}.png"
-  except Exception:
-    pass
-
-  # 3. Fallback: Search TheSportsDB API for Club Teams
-  for query in [f"{team_name} Football", team_name]:
-    try:
-      encoded = urllib.parse.quote(query)
-      sports_db_url = f"https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t={encoded}"
-      async with session.get(sports_db_url, timeout=5) as resp:
-        if resp.status == 200:
-          data = await resp.json()
-          if data and data.get("teams"):
-            badge = data["teams"][0].get("strBadge")
-            if badge:
-              return badge
-    except Exception:
-      pass
-
-  # 4. Fallback: Wikipedia Thumbnail Search
-  try:
-    wiki_query = urllib.parse.quote(f"{team_name} FC")
-    wiki_url = f"https://en.wikipedia.org/w/api.php?action=query&titles={wiki_query}&prop=pageimages&format=json&pithumbsize=400"
-    async with session.get(wiki_url, timeout=5) as resp:
-      if resp.status == 200:
-        data = await resp.json()
-        pages = data.get("query", {}).get("pages", {})
-        for _, page_info in pages.items():
-          if "thumbnail" in page_info:
-            src = page_info["thumbnail"]["source"]
-            if not src.endswith(".svg"):
-              return src
-  except Exception:
-    pass
-
-  return ""
-
-
-async def load_image_safely(
-    session: aiohttp.ClientSession, url: str
-) -> Image.Image:
-  """Downloads and safely converts image into a Pillow RGBA object."""
-  if not url:
-    return None
-  try:
-    async with session.get(url, timeout=8) as resp:
-      if resp.status == 200:
-        content_type = resp.headers.get("Content-Type", "").lower()
-        if "svg" in content_type or url.endswith(".svg"):
-          return None
-
-        bytes_data = await resp.read()
-        img = Image.open(io.BytesIO(bytes_data)).convert("RGBA")
-        return img
-  except Exception:
-    pass
-  return None
-
-
 def get_fitted_font(
     text: str,
     font_path: str = "arial.ttf",
     max_width: int = 240,
     start_size: int = 28,
 ):
-  """Dynamically scales font size down so long team names don't overflow."""
-  size = start_size
-  while size >= 14:
-    try:
-      font = ImageFont.truetype(font_path, size)
-      bbox = font.getbbox(text)
-      width = bbox[2] - bbox[0]
-      if width <= max_width:
-        return font
-    except Exception:
-      return ImageFont.load_default()
-    size -= 2
-  try:
-    return ImageFont.truetype(font_path, 14)
-  except Exception:
-    return ImageFont.load_default()
-
-
-def get_fitted_font(
-    text: str,
-    font_path: str = "arial.ttf",
-    max_width: int = 240,
-    start_size: int = 28,
-):
-  """Dynamically scales font size down so long team names don't overflow."""
+  """Dynamically scales font size down so long team names fit nicely."""
   size = start_size
   while size >= 14:
     try:
@@ -191,27 +103,25 @@ async def generate_vs_banner(
 ) -> str:
   """Generates a text banner: TEAM 1 (Red) VS (Yellow) TEAM 2 (Red)."""
   os.makedirs(LOGOS_DIR, exist_ok=True)
-  output_path = os.path.join(LOGOS_DIR, f"{match_slug}.png")
+  file_name = f"{match_slug}.png"
+  local_path = os.path.join(LOGOS_DIR, file_name)
 
   t1_name = (normalize_team_name(team1) or "TEAM 1").upper()
   t2_name = (normalize_team_name(team2) or "TEAM 2").upper()
 
   try:
-    # 700x300 Dark Card Canvas
     canvas = Image.new("RGBA", (700, 300), (18, 20, 29, 255))
     draw = ImageDraw.Draw(canvas)
 
-    # Load VS Font
     try:
       font_vs = ImageFont.truetype("arial.ttf", 48)
     except Exception:
       font_vs = ImageFont.load_default()
 
-    # Load auto-fitted fonts for team names
     font_t1 = get_fitted_font(t1_name)
     font_t2 = get_fitted_font(t2_name)
 
-    # 1. Team 1 Name (Left Side - Bright Red)
+    # 1. Team 1 Name (Left Side - Red)
     draw.text(
         (180, 150),
         t1_name,
@@ -220,12 +130,12 @@ async def generate_vs_banner(
         font=font_t1,
     )
 
-    # 2. VS Emblem (Center - Bright Yellow)
+    # 2. VS Emblem (Center - Yellow)
     draw.text(
         (350, 150), "VS", fill=(255, 215, 0, 255), anchor="mm", font=font_vs
     )
 
-    # 3. Team 2 Name (Right Side - Bright Red)
+    # 3. Team 2 Name (Right Side - Red)
     draw.text(
         (520, 150),
         t2_name,
@@ -234,11 +144,50 @@ async def generate_vs_banner(
         font=font_t2,
     )
 
-    canvas.save(output_path, "PNG")
-    return output_path
+    canvas.save(local_path, "PNG")
+    return f"{get_base_logo_url()}/{file_name}"
   except Exception as e:
     print(f"    [!] Banner creation error for {match_slug}: {e}")
     return ""
+
+
+def is_stream_url(url: str) -> bool:
+  """Checks if a network request URL is an active HLS/M3U8 video stream."""
+  lower = url.lower()
+
+  # Ignore standard static web files
+  if any(
+      lower.endswith(ext)
+      for ext in [
+          ".js",
+          ".css",
+          ".png",
+          ".jpg",
+          ".jpeg",
+          ".gif",
+          ".svg",
+          ".woff",
+          ".woff2",
+          ".ttf",
+          ".html",
+          ".json",
+      ]
+  ):
+    return False
+
+  # Primary video stream signatures
+  stream_keywords = [
+      ".m3u8",
+      ".mpd",
+      "/hls/",
+      "chunklist",
+      "playlist",
+      "manifest",
+      "index.m3u",
+      "/live/",
+      "/stream/",
+  ]
+  return any(kw in lower for kw in stream_keywords)
 
 
 class TflixStreamScraper:
@@ -248,6 +197,8 @@ class TflixStreamScraper:
     self.captured_streams = []
 
   async def run(self):
+    clear_logos_dir()
+
     print(f"[*] Initializing Stealth Browser for target: {self.target_url}")
     async with AsyncCamoufox(headless=True) as browser:
       page = await browser.new_page()
@@ -268,13 +219,13 @@ class TflixStreamScraper:
         ) in match_links:
           print(f"\n[Tier 2] Processing Match: {title}")
 
-          logo_path = await generate_vs_banner(
+          logo_url = await generate_vs_banner(
               http_session, team1, team2, team1_img, team2_img, slug
           )
 
           try:
             match_streams = await self._process_match_page(
-                browser, url, title, logo_path
+                browser, url, title, logo_url
             )
             self.captured_streams.extend(match_streams)
           except Exception as e:
@@ -287,31 +238,25 @@ class TflixStreamScraper:
       self._generate_m3u(self.captured_streams)
 
   async def _tier_1_find_live_matches(self, page):
-      """Scrapes match links and team names with timeout safety guards."""
-      try:
-        # Reduced timeout to 30s and use 'commit' so slow assets don't hang execution
-        await page.goto(self.target_url, wait_until="commit", timeout=30000)
-        await page.wait_for_selector('a[href*="/match/"]', timeout=15000)
-        await asyncio.sleep(2)
-      except Exception as e:
-        print(
-            f"[!] Target page load failed or timed out: {e}\n    -> Retrying"
-            " page evaluation on current state..."
-        )
-        # Check if any content loaded before giving up completely
-        body_exists = await page.evaluate(
-            "() => !!document.body && document.body.children.length > 0"
-        )
-        if not body_exists:
-          print("    [!] Page body is completely empty. Skipping scanning.")
-          return []
+    """Scrapes live match links and team names."""
+    try:
+      await page.goto(self.target_url, wait_until="commit", timeout=30000)
+      await page.wait_for_selector('a[href*="/match/"]', timeout=15000)
+      await asyncio.sleep(2)
+    except Exception as e:
+      print(f"[!] Target page load failed or timed out: {e}")
+      body_exists = await page.evaluate(
+          "() => !!document.body && document.body.children.length > 0"
+      )
+      if not body_exists:
+        print("    [!] Page body is completely empty. Skipping scanning.")
+        return []
 
-      matches = await page.evaluate(r"""
+    matches = await page.evaluate(r"""
             () => {
                 const results = [];
                 const seen = new Set();
 
-                // Safe fallback for search area if document.body is missing/incomplete
                 const rootArea = document.body || document.documentElement || document;
                 if (!rootArea) return results;
 
@@ -369,47 +314,30 @@ class TflixStreamScraper:
                         cleanTitle = "Live Match";
                     }
 
-                    let team1Img = "";
-                    let team2Img = "";
-                    const card = a.closest('div, tr, li') || a.parentElement;
-                    if (card) {
-                        const imgs = Array.from(card.querySelectorAll('img'))
-                            .map(i => i.src)
-                            .filter(src => src && !src.includes('avatar') && !src.includes('logo'));
-                        
-                        if (imgs.length >= 2) {
-                            team1Img = imgs[0];
-                            team2Img = imgs[1];
-                        } else if (imgs.length === 1) {
-                            team1Img = imgs[0];
-                        }
-                    }
-
                     seen.add(href);
-                    results.push([cleanTitle, href, team1, team2, team1Img, team2Img, slug]);
+                    results.push([cleanTitle, href, team1, team2, "", "", slug]);
                 }
 
                 return results;
             }
         """)
-      return matches
+    return matches
 
   async def _process_match_page(
       self, browser, match_url, match_title, match_logo
   ):
-    """Navigates to match page and captures stream links."""
+    """Navigates to match page and captures stream links passively."""
     context = await browser.new_context()
     page = await context.new_page()
     found_streams = []
     captured_urls = set()
 
-    async def route_handler(route):
-      request = route.request
+    # Non-blocking passive request listener
+    def handle_request(request):
       url = request.url
-
-      if STREAM_RE.search(url) and url not in captured_urls:
+      if is_stream_url(url) and url not in captured_urls:
         captured_urls.add(url)
-        headers = await request.all_headers()
+        headers = request.headers
         found_streams.append({
             "title": match_title,
             "url": url,
@@ -417,70 +345,69 @@ class TflixStreamScraper:
             "headers": headers,
             "referer": match_url,
         })
-        print(f"        -> [HIT] Captured Stream: {url[:80]}")
-      await route.continue_()
+        print(f"        -> [HIT] Captured Stream: {url[:85]}")
 
-    await page.route("**/*", route_handler)
+    page.on("request", handle_request)
 
     try:
       await page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
-      await asyncio.sleep(2)
+      await asyncio.sleep(3)
 
-      stream_tabs = await page.evaluate("""
+      # Locate stream tab buttons on the page
+      tabs_info = await page.evaluate("""
                 () => {
-                    const IGNORED_KEYWORDS = [
-                        'APPS', 'DISCORD', 'DARK MODE', 'CHANNELS', 'ALL MATCHES', 
-                        'TFLIX', 'JOIN', 'TELEGRAM', 'MIRROR', 'LOG IN', 'SIGN UP', 
-                        'SEARCH', 'HOME', 'WATCH', 'MATCHES', 'REFRESH', 'CLOSE'
-                    ];
-
-                    const candidates = Array.from(document.querySelectorAll('button, div[class*="channel"], div[class*="server"], div[class*="tab"]'));
-                    const validTabs = [];
-                    const seenNames = new Set();
-
-                    candidates.forEach((el, index) => {
-                        if (el.closest('header, nav, footer, [class*="nav"], [class*="header"], [class*="footer"]')) return;
-
+                    const IGNORED = ['APPS', 'DISCORD', 'DARK MODE', 'CHANNELS', 'ALL MATCHES', 'TFLIX', 'JOIN', 'TELEGRAM', 'MIRROR', 'LOG IN', 'SIGN UP', 'SEARCH', 'HOME', 'WATCH', 'MATCHES', 'REFRESH', 'CLOSE', 'LIVE CHAT'];
+                    
+                    const elements = Array.from(document.querySelectorAll('button, div[class*="channel"], div[class*="server"], div[class*="tab"], div[class*="stream"]'));
+                    const tabs = [];
+                    
+                    elements.forEach((el) => {
+                        if (el.closest('header, nav, footer, [class*="nav"], [class*="header"], [class*="footer"], [class*="chat"]')) return;
+                        
                         const text = el.textContent.trim();
                         const upper = text.toUpperCase();
+                        
+                        if (!text || text.length > 40) return;
+                        if (IGNORED.some(kw => upper.includes(kw))) return;
+                        
+                        if (tabs.some(t => t.text === text)) return;
 
-                        if (!text || text.length > 35) return;
-                        if (IGNORED_KEYWORDS.some(kw => upper.includes(kw))) return;
-
-                        if (seenNames.has(upper)) return;
-                        seenNames.add(upper);
-
-                        validTabs.push({
-                            index: index,
-                            name: text,
+                        tabs.push({
+                            text: text,
                             isAQ: upper.includes('AQ')
                         });
                     });
 
-                    validTabs.sort((a, b) => (b.isAQ ? 1 : 0) - (a.isAQ ? 1 : 0));
-                    return validTabs;
+                    // Prioritize AQ tabs first
+                    tabs.sort((a, b) => (b.isAQ ? 1 : 0) - (a.isAQ ? 1 : 0));
+                    return tabs;
                 }
             """)
 
-      if stream_tabs:
-        print(f"    -> Found {len(stream_tabs)} stream tab(s).")
-        for tab in stream_tabs:
-          tab_name = tab["name"]
+      if tabs_info:
+        print(f"    -> Found {len(tabs_info)} stream tab(s).")
+        for tab in tabs_info:
+          tab_text = tab["text"]
           tag = " [AQ Priority]" if tab["isAQ"] else ""
-          print(f"    -> Switching to Stream Tab: {tab_name}{tag}")
+          print(f"    -> Switching to Stream Tab: {tab_text}{tag}")
 
           try:
+            # Use native Playwright click on element matching the exact text
+            tab_locator = page.get_by_text(tab_text, exact=False).last
+            if await tab_locator.count() > 0:
+              await tab_locator.click(timeout=3000)
+          except Exception:
+            # Fallback JS click
             await page.evaluate(
                 """
-                            (idx) => {
-                                const candidates = Array.from(document.querySelectorAll('button, div[class*="channel"], div[class*="server"], div[class*="tab"]'));
-                                if (candidates[idx]) candidates[idx].click();
+                            (txt) => {
+                                const els = Array.from(document.querySelectorAll('*'));
+                                const match = els.find(el => el.children.length <= 2 && el.textContent.trim() === txt);
+                                if (match) match.click();
                             }
                         """,
-                tab["index"],
+                tab_text,
             )
-          except Exception:
-            pass
 
           await asyncio.sleep(WAIT_PLAYER)
       else:
