@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
 """
-TFLIX Live Stream M3U Scraper (AQ Stream & IPTV Ready)
-- Uses passive request sniffing to capture m3u8/HLS streams without stalling the player.
-- Filters out DRM/ClearKey AQ streams to focus on standard IPTV-ready m3u8 playlists.
+TFLIX Live Stream M3U Scraper (IPTV Ready)
+- Context-level network request sniffing (captures frame & iframe traffic).
+- Broadened URL pattern detection for dynamic proxy stream links.
 - Uses native Playwright click events to cycle through valid stream tabs.
-- Automatically clears the logos/ directory on each run to prevent clutter.
-- Outputs full raw.githubusercontent.com URLs for IPTV player compatibility.
 """
 
 import asyncio
 from datetime import datetime, timezone
-import io
 import os
 import re
 import shutil
@@ -23,14 +20,12 @@ from PIL import Image, ImageDraw, ImageFont
 TARGET_URL = "https://tflix.su/watch"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
-WAIT_PLAYER = 6  # Seconds to wait per stream tab to allow HLS buffer
+WAIT_PLAYER = 10  # Seconds to wait per stream tab to allow video player load
 
-# Fallback GitHub settings
 GITHUB_USER = "YOUR_GITHUB_USERNAME"
 GITHUB_REPO = "YOUR_REPO_NAME"
 GITHUB_BRANCH = "main"
 
-# Non-English / Slug Name to Standard English Name Mappings
 TEAM_NAME_MAP = {
     "rep tcheque": "Czech Republic",
     "republique tcheque": "Czech Republic",
@@ -46,7 +41,6 @@ TEAM_NAME_MAP = {
 
 
 def clear_logos_dir():
-    """Deletes all previous banners to prevent storage bloat."""
     if os.path.exists(LOGOS_DIR):
         shutil.rmtree(LOGOS_DIR)
     os.makedirs(LOGOS_DIR, exist_ok=True)
@@ -54,7 +48,6 @@ def clear_logos_dir():
 
 
 def get_base_logo_url() -> str:
-    """Detects GitHub Actions environment or builds raw GitHub URL."""
     repo = os.getenv("GITHUB_REPOSITORY")
     if repo:
         return f"https://raw.githubusercontent.com/{repo}/{GITHUB_BRANCH}/{LOGOS_DIR}"
@@ -62,12 +55,10 @@ def get_base_logo_url() -> str:
 
 
 def normalize_team_name(name: str) -> str:
-    """Translates common French/slug team names to standard English names."""
     if not name:
         return ""
     clean = name.strip()
-    lower = clean.lower()
-    return TEAM_NAME_MAP.get(lower, clean)
+    return TEAM_NAME_MAP.get(clean.lower(), clean)
 
 
 def get_system_font(size: int = 28):
@@ -90,8 +81,7 @@ def get_fitted_font(text: str, max_width: int = 240, start_size: int = 28):
         font = get_system_font(size)
         try:
             bbox = font.getbbox(text)
-            width = bbox[2] - bbox[0]
-            if width <= max_width:
+            if (bbox[2] - bbox[0]) <= max_width:
                 return font
         except Exception:
             return ImageFont.load_default()
@@ -107,7 +97,6 @@ async def generate_vs_banner(
     team2_img: str,
     match_slug: str,
 ) -> str:
-    """Generates a text banner: TEAM 1 (Red) VS (Yellow) TEAM 2 (Red)."""
     os.makedirs(LOGOS_DIR, exist_ok=True)
     file_name = f"{match_slug}.png"
     local_path = os.path.join(LOGOS_DIR, file_name)
@@ -123,28 +112,9 @@ async def generate_vs_banner(
         font_t1 = get_fitted_font(t1_name)
         font_t2 = get_fitted_font(t2_name)
 
-        # 1. Team 1 Name (Left Side - Red)
-        draw.text(
-            (180, 150),
-            t1_name,
-            fill=(255, 65, 65, 255),
-            anchor="mm",
-            font=font_t1,
-        )
-
-        # 2. VS Emblem (Center - Yellow)
-        draw.text(
-            (350, 150), "VS", fill=(255, 215, 0, 255), anchor="mm", font=font_vs
-        )
-
-        # 3. Team 2 Name (Right Side - Red)
-        draw.text(
-            (520, 150),
-            t2_name,
-            fill=(255, 65, 65, 255),
-            anchor="mm",
-            font=font_t2,
-        )
+        draw.text((180, 150), t1_name, fill=(255, 65, 65, 255), anchor="mm", font=font_t1)
+        draw.text((350, 150), "VS", fill=(255, 215, 0, 255), anchor="mm", font=font_vs)
+        draw.text((520, 150), t2_name, fill=(255, 65, 65, 255), anchor="mm", font=font_t2)
 
         canvas.save(local_path, "PNG")
         return f"{get_base_logo_url()}/{file_name}"
@@ -154,39 +124,33 @@ async def generate_vs_banner(
 
 
 def is_stream_url(url: str) -> bool:
-    """Checks if a network request URL is an active unencrypted HLS/M3U8 video stream."""
+    """Enhanced stream detection supporting HLS, proxies, and dynamic manifest URLs."""
     lower = url.lower()
 
-    # Ignore standard static web files and DRM DASH manifests (.mpd)
+    # Skip standard static web resources
     if any(
         lower.endswith(ext)
         for ext in [
-            ".js",
-            ".css",
-            ".png",
-            ".jpg",
-            ".jpeg",
-            ".gif",
-            ".svg",
-            ".woff",
-            ".woff2",
-            ".ttf",
-            ".html",
-            ".json",
-            ".mpd",
+            ".js", ".css", ".png", ".jpg", ".jpeg", ".gif", ".svg", 
+            ".woff", ".woff2", ".ttf", ".html", ".json", ".mpd", ".ico"
         ]
     ):
         return False
 
-    # Primary unencrypted video stream keywords
+    # Primary video stream patterns (M3U8 / HLS / Media Proxies)
     stream_keywords = [
         ".m3u8",
         "/hls/",
         "chunklist",
-        "playlist",
+        "playlist.m3u",
         "index.m3u",
         "/live/",
-        "/stream/",
+        "/stream",
+        ".m3u",
+        "m3u8=",
+        "stream.php",
+        "playlist.php",
+        "/hls"
     ]
     return any(kw in lower for kw in stream_keywords)
 
@@ -210,15 +174,7 @@ class TflixStreamScraper:
             print(f"    -> Found {len(match_links)} live match(es).")
 
             async with aiohttp.ClientSession() as http_session:
-                for (
-                    title,
-                    url,
-                    team1,
-                    team2,
-                    team1_img,
-                    team2_img,
-                    slug,
-                ) in match_links:
+                for title, url, team1, team2, team1_img, team2_img, slug in match_links:
                     print(f"\n[Tier 2] Processing Match: {title}")
 
                     logo_url = await generate_vs_banner(
@@ -234,13 +190,11 @@ class TflixStreamScraper:
                         print(f"    [!] Error processing match {title}: {str(e)}")
 
             print(
-                f"\n[*] Generating M3U Playlist ({len(self.captured_streams)} streams"
-                " captured)..."
+                f"\n[*] Generating M3U Playlist ({len(self.captured_streams)} streams captured)..."
             )
             self._generate_m3u(self.captured_streams)
 
     async def _tier_1_find_live_matches(self, page):
-        """Scrapes live match links and team names."""
         try:
             await page.goto(self.target_url, wait_until="commit", timeout=30000)
             await page.wait_for_selector('a[href*="/match/"]', timeout=15000)
@@ -258,39 +212,13 @@ class TflixStreamScraper:
             () => {
                 const results = [];
                 const seen = new Set();
-
                 const rootArea = document.body || document.documentElement || document;
                 if (!rootArea) return results;
 
-                const allNodes = Array.from(rootArea.querySelectorAll('*'));
-                const liveHeader = allNodes.find(el => 
-                    el.children.length === 0 && 
-                    el.textContent.trim().toUpperCase() === 'LIVE'
-                );
-
-                let liveContainer = null;
-                if (liveHeader) {
-                    let parent = liveHeader.parentElement;
-                    while (parent && parent !== document.body) {
-                        const links = parent.querySelectorAll('a[href*="/match/"]');
-                        if (links.length > 0) {
-                            liveContainer = parent;
-                            break;
-                        }
-                        parent = parent.parentElement;
-                    }
-                }
-
-                const searchArea = liveContainer || rootArea;
-                if (!searchArea || typeof searchArea.querySelectorAll !== 'function') {
-                    return results;
-                }
-
-                const matchLinks = Array.from(searchArea.querySelectorAll('a[href*="/match/"]'));
+                const matchLinks = Array.from(rootArea.querySelectorAll('a[href*="/match/"]'));
 
                 for (const a of matchLinks) {
                     const href = a.href;
-
                     if (href.includes('/channel/') || href.includes('/channels/')) continue;
                     if (!href.includes('/match/') || seen.has(href)) continue;
 
@@ -312,29 +240,23 @@ class TflixStreamScraper:
                         }
                     } catch(e) {}
 
-                    if (!cleanTitle) {
-                        cleanTitle = "Live Match";
-                    }
+                    if (!cleanTitle) cleanTitle = "Live Match";
 
                     seen.add(href);
                     results.push([cleanTitle, href, team1, team2, "", "", slug]);
                 }
-
                 return results;
             }
         """)
         return matches
 
-    async def _process_match_page(
-        self, browser, match_url, match_title, match_logo
-    ):
-        """Navigates to match page and captures non-DRM stream links passively."""
+    async def _process_match_page(self, browser, match_url, match_title, match_logo):
         context = await browser.new_context()
         page = await context.new_page()
         found_streams = []
         captured_urls = set()
 
-        # Non-blocking passive request listener
+        # Listen at CONTEXT level to capture requests inside player IFrames
         def handle_request(request):
             url = request.url
             if is_stream_url(url) and url not in captured_urls:
@@ -349,13 +271,12 @@ class TflixStreamScraper:
                 })
                 print(f"        -> [HIT] Captured Stream: {url[:85]}")
 
-        page.on("request", handle_request)
+        context.on("request", handle_request)
 
         try:
             await page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
             await asyncio.sleep(3)
 
-            # Locate stream tab buttons on the page (excluding DRM/AQ and UI tabs)
             tabs_info = await page.evaluate("""
                 () => {
                     const IGNORED = [
@@ -370,18 +291,14 @@ class TflixStreamScraper:
                     
                     elements.forEach((el) => {
                         if (el.closest('header, nav, footer, [class*="nav"], [class*="header"], [class*="footer"], [class*="chat"]')) return;
-                        
                         const text = el.textContent.trim();
                         const upper = text.toUpperCase();
                         
                         if (!text || text.length > 40) return;
                         if (IGNORED.some(kw => upper.includes(kw))) return;
-                        
-                        // Explicitly skip DRM / ClearKey AQ streams
                         if (upper.includes('AQ')) return;
                         
                         if (tabs.some(t => t.text === text)) return;
-
                         tabs.push({ text: text });
                     });
 
@@ -396,12 +313,10 @@ class TflixStreamScraper:
                     print(f"    -> Switching to Stream Tab: {tab_text}")
 
                     try:
-                        # Use native Playwright click on element matching text
                         tab_locator = page.get_by_text(tab_text, exact=False).last
                         if await tab_locator.count() > 0:
                             await tab_locator.click(timeout=3000)
                     except Exception:
-                        # Fallback JS click
                         await page.evaluate(
                             """
                             (txt) => {
@@ -430,7 +345,6 @@ class TflixStreamScraper:
         return found_streams
 
     def _generate_m3u(self, streams):
-        """Outputs valid M3U playlist file with tvg-logo."""
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         lines = [
             "#EXTM3U",
@@ -448,9 +362,7 @@ class TflixStreamScraper:
             ua = s["headers"].get("user-agent", "Mozilla/5.0")
             origin = s["headers"].get("origin", "")
 
-            lines.append(
-                f'#EXTINF:-1 tvg-logo="{logo}" group-title="Live Sports",{title}'
-            )
+            lines.append(f'#EXTINF:-1 tvg-logo="{logo}" group-title="Live Sports",{title}')
             lines.append(f"#EXTVLCOPT:http-referrer={ref}")
             lines.append(f"#EXTVLCOPT:http-user-agent={ua}")
             if origin:
@@ -459,9 +371,7 @@ class TflixStreamScraper:
             kodi_props = [f"Referer={ref}", f"User-Agent={ua}"]
             if origin:
                 kodi_props.append(f"Origin={origin}")
-            lines.append(
-                "#KODIPROP:inputstream.adaptive.stream_headers=" + "&".join(kodi_props)
-            )
+            lines.append("#KODIPROP:inputstream.adaptive.stream_headers=" + "&".join(kodi_props))
 
             lines.append(url)
             lines.append("")
