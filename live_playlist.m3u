@@ -1,4 +1,18 @@
 #EXTM3U
-# generated: 2026-10-04 16:29 UTC
+# generated: 2026-10-04 16:48 UTC
 # source: https://tflix.su/watch
-# streams: 0
+# streams: 2
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/malta-vs-andorra-1791116120215.png" group-title="Live Sports",Malta VS Andorra (Stream 1)
+#EXTVLCOPT:http-referrer=https://tmaxapp.site/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-origin=https://tmaxapp.site
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tmaxapp.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://tmaxapp.site
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/xtkswns2yn/out/v1/9c348c1bc962495a9420f01ac0964a86/cenc.mpd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/malta-vs-andorra-1791116120215.png" group-title="Live Sports",Malta VS Andorra (Stream 2)
+#EXTVLCOPT:http-referrer=https://tmaxapp.site/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-origin=https://tmaxapp.site
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tmaxapp.site/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://tmaxapp.site
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd
