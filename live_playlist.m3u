@@ -1,0 +1,17 @@
+#EXTM3U
+# generated: 2026-10-04 18:44 UTC
+# streams: 2
+
+#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aELz5heYMAJzcQfECakgU5kBBCILEpkgp9hs+ijAqUXD+XpZZXky0uqL0oUA.webp" group-title="Football",Kosovo VS Austria (admin - English - DAZN)
+#EXTVLCOPT:http-referrer=https://embed.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-origin=https://embed.st
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb31.strmd.st/secure/jbmPJaFHEYXYYwcDysTLzvosueYkBARq/admin/stream/ppv-kosovo-vs-austria/1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rYGCmRcYPmG4gDfECakgU5kBBCILjYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Malta VS Andorra (admin - English - DAZN)
+#EXTVLCOPT:http-referrer=https://embed.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-origin=https://embed.st
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb16.strmd.st/secure/WPPIxYAxddGWjIvTIQyKDEjvQuifxklK/admin/stream/ppv-malta-vs-andorra/1/playlist.m3u8
