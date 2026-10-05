@@ -3,20 +3,20 @@
 JSON Live Football M3U Scraper
 - Fetches matches directly from raw GitHub JSON.
 - Filters strictly for Category == "Football" and Quality == "HD".
-- Simulates real mouse clicks to bypass autoplay blocks.
-- Captures the EXACT native mono.m3u8 stream requested by the player.
+- Intercepts master M3U8 responses and parses child mono.m3u8 paths directly from the manifest.
 """
 
 import asyncio
 from datetime import datetime, timedelta, timezone
 import json
 import os
+from urllib.parse import urljoin
 import aiohttp
 from camoufox.async_api import AsyncCamoufox
 
 JSON_URL = "https://raw.githubusercontent.com/srhady/data/refs/heads/main/live_sports_playlist.json"
 OUTPUT_FILE = "live_playlist.m3u"
-PAGE_TIMEOUT = 12  # Seconds to wait for video player to buffer
+PAGE_TIMEOUT = 10  # Seconds to wait for embed network responses
 
 
 def is_match_live_or_due(match_item: dict) -> bool:
@@ -91,7 +91,6 @@ class FootballJsonScraper:
             return
 
         print("\n[*] Initializing Camoufox browser for stream extraction...")
-        # viewport size ensures the player is clickable
         async with AsyncCamoufox(headless=True) as browser:
             for match in active_matches:
                 t1 = match.get("Team 1 Name", "").strip()
@@ -139,19 +138,24 @@ class FootballJsonScraper:
         self._generate_m3u(self.captured_streams)
 
     async def _scrape_embed_url(self, browser, embed_url, title, logo):
-        """Opens embed URL, forcefully clicks center screen to play, and captures mono.m3u8."""
-        context = await browser.new_context(viewport={'width': 1280, 'height': 720})
+        """Opens embed URL and intercepts master playlist responses to parse mono.m3u8."""
+        context = await browser.new_context(viewport={"width": 1280, "height": 720})
         page = await context.new_page()
         found = []
         captured_urls = set()
 
-        def handle_request(request):
-            url = request.url
+        async def handle_response(response):
+            url = response.url
             lower = url.lower()
 
+            # Skip non-playlist assets
+            if any(ext in lower for ext in [".js", ".css", ".png", ".jpg", ".svg", ".json", ".html"]):
+                return
+
+            # Direct hit if mono.m3u8 network request was fired
             if "mono.m3u8" in lower and url not in captured_urls:
                 captured_urls.add(url)
-                headers = request.headers
+                headers = response.request.headers
                 found.append({
                     "title": title,
                     "url": url,
@@ -160,35 +164,49 @@ class FootballJsonScraper:
                     "user_agent": headers.get("user-agent", "Mozilla/5.0"),
                     "origin": headers.get("origin", "https://embed.st"),
                 })
-                print(f"        [HIT] Captured Native Stream: {url[:95]}...")
+                print(f"        [DIRECT HIT] {url}")
+                return
 
-        context.on("request", handle_request)
+            # Parse Master Manifests (e.g., playlist.m3u8) to extract child variant links
+            if (".m3u8" in lower or "/hls/" in lower) and "mono.m3u8" not in lower:
+                try:
+                    text = await response.text()
+                    if "#EXTM3U" in text:
+                        for line in text.splitlines():
+                            line = line.strip()
+                            if line and not line.startswith("#") and ".m3u8" in line.lower():
+                                child_url = urljoin(url, line)
+                                if child_url not in captured_urls:
+                                    captured_urls.add(child_url)
+                                    headers = response.request.headers
+                                    found.append({
+                                        "title": title,
+                                        "url": child_url,
+                                        "logo": logo,
+                                        "referer": headers.get("referer", embed_url),
+                                        "user_agent": headers.get("user-agent", "Mozilla/5.0"),
+                                        "origin": headers.get("origin", "https://embed.st"),
+                                    })
+                                    print(f"        [PARSED MANIFEST] {child_url}")
+                except Exception:
+                    pass
+
+        context.on("response", lambda res: asyncio.create_task(handle_response(res)))
 
         try:
-            # Load the page and wait for everything to settle
-            await page.goto(embed_url, wait_until="load", timeout=30000)
-            await asyncio.sleep(3)
-
-            # Physically click the center of the screen to bypass autoplay restrictions and ad-blockers
-            await page.mouse.click(640, 360)
-            await asyncio.sleep(1)
-            # Second click in case the first one just dismissed a pop-up overlay
-            await page.mouse.click(640, 360)
-            
-            # Wait for HLS streams to buffer and emit network requests
+            await page.goto(embed_url, wait_until="domcontentloaded", timeout=25000)
             await asyncio.sleep(PAGE_TIMEOUT)
-            
         except Exception as e:
             print(f"        [!] Embed load warning: {e}")
         finally:
             await context.close()
 
-        # If multiple quality variants were requested, prioritize exactly the "low/mono" variant
+        # Prioritize low/mono if available, otherwise return captured child variant
         if found:
             low_variant = next((s for s in found if "low/" in s["url"].lower()), None)
             if low_variant:
                 return [low_variant]
-            return [found[-1]]  # Otherwise, return the final quality variant chosen by the player
+            return [found[-1]]
 
         return []
 
