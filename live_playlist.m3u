@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-05 16:02 UTC
+# generated: 2026-10-05 16:16 UTC
 # streams: 3
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJMzACmKZiG4g+IY1JAozICJf0gpBYEgp9hs+ijArdbD+XpZZuky0YB5iohBAA.webp" group-title="Football",Cyprus VS Latvia (admin - English - DAZN)
@@ -7,18 +7,18 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb15.strmd.st/secure/iBfJdXIzCGytCSxKlwqlKIcIsgQKJzFa/rtmp/stream/autXljqBXWNyZfnf5b026-4xq1VeEXvvD7zaSBf7AvfcIkYPReg2i38a3NtB44OTbiFKvXU2ysSTPw/1/1/mono.m3u8
+https://lb26.strmd.st/secure/LAmrHBHPUggTYQfPdQvsiPgNvizzgaxp/rtmp/stream/4rLPrvsrIv8oy-S4gkIBxtqmTFRoMjmoqzG2q-htXjAzgcHe0o-KXLx0TgLDvCPtgY4ZLorHpikAFg/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJMzACmKZiG4g+IY1JAozICJf0gpBYEgp9hs+ijArdbD+XpZZuky0YB5iohBAA.webp" group-title="Football",Cyprus VS Latvia (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb14.strmd.st/secure/aBJARvYYmbGKxucscKOfuguvgNeHXfzp/delta/stream/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1/1/mono.m3u8
+https://lb30.strmd.st/secure/HaGcfmPLSteekYGWIpmRQpCYvPSosydz/delta/stream/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJMzACmKZiG4g+IY1JAozICJf0gpBYEgp9hs+ijArdbD+XpZZuky0YB5iohBAA.webp" group-title="Football",Cyprus VS Latvia (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb17.strmd.st/secure/ljgLrjbjubnNswuwYKdyiCCUHqCmonAF/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/1/mono.m3u8
+https://lb3.strmd.st/secure/rpkuInzEyDBDRQASeIfUukfTbdiHseId/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/1/mono.m3u8
