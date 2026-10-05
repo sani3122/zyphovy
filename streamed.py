@@ -3,7 +3,8 @@
 JSON Live Football M3U Scraper
 - Fetches matches directly from raw GitHub JSON.
 - Filters strictly for Category == "Football" and Quality == "HD".
-- Strictly intercepts and captures the child variant stream URLs (ending with mono.m3u8) as requested natively by the player.
+- Simulates real mouse clicks to bypass autoplay blocks.
+- Captures the EXACT native mono.m3u8 stream requested by the player.
 """
 
 import asyncio
@@ -15,7 +16,7 @@ from camoufox.async_api import AsyncCamoufox
 
 JSON_URL = "https://raw.githubusercontent.com/srhady/data/refs/heads/main/live_sports_playlist.json"
 OUTPUT_FILE = "live_playlist.m3u"
-PAGE_TIMEOUT = 12  # Seconds to wait for video player network requests
+PAGE_TIMEOUT = 12  # Seconds to wait for video player to buffer
 
 
 def is_match_live_or_due(match_item: dict) -> bool:
@@ -90,6 +91,7 @@ class FootballJsonScraper:
             return
 
         print("\n[*] Initializing Camoufox browser for stream extraction...")
+        # viewport size ensures the player is clickable
         async with AsyncCamoufox(headless=True) as browser:
             for match in active_matches:
                 t1 = match.get("Team 1 Name", "").strip()
@@ -137,8 +139,8 @@ class FootballJsonScraper:
         self._generate_m3u(self.captured_streams)
 
     async def _scrape_embed_url(self, browser, embed_url, title, logo):
-        """Opens embed URL, triggers stream playback, and grabs child mono.m3u8 stream requests."""
-        context = await browser.new_context()
+        """Opens embed URL, forcefully clicks center screen to play, and captures mono.m3u8."""
+        context = await browser.new_context(viewport={'width': 1280, 'height': 720})
         page = await context.new_page()
         found = []
         captured_urls = set()
@@ -147,7 +149,6 @@ class FootballJsonScraper:
             url = request.url
             lower = url.lower()
 
-            # Target actual stream manifests (mono.m3u8) while skipping the master playlist.m3u8
             if "mono.m3u8" in lower and url not in captured_urls:
                 captured_urls.add(url)
                 headers = request.headers
@@ -159,59 +160,37 @@ class FootballJsonScraper:
                     "user_agent": headers.get("user-agent", "Mozilla/5.0"),
                     "origin": headers.get("origin", "https://embed.st"),
                 })
-                print(f"        [EXACT HIT] Captured Stream: {url}")
+                print(f"        [HIT] Captured Native Stream: {url[:95]}...")
 
         context.on("request", handle_request)
 
         try:
-            await page.goto(embed_url, wait_until="domcontentloaded", timeout=25000)
+            # Load the page and wait for everything to settle
+            await page.goto(embed_url, wait_until="load", timeout=30000)
+            await asyncio.sleep(3)
 
-            # Trigger play command on all frames so hls.js fetches the mono.m3u8 stream variant
-            for frame in page.frames:
-                try:
-                    await frame.evaluate("""() => {
-                        const playBtn = document.querySelector('.play-button, .vjs-big-play-button, #play-btn, .jw-display-icon-container');
-                        if (playBtn) playBtn.click();
-                        const v = document.querySelector('video');
-                        if (v) {
-                            v.muted = true;
-                            v.play().catch(() => {});
-                        }
-                    }""")
-                except Exception:
-                    pass
-
+            # Physically click the center of the screen to bypass autoplay restrictions and ad-blockers
+            await page.mouse.click(640, 360)
+            await asyncio.sleep(1)
+            # Second click in case the first one just dismissed a pop-up overlay
+            await page.mouse.click(640, 360)
+            
+            # Wait for HLS streams to buffer and emit network requests
             await asyncio.sleep(PAGE_TIMEOUT)
-
-            # Secondary extraction: Check browser performance logs if network listener missed it
-            for frame in page.frames:
-                try:
-                    urls = await frame.evaluate("""() => {
-                        return performance.getEntriesByType('resource')
-                            .map(r => r.name)
-                            .filter(u => u.includes('mono.m3u8'));
-                    }""")
-                    for url in urls:
-                        if url not in captured_urls:
-                            captured_urls.add(url)
-                            found.append({
-                                "title": title,
-                                "url": url,
-                                "logo": logo,
-                                "referer": embed_url,
-                                "user_agent": "Mozilla/5.0",
-                                "origin": "https://embed.st",
-                            })
-                            print(f"        [PERF HIT] Captured Stream: {url}")
-                except Exception:
-                    pass
-
+            
         except Exception as e:
             print(f"        [!] Embed load warning: {e}")
         finally:
             await context.close()
 
-        return found
+        # If multiple quality variants were requested, prioritize exactly the "low/mono" variant
+        if found:
+            low_variant = next((s for s in found if "low/" in s["url"].lower()), None)
+            if low_variant:
+                return [low_variant]
+            return [found[-1]]  # Otherwise, return the final quality variant chosen by the player
+
+        return []
 
     def _generate_m3u(self, streams):
         """Saves playlist into clean M3U format with IPTV headers."""
@@ -256,3 +235,4 @@ class FootballJsonScraper:
 if __name__ == "__main__":
     scraper = FootballJsonScraper()
     asyncio.run(scraper.run())
+    
