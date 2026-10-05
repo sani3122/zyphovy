@@ -23,9 +23,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Playwright Chromium Browser
+      - name: Install Playwright WebKit Browser
         run: |
-          playwright install chromium --with-deps
+          playwright install webkit --with-deps
 
       - name: Execute Scraper Script
         run: |
