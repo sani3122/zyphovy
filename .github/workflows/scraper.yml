@@ -18,7 +18,11 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install aiohttp
+          pip install aiohttp playwright
+
+      - name: Install Playwright Chromium
+        run: |
+          playwright install chromium --with-deps
 
       - name: Execute Scraper Script
         run: |
@@ -31,3 +35,4 @@ jobs:
           git add live_playlist.m3u
           git commit -m "Auto-update live_playlist.m3u" || exit 0
           git push
+          
