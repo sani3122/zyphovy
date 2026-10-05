@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-05 01:32 UTC
+# generated: 2026-10-05 01:47 UTC
 # streams: 5
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKdCTUZKENxB8QRqSF26IIROYLAtMfsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Football",Greece VS Germany (admin - English - DAZN)
@@ -7,32 +7,32 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb14.strmd.st/secure/ExuNGXzMbdHCEerymSTlVRvNGFyaNvbQ/rtmp/stream/pp3jE_6Eer3sSo3ntSR4KQAWvbjBEGpe1MrJY-fqlCmiRUaBOH9MFS8PsDeJ7mQyGrT8gGeziQmP3A/1/1/mono.m3u8
+https://lb12.strmd.st/secure/yEYhNByeNPNTrWIWaAcBbdmPxNUJhqLb/rtmp/stream/pp3jE_6Eer3sSo3ntSR4KQAWvbjBEGpe1MrJY-fqlCmiRUaBOH9MFS8PsDeJ7mQyGrT8gGeziQmP3A/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXiErAkCUCG4g+IY1JAozICCETmpBbRT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Netherlands VS Serbia (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb21.strmd.st/secure/euXGXQGQCORssZCgKRfHeyENkTuAmljn/rtmp/stream/pUOA84Fn650GKp9MPsGBpcql0-Ku1-do7F4nyui0Y4azz8pjrY_U6WHiUf3bzm5VOye6L8gaxV6qmA/1/1/mono.m3u8
+https://lb16.strmd.st/secure/ouGczvnbZTvsnEPfaEshQyAOXdMHLLbs/rtmp/stream/pUOA84Fn650GKp9MPsGBpcql0-Ku1-do7F4nyui0Y4azz8pjrY_U6WHiUf3bzm5VOye6L8gaxV6qmA/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rGVja4Q8MFJDcQfECf0oQ5iDosmCwJBT7DZ9FGBUou78vU2jPTLRg7mKiEEA.webp" group-title="Football",Portugal VS Norway (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb9.strmd.st/secure/oDzzvtggXWdBQAbkwkpAiKytjubgbZcY/rtmp/stream/0brOQFhB7K3o4gzzdsojXEKksxLzKUUTeTSoMLprpN4W2J_A8HBpeqiPjUU221ATQUof1LNjHQndZQ/1/1/mono.m3u8
+https://lb23.strmd.st/secure/ndNZoXysFHCcDuUwtqNSPBmvEsvQFZjL/rtmp/stream/0brOQFhB7K3o4gzzdsojXEKksxLzKUUTeTSoMLprpN4W2J_A8HBpeqiPjUU221ATQUof1LNjHQndZQ/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aENzCaYXWtw0g+IY1JAozICJZAwbBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Wales VS Denmark (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb4.strmd.st/secure/VCKgVBRluqGNLbFNamSxaOvBRXRnOEjO/rtmp/stream/RT5D5wBRPUm-NLJU-iHSxq_s7bZYLvAbsJs6mP2ZaYK62SX-bR-Dm0pUrQllLx9IfjwKiICwfAseDg/1/1/mono.m3u8
+https://lb31.strmd.st/secure/PmcoqgPmbqEvkqKgYzFrvHlERmUwyHpQ/rtmp/stream/RT5D5wBRPUm-NLJU-iHSxq_s7bZYLvAbsJs6mP2ZaYK62SX-bR-Dm0pUrQllLx9IfjwKiICwfAseDg/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rFMCRgkwAAwgy3EEb4gzUkCksgINkDGMFNFPsNn0UYFRrZfy9LFkNJlowLzFRCCA.webp" group-title="Football",Ireland VS Israel (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb2.strmd.st/secure/qnQwrnhEsaIAarPUeHOrnFKnNyMpBXxM/rtmp/stream/X_Mr-qwsXYSiQPcxZOEkPXknxisxUIAQRbL2Ka0PqPbUIH_YagPEtFKvUiIIZDwLtz15kLjmDOFJkQ/1/1/mono.m3u8
+https://lb21.strmd.st/secure/JHfsJGXhCLqFZQfPWpmydIKvKguAbjVC/rtmp/stream/X_Mr-qwsXYSiQPcxZOEkPXknxisxUIAQRbL2Ka0PqPbUIH_YagPEtFKvUiIIZDwLtz15kLjmDOFJkQ/1/1/mono.m3u8
