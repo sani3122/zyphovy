@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-High-Tech Chromium JSON Live Football M3U Scraper
-- Uses Playwright Chromium (full Chrome engine) to pass embed checks.
-- Intercepts native m3u8 requests or resolves master manifest variants.
+Lightweight WebKit (Safari Engine) Live Stream Scraper
+- Ultra fast execution to save GitHub Action minutes.
+- Uses Playwright WebKit to bypass embed anti-bot blocks without overhead.
 """
 
 import asyncio
@@ -15,11 +15,11 @@ from playwright.async_api import async_playwright
 
 JSON_URL = "https://raw.githubusercontent.com/srhady/data/refs/heads/main/live_sports_playlist.json"
 OUTPUT_FILE = "live_playlist.m3u"
-PAGE_TIMEOUT = 12  # Seconds to allow stream interception
+PAGE_TIMEOUT = 6  # মাত্র ৬ সেকেন্ড সময় দেবে লিঙ্ক ক্যাপচার করার জন্য
 
 
 def is_match_live_or_due(match_item: dict) -> bool:
-    """Determines if a match is live or active based on BD Time (UTC+6)."""
+    """BD Time (UTC+6) অনুযায়ী ম্যাচ লাইভ আছে কি না তা চেক করে।"""
     status = match_item.get("Match Status", "")
 
     if "live" in str(status).lower() or "🔴" in str(status):
@@ -51,13 +51,11 @@ def is_match_live_or_due(match_item: dict) -> bool:
 
 
 async def fetch_json_data(url: str) -> list:
-    """Fetches the live sports JSON data from GitHub."""
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             if response.status == 200:
                 return await response.json(content_type=None)
             else:
-                print(f"[!] Failed to fetch JSON. HTTP Status: {response.status}")
                 return []
 
 
@@ -68,48 +66,33 @@ class FootballJsonScraper:
         self.captured_streams = []
 
     async def run(self):
-        print("[*] Fetching live match list from JSON...")
+        print("[*] JSON ডাটা ডাউনলোড করা হচ্ছে...")
         all_matches = await fetch_json_data(self.json_url)
-        print(f"[+] Downloaded {len(all_matches)} total matches from JSON.")
 
         football_matches = [
             m
             for m in all_matches
             if str(m.get("Category", "")).strip().lower() == "football"
         ]
-        print(f"    -> Found {len(football_matches)} Football match(es).")
-
         active_matches = [m for m in football_matches if is_match_live_or_due(m)]
-        print(
-            f"    -> {len(active_matches)} Football match(es) are currently Live"
-            " or active in Bangladesh Time."
-        )
 
         if not active_matches:
-            print("[!] No active football matches found right now.")
+            print("[!] এই মুহূর্তে কোনো লাইভ ফুটবল ম্যাচ নেই।")
             return
 
-        print("\n[*] Initializing High-Tech Chromium Engine...")
+        print("\n[*] Fast WebKit Browser দিয়ে লিঙ্ক এক্সট্র্যাক্ট করা হচ্ছে...")
         async with async_playwright() as p:
-            # Launch Chromium with anti-detection flags
-            browser = await p.chromium.launch(
-                headless=True,
-                args=[
-                    "--no-sandbox",
-                    "--disable-setuid-sandbox",
-                    "--disable-blink-features=AutomationControlled",
-                ],
-            )
+            # WebKit (Safari Engine) ব্যবহার করা হচ্ছে যা হালকা ও দ্রুতগতির
+            browser = await p.webkit.launch(headless=True)
 
             for match in active_matches:
                 t1 = match.get("Team 1 Name", "").strip()
                 t2 = match.get("Team 2 Name", "").strip()
-
-                if t1 and t2:
-                    display_title = f"{t1} VS {t2}"
-                else:
-                    display_title = match.get("Match Title", "Football Match")
-
+                display_title = (
+                    f"{t1} VS {t2}"
+                    if (t1 and t2)
+                    else match.get("Match Title", "Football Match")
+                )
                 logo = match.get("Match Poster", "")
                 streams = match.get("Streams", [])
 
@@ -119,11 +102,6 @@ class FootballJsonScraper:
                     if str(s.get("Quality", "")).strip().upper() == "HD"
                 ]
 
-                print(
-                    f"\n[Match] Processing: {display_title} ({len(hd_streams)} HD"
-                    " stream options)"
-                )
-
                 for stream in hd_streams:
                     embed_url = stream.get("Embed_URL", "")
                     source_name = stream.get("Source", "Server")
@@ -132,8 +110,6 @@ class FootballJsonScraper:
                         continue
 
                     stream_title = f"{display_title} ({source_name} - {lang})"
-                    print(f"    -> Inspecting Embed: {embed_url}")
-
                     captured = await self._scrape_embed_url(
                         browser, embed_url, stream_title, logo
                     )
@@ -143,25 +119,24 @@ class FootballJsonScraper:
             await browser.close()
 
         print(
-            f"\n[*] Generating final M3U playlist ({len(self.captured_streams)}"
-            " streams captured)..."
+            f"\n[*] M3U তৈরি করা হচ্ছে ({len(self.captured_streams)} লিঙ্ক পাওয়া"
+            " গেছে)..."
         )
         self._generate_m3u(self.captured_streams)
 
     async def _scrape_embed_url(self, browser, embed_url, title, logo):
-        """Opens page using Chromium and captures full stream URLs."""
         context = await browser.new_context(
             viewport={"width": 1280, "height": 720},
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
         )
-
-        # Bypass navigator.webdriver detection
-        await context.add_init_script(
-            "Object.defineProperty(navigator, 'webdriver', {get: () =>"
-            " undefined})"
-        )
-
         page = await context.new_page()
+
+        # ইমেজ ও ফন্ট ব্লক করা হচ্ছে যাতে রান টাইম আরও দ্রুত হয়
+        await page.route(
+            "**/*.{png,jpg,jpeg,svg,webp,woff,woff2,ttf}",
+            lambda route: route.abort(),
+        )
+
         captured_requests = []
 
         def on_request(request):
@@ -171,31 +146,23 @@ class FootballJsonScraper:
                     "url": url,
                     "headers": request.headers,
                 })
-                print(f"        [CHROMIUM CAPTURE] {url[:85]}...")
 
         page.on("request", on_request)
 
         try:
-            # Load page
-            await page.goto(embed_url, wait_until="domcontentloaded", timeout=25000)
-
-            # Click player frame to trigger stream loading if needed
-            try:
-                await page.mouse.click(640, 360)
-            except Exception:
-                pass
+            await page.goto(embed_url, wait_until="domcontentloaded", timeout=15000)
 
             for _ in range(PAGE_TIMEOUT):
                 await asyncio.sleep(1)
-                if any("mono.m3u8" in r["url"].lower() for r in captured_requests):
+                if any(
+                    "mono.m3u8" in r["url"].lower() for r in captured_requests
+                ):
                     break
 
-        except Exception as e:
-            print(f"        [!] Page load warning: {e}")
+        except Exception:
+            pass
 
         final_streams = []
-
-        # 1. Direct mono.m3u8 stream captured
         mono_reqs = [r for r in captured_requests if "mono.m3u8" in r["url"].lower()]
         low_mono = next((r for r in mono_reqs if "low/" in r["url"].lower()), None)
         target_mono = low_mono or (mono_reqs[-1] if mono_reqs else None)
@@ -203,7 +170,6 @@ class FootballJsonScraper:
         if target_mono:
             url = target_mono["url"]
             headers = target_mono["headers"]
-            print(f"        [SUCCESS - Native Stream] {url}")
             final_streams.append({
                 "title": title,
                 "url": url,
@@ -213,13 +179,12 @@ class FootballJsonScraper:
                 "origin": headers.get("origin", "https://embed.st"),
             })
         else:
-            # 2. Fallback: Parse master playlist
-            master_reqs = [r for r in captured_requests if ".m3u8" in r["url"].lower()]
+            master_reqs = [
+                r for r in captured_requests if ".m3u8" in r["url"].lower()
+            ]
             if master_reqs:
                 master_url = master_reqs[0]["url"]
                 headers = master_reqs[0]["headers"]
-                print(f"        [*] Reading Master Manifest: {master_url[:80]}...")
-
                 try:
                     async with aiohttp.ClientSession() as session:
                         req_headers = {
@@ -227,7 +192,7 @@ class FootballJsonScraper:
                             "Referer": headers.get("referer", embed_url),
                         }
                         async with session.get(
-                            master_url, headers=req_headers, timeout=10
+                            master_url, headers=req_headers, timeout=8
                         ) as resp:
                             if resp.status == 200:
                                 text = await resp.text()
@@ -245,10 +210,6 @@ class FootballJsonScraper:
                                         child_paths[0],
                                     )
                                     exact_url = urljoin(master_url, best_path)
-                                    print(
-                                        "        [SUCCESS - Manifest Resolved]"
-                                        f" {exact_url}"
-                                    )
                                     final_streams.append({
                                         "title": title,
                                         "url": exact_url,
@@ -263,14 +224,13 @@ class FootballJsonScraper:
                                             "origin", "https://embed.st"
                                         ),
                                     })
-                except Exception as ex:
-                    print(f"        [!] Manifest read failed: {ex}")
+                except Exception:
+                    pass
 
         await context.close()
         return final_streams
 
     def _generate_m3u(self, streams):
-        """Saves playlist into clean M3U format with IPTV headers."""
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         lines = [
             "#EXTM3U",
@@ -306,10 +266,8 @@ class FootballJsonScraper:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
 
-        print(f"\n[+] Success! Saved live playlist to '{OUTPUT_FILE}'.")
-
 
 if __name__ == "__main__":
     scraper = FootballJsonScraper()
     asyncio.run(scraper.run())
-      
+                    
