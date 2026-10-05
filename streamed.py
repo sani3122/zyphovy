@@ -1,62 +1,89 @@
 #!/usr/bin/env python3
 """
-Lightweight WebKit (Safari Engine) Live Stream Scraper
-- Ultra fast execution to save GitHub Action minutes.
-- Uses Playwright WebKit to bypass embed anti-bot blocks without overhead.
+Ultra Fast Direct Scraper (No Browser Needed)
+- Bypasses heavy browsers completely.
+- Parses embed source HTML directly via HTTP requests.
 """
 
 import asyncio
 from datetime import datetime, timedelta, timezone
-import json
-import os
+import re
 from urllib.parse import urljoin
 import aiohttp
-from playwright.async_api import async_playwright
 
 JSON_URL = "https://raw.githubusercontent.com/srhady/data/refs/heads/main/live_sports_playlist.json"
 OUTPUT_FILE = "live_playlist.m3u"
-PAGE_TIMEOUT = 6  # মাত্র ৬ সেকেন্ড সময় দেবে লিঙ্ক ক্যাপচার করার জন্য
 
 
-def is_match_live_or_due(match_item: dict) -> bool:
-    """BD Time (UTC+6) অনুযায়ী ম্যাচ লাইভ আছে কি না তা চেক করে।"""
-    status = match_item.get("Match Status", "")
-
-    if "live" in str(status).lower() or "🔴" in str(status):
-        return True
-
-    start_time_str = match_item.get("Start Time", "")
-    if not start_time_str:
-        return False
-
+async def fetch_url_text(session, url, headers=None):
     try:
-        bd_tz = timezone(timedelta(hours=6))
-        now_bd = datetime.now(bd_tz)
-
-        time_part, date_part = start_time_str.split("|")
-        time_part = time_part.strip()
-        date_part = date_part.strip()
-
-        parsed_dt = datetime.strptime(
-            f"{date_part}-{now_bd.year} {time_part}", "%d-%b-%Y %I:%M %p"
-        )
-        match_dt = parsed_dt.replace(tzinfo=bd_tz)
-
-        if match_dt <= now_bd <= (match_dt + timedelta(hours=3, minutes=30)):
-            return True
+        async with session.get(
+            url, headers=headers, timeout=aiohttp.ClientTimeout(total=10)
+        ) as resp:
+            if resp.status == 200:
+                return await resp.text()
     except Exception:
         pass
+    return None
 
-    return False
 
+async def extract_m3u8_from_embed(session, embed_url):
+    """Embed URL-এর ভেতরে থাকা M3U8 লিংক সরাসরি HTML এক্সট্র্যাক্ট করে।"""
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            " (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+        ),
+        "Referer": embed_url,
+    }
 
-async def fetch_json_data(url: str) -> list:
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as response:
-            if response.status == 200:
-                return await response.json(content_type=None)
-            else:
-                return []
+    html = await fetch_url_text(session, embed_url, headers)
+    if not html:
+        return None
+
+    # HTML থেকে m3u8 লিংক খোঁজা
+    m3u8_matches = re.findall(
+        r'(https?://[^\s\'"]+?\.m3u8[^\s\'"]*)', html, re.IGNORECASE
+    )
+
+    if not m3u8_matches:
+        # আপেক্ষিক পাথ (relative path) খোঁজা
+        rel_matches = re.findall(
+            r'[\'"]([^\'"\s]+?\.m3u8[^\'"\s]*)[\'"]', html, re.IGNORECASE
+        )
+        m3u8_matches = [
+            urljoin(embed_url, m) for m in rel_matches if not m.startswith("#")
+        ]
+
+    if not m3u8_matches:
+        return None
+
+    # low/mono বা mono.m3u8 অগ্রাধিকার দেওয়া
+    target_url = m3u8_matches[0]
+    for m in m3u8_matches:
+        if "mono.m3u8" in m.lower():
+            target_url = m
+            break
+
+    # যদি মাস্টার প্লেলিস্ট হয়, তবে চাইল্ড লিংক এক্সট্র্যাক্ট করা
+    if "mono.m3u8" not in target_url.lower():
+        master_text = await fetch_url_text(session, target_url, headers)
+        if master_text:
+            child_paths = [
+                line.strip()
+                for line in master_text.splitlines()
+                if line.strip()
+                and not line.startswith("#")
+                and ".m3u8" in line.lower()
+            ]
+            if child_paths:
+                best_path = next(
+                    (p for p in child_paths if "low/" in p.lower()),
+                    child_paths[0],
+                )
+                target_url = urljoin(target_url, best_path)
+
+    return target_url
 
 
 class FootballJsonScraper:
@@ -67,25 +94,26 @@ class FootballJsonScraper:
 
     async def run(self):
         print("[*] JSON ডাটা ডাউনলোড করা হচ্ছে...")
-        all_matches = await fetch_json_data(self.json_url)
+        async with aiohttp.ClientSession() as session:
+            async with session.get(self.json_url) as resp:
+                if resp.status != 200:
+                    print("[!] JSON ডাউনলোড ব্যর্থ হয়েছে।")
+                    return
+                all_matches = await resp.json(content_type=None)
 
-        football_matches = [
-            m
-            for m in all_matches
-            if str(m.get("Category", "")).strip().lower() == "football"
-        ]
-        active_matches = [m for m in football_matches if is_match_live_or_due(m)]
+            # সময় ফিল্টার উঠিয়ে দিয়ে সরাসরি ফুটবল ক্যাটাগরি ও স্ট্রিম আছে এমন সব ম্যাচ প্রসেস করা
+            football_matches = [
+                m
+                for m in all_matches
+                if str(m.get("Category", "")).strip().lower() == "football"
+                and m.get("Streams")
+            ]
 
-        if not active_matches:
-            print("[!] এই মুহূর্তে কোনো লাইভ ফুটবল ম্যাচ নেই।")
-            return
+            print(
+                f"[+] মোট {len(football_matches)} টি ফুটবল ম্যাচ পাওয়া গেছে।"
+            )
 
-        print("\n[*] Fast WebKit Browser দিয়ে লিঙ্ক এক্সট্র্যাক্ট করা হচ্ছে...")
-        async with async_playwright() as p:
-            # WebKit (Safari Engine) ব্যবহার করা হচ্ছে যা হালকা ও দ্রুতগতির
-            browser = await p.webkit.launch(headless=True)
-
-            for match in active_matches:
+            for match in football_matches:
                 t1 = match.get("Team 1 Name", "").strip()
                 t2 = match.get("Team 2 Name", "").strip()
                 display_title = (
@@ -110,125 +138,27 @@ class FootballJsonScraper:
                         continue
 
                     stream_title = f"{display_title} ({source_name} - {lang})"
-                    captured = await self._scrape_embed_url(
-                        browser, embed_url, stream_title, logo
-                    )
-                    if captured:
-                        self.captured_streams.extend(captured)
+                    print(f"-> চেকিং এমবেড: {embed_url}")
 
-            await browser.close()
+                    m3u8_link = await extract_m3u8_from_embed(session, embed_url)
+                    if m3u8_link:
+                        print(f"   [SUCCESS] লিঙ্ক পাওয়া গেছে: {m3u8_link}")
+                        self.captured_streams.append({
+                            "title": stream_title,
+                            "url": m3u8_link,
+                            "logo": logo,
+                            "referer": embed_url,
+                            "user_agent": (
+                                "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+                            ),
+                            "origin": "https://embed.st",
+                        })
 
         print(
-            f"\n[*] M3U তৈরি করা হচ্ছে ({len(self.captured_streams)} লিঙ্ক পাওয়া"
-            " গেছে)..."
+            f"\n[*] M3U ফাইল তৈরি হচ্ছে ({len(self.captured_streams)} টি"
+            " লিঙ্ক সহ)..."
         )
         self._generate_m3u(self.captured_streams)
-
-    async def _scrape_embed_url(self, browser, embed_url, title, logo):
-        context = await browser.new_context(
-            viewport={"width": 1280, "height": 720},
-            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
-        )
-        page = await context.new_page()
-
-        # ইমেজ ও ফন্ট ব্লক করা হচ্ছে যাতে রান টাইম আরও দ্রুত হয়
-        await page.route(
-            "**/*.{png,jpg,jpeg,svg,webp,woff,woff2,ttf}",
-            lambda route: route.abort(),
-        )
-
-        captured_requests = []
-
-        def on_request(request):
-            url = request.url
-            if ".m3u8" in url.lower():
-                captured_requests.append({
-                    "url": url,
-                    "headers": request.headers,
-                })
-
-        page.on("request", on_request)
-
-        try:
-            await page.goto(embed_url, wait_until="domcontentloaded", timeout=15000)
-
-            for _ in range(PAGE_TIMEOUT):
-                await asyncio.sleep(1)
-                if any(
-                    "mono.m3u8" in r["url"].lower() for r in captured_requests
-                ):
-                    break
-
-        except Exception:
-            pass
-
-        final_streams = []
-        mono_reqs = [r for r in captured_requests if "mono.m3u8" in r["url"].lower()]
-        low_mono = next((r for r in mono_reqs if "low/" in r["url"].lower()), None)
-        target_mono = low_mono or (mono_reqs[-1] if mono_reqs else None)
-
-        if target_mono:
-            url = target_mono["url"]
-            headers = target_mono["headers"]
-            final_streams.append({
-                "title": title,
-                "url": url,
-                "logo": logo,
-                "referer": headers.get("referer", embed_url),
-                "user_agent": headers.get("user-agent", "Mozilla/5.0"),
-                "origin": headers.get("origin", "https://embed.st"),
-            })
-        else:
-            master_reqs = [
-                r for r in captured_requests if ".m3u8" in r["url"].lower()
-            ]
-            if master_reqs:
-                master_url = master_reqs[0]["url"]
-                headers = master_reqs[0]["headers"]
-                try:
-                    async with aiohttp.ClientSession() as session:
-                        req_headers = {
-                            "User-Agent": headers.get("user-agent", "Mozilla/5.0"),
-                            "Referer": headers.get("referer", embed_url),
-                        }
-                        async with session.get(
-                            master_url, headers=req_headers, timeout=8
-                        ) as resp:
-                            if resp.status == 200:
-                                text = await resp.text()
-                                child_paths = [
-                                    line.strip()
-                                    for line in text.splitlines()
-                                    if line.strip()
-                                    and not line.startswith("#")
-                                    and ".m3u8" in line.lower()
-                                ]
-
-                                if child_paths:
-                                    best_path = next(
-                                        (p for p in child_paths if "low/" in p.lower()),
-                                        child_paths[0],
-                                    )
-                                    exact_url = urljoin(master_url, best_path)
-                                    final_streams.append({
-                                        "title": title,
-                                        "url": exact_url,
-                                        "logo": logo,
-                                        "referer": headers.get(
-                                            "referer", embed_url
-                                        ),
-                                        "user_agent": headers.get(
-                                            "user-agent", "Mozilla/5.0"
-                                        ),
-                                        "origin": headers.get(
-                                            "origin", "https://embed.st"
-                                        ),
-                                    })
-                except Exception:
-                    pass
-
-        await context.close()
-        return final_streams
 
     def _generate_m3u(self, streams):
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -247,7 +177,9 @@ class FootballJsonScraper:
             ua = s["user_agent"]
             origin = s["origin"]
 
-            lines.append(f'#EXTINF:-1 tvg-logo="{logo}" group-title="Football",{title}')
+            lines.append(
+                f'#EXTINF:-1 tvg-logo="{logo}" group-title="Football",{title}'
+            )
             lines.append(f"#EXTVLCOPT:http-referrer={ref}")
             lines.append(f"#EXTVLCOPT:http-user-agent={ua}")
             if origin:
@@ -257,7 +189,8 @@ class FootballJsonScraper:
             if origin:
                 kodi_props.append(f"Origin={origin}")
             lines.append(
-                "#KODIPROP:inputstream.adaptive.stream_headers=" + "&".join(kodi_props)
+                "#KODIPROP:inputstream.adaptive.stream_headers="
+                + "&".join(kodi_props)
             )
 
             lines.append(url)
@@ -265,9 +198,10 @@ class FootballJsonScraper:
 
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
+        print(f"[+] 'live_playlist.m3u' সফলভাবে আপডেট হয়েছে!")
 
 
 if __name__ == "__main__":
     scraper = FootballJsonScraper()
     asyncio.run(scraper.run())
-                    
+    
