@@ -1,24 +1,24 @@
 #EXTM3U
-# generated: 2026-10-05 16:31 UTC
+# generated: 2026-10-05 16:46 UTC
 # streams: 3
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJMzACmKZiG4g+IY1JAozICJf0gpBYEgp9hs+ijArdbD+XpZZuky0YB5iohBAA.webp" group-title="Football",Cyprus VS Latvia (admin - English - DAZN)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb3.strmd.st/secure/FWIzozYAUEJFWGWPoqcStlPqheLiJVIZ/rtmp/stream/m_wGknQOIG1_vxpaM6OPPZY6HnGw-xTe_VldJV0G8IPfNd3bI-uIi9VrNhNJt7q0KdY9RHvmhXG6XQ/1/1/mono.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb24.strmd.st/secure/SzEUsLnKbUeqZGcPkxkKNCrPtlBaEATN/rtmp/stream/tvJyMaE5KH9FtXLIOoAqcLaQNIh3C6cbTfkvJBsNsqDEI3kOgdwadGLSmrb41Kr2apXh4iwi-xs55A/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJMzACmKZiG4g+IY1JAozICJf0gpBYEgp9hs+ijArdbD+XpZZuky0YB5iohBAA.webp" group-title="Football",Cyprus VS Latvia (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb5.strmd.st/secure/lGlzDVsmandJSfCkJWEzlJrLAeEBnFxF/delta/stream/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1/1/mono.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb32.strmd.st/secure/mYxBSlxewANWRriJemPTtNBdZselnsiG/delta/stream/live_uefa-nations-league-league-c-gr-2_cyprus-latvia-live-streaming-539546400/1/1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJMzACmKZiG4g+IY1JAozICJf0gpBYEgp9hs+ijArdbD+XpZZuky0YB5iohBAA.webp" group-title="Football",Cyprus VS Latvia (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0
 #EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
-https://lb10.strmd.st/secure/SExaNFCmPSxlAPcmZJMFxQICtMLHOaiT/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/1/mono.m3u8
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (X11; Linux x86_64; rv:156.0) Gecko/20100101 Firefox/156.0&Origin=https://embed.st
+https://lb24.strmd.st/secure/kpESYHSXJIrvFMLAXhdCFxKnmBkIVcCw/hotel/stream/cyprus-vs-latvia-uefa-nations-league-1791216000/1/1/mono.m3u8
