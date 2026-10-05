@@ -3,7 +3,8 @@
 JSON Live Football M3U Scraper
 - Fetches matches directly from raw GitHub JSON.
 - Filters strictly for Category == "Football" and Quality == "HD".
-- Intercepts master M3U8 responses and parses child mono.m3u8 paths directly from the manifest.
+- Intercepts network calls or parses master manifest files directly to extract 
+  the exact server-published mono.m3u8 stream URLs.
 """
 
 import asyncio
@@ -16,7 +17,7 @@ from camoufox.async_api import AsyncCamoufox
 
 JSON_URL = "https://raw.githubusercontent.com/srhady/data/refs/heads/main/live_sports_playlist.json"
 OUTPUT_FILE = "live_playlist.m3u"
-PAGE_TIMEOUT = 10  # Seconds to wait for embed network responses
+PAGE_TIMEOUT = 10  # Seconds to allow for network interception
 
 
 def is_match_live_or_due(match_item: dict) -> bool:
@@ -138,77 +139,128 @@ class FootballJsonScraper:
         self._generate_m3u(self.captured_streams)
 
     async def _scrape_embed_url(self, browser, embed_url, title, logo):
-        """Opens embed URL and intercepts master playlist responses to parse mono.m3u8."""
-        context = await browser.new_context(viewport={"width": 1280, "height": 720})
+        """Intercepts stream requests or reads playlist.m3u8 to extract the exact mono stream path."""
+        context = await browser.new_context(
+            viewport={"width": 1280, "height": 720},
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        )
         page = await context.new_page()
-        found = []
-        captured_urls = set()
 
-        async def handle_response(response):
-            url = response.url
-            lower = url.lower()
+        captured_requests = []
 
-            # Skip non-playlist assets
-            if any(ext in lower for ext in [".js", ".css", ".png", ".jpg", ".svg", ".json", ".html"]):
-                return
-
-            # Direct hit if mono.m3u8 network request was fired
-            if "mono.m3u8" in lower and url not in captured_urls:
-                captured_urls.add(url)
-                headers = response.request.headers
-                found.append({
-                    "title": title,
+        # Synchronous request listener to prevent async task drops
+        def on_request(request):
+            url = request.url
+            if ".m3u8" in url.lower():
+                captured_requests.append({
                     "url": url,
-                    "logo": logo,
-                    "referer": headers.get("referer", embed_url),
-                    "user_agent": headers.get("user-agent", "Mozilla/5.0"),
-                    "origin": headers.get("origin", "https://embed.st"),
+                    "headers": request.headers,
                 })
-                print(f"        [DIRECT HIT] {url}")
-                return
+                print(f"        [NETWORK] Intercepted: {url[:85]}...")
 
-            # Parse Master Manifests (e.g., playlist.m3u8) to extract child variant links
-            if (".m3u8" in lower or "/hls/" in lower) and "mono.m3u8" not in lower:
-                try:
-                    text = await response.text()
-                    if "#EXTM3U" in text:
-                        for line in text.splitlines():
-                            line = line.strip()
-                            if line and not line.startswith("#") and ".m3u8" in line.lower():
-                                child_url = urljoin(url, line)
-                                if child_url not in captured_urls:
-                                    captured_urls.add(child_url)
-                                    headers = response.request.headers
-                                    found.append({
-                                        "title": title,
-                                        "url": child_url,
-                                        "logo": logo,
-                                        "referer": headers.get("referer", embed_url),
-                                        "user_agent": headers.get("user-agent", "Mozilla/5.0"),
-                                        "origin": headers.get("origin", "https://embed.st"),
-                                    })
-                                    print(f"        [PARSED MANIFEST] {child_url}")
-                except Exception:
-                    pass
-
-        context.on("response", lambda res: asyncio.create_task(handle_response(res)))
+        context.on("request", on_request)
 
         try:
             await page.goto(embed_url, wait_until="domcontentloaded", timeout=25000)
-            await asyncio.sleep(PAGE_TIMEOUT)
+
+            # Allow time for initial network requests to trigger
+            for _ in range(PAGE_TIMEOUT):
+                await asyncio.sleep(1)
+                # If a direct mono.m3u8 URL was caught, break early
+                if any(
+                    "mono.m3u8" in req["url"].lower() for req in captured_requests
+                ):
+                    break
+
         except Exception as e:
-            print(f"        [!] Embed load warning: {e}")
-        finally:
-            await context.close()
+            print(f"        [!] Page load warning: {e}")
 
-        # Prioritize low/mono if available, otherwise return captured child variant
-        if found:
-            low_variant = next((s for s in found if "low/" in s["url"].lower()), None)
-            if low_variant:
-                return [low_variant]
-            return [found[-1]]
+        final_streams = []
 
-        return []
+        # 1. Direct match: Check if the player directly requested mono.m3u8
+        mono_reqs = [r for r in captured_requests if "mono.m3u8" in r["url"].lower()]
+        low_mono = next((r for r in mono_reqs if "low/" in r["url"].lower()), None)
+        target_mono = low_mono or (mono_reqs[-1] if mono_reqs else None)
+
+        if target_mono:
+            url = target_mono["url"]
+            headers = target_mono["headers"]
+            print(f"        [SUCCESS - Direct Native Stream] {url}")
+            final_streams.append({
+                "title": title,
+                "url": url,
+                "logo": logo,
+                "referer": headers.get("referer", embed_url),
+                "user_agent": headers.get("user-agent", "Mozilla/5.0"),
+                "origin": headers.get("origin", "https://embed.st"),
+            })
+        else:
+            # 2. Fallback: If only playlist.m3u8 was requested, fetch it and parse the exact variant link
+            master_reqs = [
+                r for r in captured_requests if ".m3u8" in r["url"].lower()
+            ]
+            if master_reqs:
+                master = master_reqs[0]
+                master_url = master["url"]
+                headers = master["headers"]
+                print(f"        [*] Parsing master manifest: {master_url[:80]}...")
+
+                try:
+                    async with aiohttp.ClientSession() as session:
+                        req_headers = {
+                            "User-Agent": headers.get("user-agent", "Mozilla/5.0"),
+                            "Referer": headers.get("referer", embed_url),
+                        }
+                        async with session.get(
+                            master_url, headers=req_headers, timeout=10
+                        ) as resp:
+                            if resp.status == 200:
+                                manifest_text = await resp.text()
+                                child_paths = []
+
+                                for line in manifest_text.splitlines():
+                                    line = line.strip()
+                                    if (
+                                        line
+                                        and not line.startswith("#")
+                                        and ".m3u8" in line.lower()
+                                    ):
+                                        child_paths.append(line)
+
+                                if child_paths:
+                                    # Pick low/mono if published in manifest, else first available
+                                    best_path = next(
+                                        (
+                                            p
+                                            for p in child_paths
+                                            if "low/" in p.lower()
+                                        ),
+                                        child_paths[0],
+                                    )
+                                    exact_child_url = urljoin(master_url, best_path)
+                                    print(
+                                        "        [SUCCESS - Manifest Resolved"
+                                        f" Stream] {exact_child_url}"
+                                    )
+                                    final_streams.append({
+                                        "title": title,
+                                        "url": exact_child_url,
+                                        "logo": logo,
+                                        "referer": headers.get(
+                                            "referer", embed_url
+                                        ),
+                                        "user_agent": headers.get(
+                                            "user-agent", "Mozilla/5.0"
+                                        ),
+                                        "origin": headers.get(
+                                            "origin", "https://embed.st"
+                                        ),
+                                    })
+                except Exception as ex:
+                    print(f"        [!] Error reading manifest: {ex}")
+
+        await context.close()
+        return final_streams
 
     def _generate_m3u(self, streams):
         """Saves playlist into clean M3U format with IPTV headers."""
@@ -253,4 +305,4 @@ class FootballJsonScraper:
 if __name__ == "__main__":
     scraper = FootballJsonScraper()
     asyncio.run(scraper.run())
-    
+            
