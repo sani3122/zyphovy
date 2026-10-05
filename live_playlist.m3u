@@ -1,66 +1,10 @@
 #EXTM3U
-# generated: 2026-10-05 21:32 UTC
-# streams: 9
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rMHRAxOWMEhDcQfECakgU5kBCtaQ8AsCQU+w2fRRgVKLp-L0sst5MtGCeYqIQQA.webp" group-title="Football",France VS Belgium (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb4.strmd.st/secure/nNBDLzJopExLyEyuJHYPSAwfqUijxyjl/admin/stream/ppv-france-vs-belgium/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rbglBF6YENxB8QRqSBSmQECyBggpBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Ukraine VS Hungary (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb30.strmd.st/secure/HNBARWcBxiOUkbZqTdGRinxECTtpJdvA/admin/stream/ppv-ukraine-vs-hungary/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rGVJBSwoqDm4g+IY5pQgzEEJZjmCwJBT7DZ9FDrYouO8vSyzPTLRg7vS6QA.webp" group-title="Football",N.Ireland VS Georgia (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb31.strmd.st/secure/ysHpkNjhmuFkREXrnHoylEVNqOcHZuJe/admin/stream/ppv-northern-ireland-vs-georgia/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKCGBIQEEDO4gDfECakgU5nVYOMtFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Football",Bosnia-Herzegovina VS Poland (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb27.strmd.st/secure/lxGVKgQmGKfpoNLoQEBKnfIMtWCfNGWz/admin/stream/ppv-bosnia-herzegovina-vs-poland/1/playlist.m3u8
+# generated: 2026-10-05 21:46 UTC
+# streams: 1
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKCGBIQEEDO4gDfECakgU5nVYOMtFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Football",Bosnia-Herzegovina VS Poland (delta - English)
 #EXTVLCOPT:http-referrer=https://embed.st/embed/delta/live_uefa-nations-league-league-b-gr-4_bosnia-herzegovina-poland-live-streaming-539545536/1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/embed/delta/live_uefa-nations-league-league-b-gr-4_bosnia-herzegovina-poland-live-streaming-539545536/1&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb5.strmd.st/secure/yCdnLlgbdZecufYWVciXPrtzfdisyXKL/delta/stream/live_uefa-nations-league-league-b-gr-4_bosnia-herzegovina-poland-live-streaming-539545536/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VFCAHcwA4GCQhumkCakgNGiCCtH4BYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Romania VS Sweden (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb7.strmd.st/secure/WpLuWRmqZQhlQtFhjZDrZtwhshnhEfSn/admin/stream/ppv-romania-vs-sweden/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECFBgSIehA0huIPgakgU53VaMkCwJBT7DZ9FNrYou28vSyzPTLRg7vSiEEA.webp" group-title="Football",Montenegro VS Armenia (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb12.strmd.st/secure/dVTbeNuPfzmvKHtXPAAojCltLkalIsDS/admin/stream/ppv-montenegro-vs-armenia/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VGCBTlRABh4huIPiBNTNJ88cQSmSCn2Gz6WlSi5gy8IlllumtMA8xUQggA.webp" group-title="Football",Liechtenstein VS Gibraltar (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb16.strmd.st/secure/siSjtphRfZQHJebFUQAjduMGUECNqhLB/admin/stream/ppv-liechtenstein-vs-gibraltar/1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzuAQ1sFKBWSYAU2DFLABM8E9g1gDCFJMd46Tp51jwywYAE50IFKREgAxiDKIUIKiGEq100uM2LFIOcBoQ1OvfrJkaqiVgn8wgkU2z0whYElzSJQ+6wiOyCQJgeHJ7YH8yCCA.webp" group-title="Football",Italy VS Türkiye (admin - English - DAZN)
-#EXTVLCOPT:http-referrer=https://embed.st/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://embed.st
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb3.strmd.st/secure/kaZUwcpmVgTeMofhqfrVCNdKCKkRZsAc/admin/stream/ppv-italy-vs-t-rkiye/1/playlist.m3u8
+https://lb23.strmd.st/secure/TYKLbOLqgbTFhHkXcIkBPOTzSyEfXJKk/delta/stream/live_uefa-nations-league-league-b-gr-4_bosnia-herzegovina-poland-live-streaming-539545536/1/playlist.m3u8
