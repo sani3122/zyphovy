@@ -1,9 +1,7 @@
 name: Run Live Sports Scraper
 
 on:
-  schedule:
-    - cron: '0 * * * *'  # Runs every hour
-  workflow_dispatch:      # Allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   scrape:
@@ -20,12 +18,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Install Playwright WebKit Browser
-        run: |
-          playwright install webkit --with-deps
+          pip install aiohttp
 
       - name: Execute Scraper Script
         run: |
