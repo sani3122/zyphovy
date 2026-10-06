@@ -1,38 +1,43 @@
-name: Run Live Sports Scraper
+name: Live Sports Stream Scraper
 
 on:
-  workflow_dispatch:
+  schedule:
+    # Runs every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
-      - name: Install Python dependencies
+      - name: Install Dependencies
         run: |
-          pip install aiohttp playwright
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Install Playwright Chromium
         run: |
-          playwright install chromium --with-deps
+          playwright install --with-deps chromium
 
-      - name: Execute Scraper Script
+      - name: Run Scraper Script
         run: |
-          python streamed.py
+          python scraper.py
 
-      - name: Commit and Push Updated M3U
+      - name: Commit and Push M3U Playlist & Logos
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add live_playlist.m3u
-          git commit -m "Auto-update live_playlist.m3u" || exit 0
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add live_playlist.m3u logos/
+          git commit -m "Auto-update playlist and logos [skip ci]" || exit 0
           git push
           
