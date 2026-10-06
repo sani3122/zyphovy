@@ -491,13 +491,13 @@ class TflixStreamScraper:
 
         return found_streams
 
-        def _generate_m3u(self, streams):
+    def _generate_m3u(self, streams):
         """Outputs valid M3U playlist file with absolute GitHub raw URLs for tvg-logo."""
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-        
+
         github_repo = os.getenv("GITHUB_REPOSITORY", "")
         github_branch = os.getenv("GITHUB_REF_NAME", "main")
-        
+
         if github_repo:
             base_logo_url = f"https://raw.githubusercontent.com/{github_repo}/{github_branch}/"
         else:
@@ -515,7 +515,7 @@ class TflixStreamScraper:
             title = s["title"].replace('"', "'")
             url = s["url"]
             logo = s.get("logo", "")
-            
+
             if logo:
                 if logo.startswith("http://") or logo.startswith("https://"):
                     full_logo_url = logo
