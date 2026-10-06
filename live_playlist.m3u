@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-06 17:46 UTC
+# generated: 2026-10-06 18:01 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/8ef48d890151bc29dca7946a9b0f8862aa2030af48351bec142afe478a9130e9/1791317763/tntsports1.m3u8
+https://polovo.margutm.su/tflix/secure/6a09b9f2fc3006478bfdbd74f611c5a88d89f79a38f36a212bb0d2bafcdb6690/1791318666/tntsports1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1791016363695.png" group-title="Live Sports",India VS West Indies (Stream 2)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/f19c6415d46ea6b5b58d68b80df01be564c4a6ff00eeef3d55bc3975f26ffba8/1791317779/tntsports1.m3u8
+https://polovo.margutm.su/tflix/secure/0bb7f2fe00ad7886d2471ed727f7a6a56e1aea7f926c6f0009e97d62edaa2876/1791318683/tntsports1.m3u8
