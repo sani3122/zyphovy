@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 """
-Fast & Reliable Playwright Scraper for embed.st
-- Intercepts live m3u8 streams executed via embed.st JavaScript player.
-- Optimized for speed to save GitHub Actions runner time.
+Guaranteed Playwright Scraper for embed.st
+- Intercepts mono.m3u8 by clicking iframe play button
 """
 
 import asyncio
-from datetime import datetime, timedelta, timezone
-import os
-from urllib.parse import urljoin
+from datetime import datetime, timezone
 import aiohttp
 from playwright.async_api import async_playwright
 
@@ -44,7 +41,6 @@ class FootballJsonScraper:
         if not football_matches:
             return
 
-        print("\n[*] Fast Playwright Chromium জেনারেট করা হচ্ছে...")
         async with async_playwright() as p:
             browser = await p.chromium.launch(
                 headless=True,
@@ -52,10 +48,7 @@ class FootballJsonScraper:
                     "--no-sandbox",
                     "--disable-setuid-sandbox",
                     "--disable-dev-shm-usage",
-                    "--disable-accelerated-2d-canvas",
-                    "--no-first-run",
-                    "--no-zygote",
-                    "--disable-gpu",
+                    "--disable-blink-features=AutomationControlled",
                 ]
             )
 
@@ -90,11 +83,11 @@ class FootballJsonScraper:
     async def _scrape_embed_url(self, browser, embed_url, title, logo):
         context = await browser.new_context(
             viewport={"width": 1280, "height": 720},
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         )
         page = await context.new_page()
 
-        # স্পিড বাড়াতে অহেতুক ফাইল ব্লক করা
+        # ইমেজ ও ফন্ট ব্লক করা
         await page.route(
             "**/*.{png,jpg,jpeg,svg,webp,woff,woff2,ttf,css}",
             lambda route: route.abort()
@@ -105,9 +98,7 @@ class FootballJsonScraper:
 
         def handle_request(request):
             url = request.url
-            lower = url.lower()
-
-            if ".m3u8" in lower and url not in captured_urls:
+            if ".m3u8" in url.lower() and url not in captured_urls:
                 captured_urls.add(url)
                 headers = request.headers
                 found_streams.append({
@@ -118,33 +109,44 @@ class FootballJsonScraper:
                     "user_agent": headers.get("user-agent", "Mozilla/5.0"),
                     "origin": headers.get("origin", "https://embed.st"),
                 })
-                print(f"   [INTERCEPTED] {url[:80]}...")
+                print(f"   [INTERCEPTED] {url}")
 
         page.on("request", handle_request)
 
         try:
-            # পেজ লোড হওয়া মাত্রই ইন্টারসেপ্ট চালু
-            await page.goto(embed_url, wait_until="commit", timeout=15000)
-
-            # প্লেয়ার চালু করার জন্য সেন্টারে একটা ক্লিক দেওয়া
+            await page.goto(embed_url, wait_until="domcontentloaded", timeout=20000)
             await asyncio.sleep(2)
-            try:
-                await page.mouse.click(640, 360)
-            except Exception:
-                pass
 
-            # লিঙ্ক পাওয়া মাত্রই আর দেরি না করে লুপ ব্রেক করা
-            for _ in range(8):
+            # ১. পেজের মাঝখানে বিভিন্ন কোঅর্ডিনেটে একাধিক ক্লিক
+            click_points = [(640, 360), (500, 300), (640, 400)]
+            for cx, cy in click_points:
+                try:
+                    await page.mouse.click(cx, cy)
+                    await asyncio.sleep(0.5)
+                except Exception:
+                    pass
+
+            # ২. Iframes থাকলে ভেতরে প্লেয়ার বাটনে ক্লিক করা
+            for frame in page.frames:
+                try:
+                    play_btn = await frame.query_selector("button, .vjs-big-play-button, #player, .play-btn")
+                    if play_btn:
+                        await play_btn.click(force=True)
+                except Exception:
+                    pass
+
+            # m3u8 বিশেষ করে mono.m3u8 এর জন্য ওয়েট করা
+            for _ in range(10):
                 await asyncio.sleep(1)
                 if any("mono.m3u8" in s["url"].lower() for s in found_streams):
+                    print("   [SUCCESS] mono.m3u8 পাওয়া গেছে!")
                     break
 
         except Exception as e:
-            pass
+            print(f"   [ERROR] {e}")
         finally:
             await context.close()
 
-        # prioritize low/mono or mono stream
         mono_list = [s for s in found_streams if "mono.m3u8" in s["url"].lower()]
         if mono_list:
             low_variant = next((s for s in mono_list if "low/" in s["url"].lower()), None)
@@ -191,10 +193,10 @@ class FootballJsonScraper:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
 
-        print(f"[+] 'live_playlist.m3u' আপডেট সফল হয়েছে!")
+        print(f"[+] 'live_playlist.m3u' সফলভাবে আপডেট হয়েছে!")
 
 
 if __name__ == "__main__":
     scraper = FootballJsonScraper()
     asyncio.run(scraper.run())
-    
+            
