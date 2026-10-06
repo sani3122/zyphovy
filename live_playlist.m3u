@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-06 19:49 UTC
+# generated: 2026-10-06 20:04 UTC
 # source: https://tflix.su/watch
 # streams: 8
 
@@ -8,53 +8,53 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/521f62d2d3c55e102e412d8722ce35b432f9dd20f48127b2c96357e5ec3a6b1c/1791324967/beinsports1au.m3u8
+https://polovo.margutm.su/tflix/secure/d47073085112d890e10c90932887354e93195d908dfc41666a186c5bdd83f305/1791325875/beinsports1au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/scotland-vs-slovenia-1791306888895.png" group-title="Live Sports",Scotland VS Slovenia (Stream 2)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/91e6acc74dc8a46633ceab0251bec54c96bfa742c2e8f8b5226defdb8151e47f/1791324983/beinsports1au.m3u8
+https://polovo.margutm.su/tflix/secure/13c7d857409edb72b10b164209bfbffff385285a83e13a50f538feb924a45f3c/1791325891/beinsports1au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/switzerland-vs-north-macedonia-1791306853259.png" group-title="Live Sports",Switzerland VS North Macedonia
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/cbdf4513d144d869f2d2b55061d58b3fdc6326ffebadd548d3a599be7a6718bf/1791325026/sportvbr2.m3u8
+https://polovo.margutm.su/tflix/secure/ce8fb0283d293aa6f471c1e14500fa968b096b27e2b91209be64d46edbd9330e/1791325935/sportvbr2.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/england-vs-rep-tcheque-1791306742055.png" group-title="Live Sports",England VS Rep Tcheque (Stream 1)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/530428c0e589caf0cb3d69e0a89659176eea082e9993913652887fb3ed2937e4/1791325053/beinsports3au.m3u8
+https://polovo.margutm.su/tflix/secure/0a286970886f98c0519d4ed493d05f2197a979ccd3b15c6b0d40c1b9d2bc0cb5/1791325962/beinsports3au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/england-vs-rep-tcheque-1791306742055.png" group-title="Live Sports",England VS Rep Tcheque (Stream 2)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/abbe2cabb1a2a46bf32b7c3a268a993b7797460d1de97915ee0fde0c4b91c48e/1791325069/beinsports3au.m3u8
+https://polovo.margutm.su/tflix/secure/d868818fe1523d5c2a87d9f30733a4c2f1e8d54d3e1cdfbb12a1dfb27010a897/1791325978/beinsports3au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/england-vs-rep-tcheque-1791306742055.png" group-title="Live Sports",England VS Rep Tcheque (Stream 3)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/2fdd0a06e5b065e975d022e0aff56806844e194389ba5e29eca37bf35dbb5a04/1791325074/foxsports2.m3u8
+https://polovo.margutm.su/tflix/secure/9a868ca72e3ed70100540a2108f885b934fcf173851b17310fe0d8f5b896c75c/1791325983/foxsports2.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/croatia-vs-spain-1791306663427.png" group-title="Live Sports",Croatia VS Spain (Stream 1)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/026913a398eb607891ea38fae7cc5e1065b0a3c54623d0a6570790d94276aed7/1791325101/beinsports2au.m3u8
+https://polovo.margutm.su/tflix/secure/8ee287cc8708f2734e88958386527dad9b2d0b77cb13a2c3d1199982fd94c350/1791326010/beinsports2au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/croatia-vs-spain-1791306663427.png" group-title="Live Sports",Croatia VS Spain (Stream 2)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/f8a9746900a275cede815a52977e3362cdc005348cf6ffe76532c3622dfac9aa/1791325117/beinsports2au.m3u8
+https://polovo.margutm.su/tflix/secure/e79f458dc5e0c9811363475461f358988460c25dc09d3e2ac5b34aaac8392d69/1791326026/beinsports2au.m3u8
