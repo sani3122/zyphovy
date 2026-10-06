@@ -3,15 +3,15 @@
 TFLIX Live Stream M3U Scraper (Universal Flag & Logo Support - Chromium Edition)
 - Scrapes live matches from https://tflix.su/watch
 - Uses Playwright Chromium for ultra-fast headless execution
-- Automatically loads HD flags for ALL 200+ countries dynamically via pycountry
-- Searches online for club badges (TheSportsDB & Wikipedia)
-- Safely processes WebP/PNG/JPG images
+- Automatically cleans old banner logos before every run
+- Outputs raw GitHub image URLs for tvg-logo compatibility
 """
 
 import asyncio
 import io
 import os
 import re
+import shutil
 from datetime import datetime, timezone
 import urllib.parse
 
@@ -61,7 +61,7 @@ async def fetch_online_team_logo(
 
     lower_name = team_name.lower()
 
-    # 1. Manual Regional Flags (For nations without 2-letter ISO codes)
+    # 1. Manual Regional Flags
     CUSTOM_FLAGS = {
         "scotland": "https://flagcdn.com/w320/gb-sct.png",
         "england": "https://flagcdn.com/w320/gb-eng.png",
@@ -218,7 +218,17 @@ class TflixStreamScraper:
         self.target_url = target_url
         self.captured_streams = []
 
+    def _clean_logos_folder(self):
+        """Completely clears the logos directory before scraping starts."""
+        if os.path.exists(LOGOS_DIR):
+            print(f"[*] Cleaning up old logos from '{LOGOS_DIR}' folder...")
+            shutil.rmtree(LOGOS_DIR)
+        os.makedirs(LOGOS_DIR, exist_ok=True)
+
     async def run(self):
+        # Clear out old images before running the scraper
+        self._clean_logos_folder()
+
         print(f"[*] Initializing Fast Chromium Browser for target: {self.target_url}")
         async with async_playwright() as p:
             browser = await p.chromium.launch(
@@ -482,8 +492,17 @@ class TflixStreamScraper:
         return found_streams
 
     def _generate_m3u(self, streams):
-        """Outputs valid M3U playlist file with tvg-logo."""
+        """Outputs valid M3U playlist file with absolute GitHub raw URLs for tvg-logo."""
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+        
+        github_repo = os.getenv("GITHUB_REPOSITORY", "")
+        github_branch = os.getenv("GITHUB_REF_NAME", "main")
+        
+        if github_repo:
+            base_logo_url = f"https://raw.githubusercontent.com/{github_repo}/{github_branch}/"
+        else:
+            base_logo_url = ""
+
         lines = [
             "#EXTM3U",
             f"# generated: {ts}",
@@ -496,12 +515,23 @@ class TflixStreamScraper:
             title = s["title"].replace('"', "'")
             url = s["url"]
             logo = s.get("logo", "")
+            
+            if logo:
+                if logo.startswith("http://") or logo.startswith("https://"):
+                    full_logo_url = logo
+                elif base_logo_url:
+                    full_logo_url = f"{base_logo_url}{logo}".replace("\\", "/")
+                else:
+                    full_logo_url = logo
+            else:
+                full_logo_url = ""
+
             ref = s["headers"].get("referer", s["referer"])
             ua = s["headers"].get("user-agent", "Mozilla/5.0")
             origin = s["headers"].get("origin", "")
 
             lines.append(
-                f'#EXTINF:-1 tvg-logo="{logo}" group-title="Live Sports",{title}'
+                f'#EXTINF:-1 tvg-logo="{full_logo_url}" group-title="Live Sports",{title}'
             )
             lines.append(f"#EXTVLCOPT:http-referrer={ref}")
             lines.append(f"#EXTVLCOPT:http-user-agent={ua}")
@@ -518,12 +548,4 @@ class TflixStreamScraper:
             lines.append(url)
             lines.append("")
 
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write("\n".join(lines))
-        print(f"\n[+] Success! Playlist saved to {OUTPUT_FILE}")
-
-
-if __name__ == "__main__":
-    scraper = TflixStreamScraper()
-    asyncio.run(scraper.run())
-    
+        with open(OUTPUT_FI
