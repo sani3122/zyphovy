@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Guaranteed Playwright Scraper for embed.st
-- Intercepts mono.m3u8 by clicking iframe play button
+Bulletproof Hard-to-Hard Scraper for embed.st
+- Captures direct mono.m3u8 streams via Playwright Chromium.
+- Automatically resolves inner mono.m3u8 variants from Master playlist.m3u8 if needed.
 """
 
 import asyncio
 from datetime import datetime, timezone
+from urllib.parse import urljoin
 import aiohttp
 from playwright.async_api import async_playwright
 
@@ -19,6 +21,41 @@ async def fetch_json_data(url: str) -> list:
             if response.status == 200:
                 return await response.json(content_type=None)
             return []
+
+
+async def resolve_mono_from_master(session, master_url, referer, user_agent):
+    """
+    যদি মাস্টার playlist.m3u8 ক্যাপচার হয়, তবে এই ফাংশনটি ফাইল ডাউনলোড করে
+    ভেতরের আসল mono.m3u8 বের করে আনে।
+    """
+    headers = {
+        "User-Agent": user_agent,
+        "Referer": referer,
+        "Origin": "https://embed.st",
+    }
+    try:
+        async with session.get(master_url, headers=headers, timeout=aiohttp.ClientTimeout(total=8)) as resp:
+            if resp.status == 200:
+                text = await resp.text()
+                lines = [
+                    line.strip()
+                    for line in text.splitlines()
+                    if line.strip() and not line.startswith("#")
+                ]
+
+                # mono.m3u8 বা low/mono.m3u8 অগ্রাধিকার দেওয়া
+                low_mono = next((l for l in lines if "low/mono.m3u8" in l.lower()), None)
+                any_mono = next((l for l in lines if "mono.m3u8" in l.lower()), None)
+                target_path = low_mono or any_mono or (lines[0] if lines else None)
+
+                if target_path:
+                    resolved_url = urljoin(master_url, target_path)
+                    print(f"   [RESOLVED MASTER -> MONO] {resolved_url}")
+                    return resolved_url
+    except Exception as e:
+        print(f"   [MASTER RESOLVE ERROR] {e}")
+
+    return master_url
 
 
 class FootballJsonScraper:
@@ -52,81 +89,77 @@ class FootballJsonScraper:
                 ]
             )
 
-            for match in football_matches:
-                t1 = match.get("Team 1 Name", "").strip()
-                t2 = match.get("Team 2 Name", "").strip()
-                display_title = f"{t1} VS {t2}" if (t1 and t2) else match.get("Match Title", "Football Match")
-                logo = match.get("Match Poster", "")
-                streams = match.get("Streams", [])
+            async with aiohttp.ClientSession() as http_session:
+                for match in football_matches:
+                    t1 = match.get("Team 1 Name", "").strip()
+                    t2 = match.get("Team 2 Name", "").strip()
+                    display_title = f"{t1} VS {t2}" if (t1 and t2) else match.get("Match Title", "Football Match")
+                    logo = match.get("Match Poster", "")
+                    streams = match.get("Streams", [])
 
-                hd_streams = [s for s in streams if str(s.get("Quality", "")).strip().upper() == "HD"]
+                    hd_streams = [s for s in streams if str(s.get("Quality", "")).strip().upper() == "HD"]
 
-                for stream in hd_streams:
-                    embed_url = stream.get("Embed_URL", "")
-                    source_name = stream.get("Source", "Server")
-                    lang = stream.get("Language", "")
-                    if not embed_url:
-                        continue
+                    for stream in hd_streams:
+                        embed_url = stream.get("Embed_URL", "")
+                        source_name = stream.get("Source", "Server")
+                        lang = stream.get("Language", "")
+                        if not embed_url:
+                            continue
 
-                    stream_title = f"{display_title} ({source_name} - {lang})"
-                    print(f"-> চেকিং এমবেড: {embed_url}")
+                        stream_title = f"{display_title} ({source_name} - {lang})"
+                        print(f"\n-> চেকিং এমবেড: {embed_url}")
 
-                    captured = await self._scrape_embed_url(browser, embed_url, stream_title, logo)
-                    if captured:
-                        self.captured_streams.extend(captured)
+                        captured = await self._scrape_embed_url(
+                            browser, http_session, embed_url, stream_title, logo
+                        )
+                        if captured:
+                            self.captured_streams.extend(captured)
 
             await browser.close()
 
-        print(f"\n[*] M3U তৈরি করা হচ্ছে ({len(self.captured_streams)} টি লিঙ্ক পাওয়া গেছে)...")
+        print(f"\n[*] M3U ফাইল তৈরি করা হচ্ছে ({len(self.captured_streams)} টি লিঙ্ক পাওয়া গেছে)...")
         self._generate_m3u(self.captured_streams)
 
-    async def _scrape_embed_url(self, browser, embed_url, title, logo):
+    async def _scrape_embed_url(self, browser, http_session, embed_url, title, logo):
         context = await browser.new_context(
             viewport={"width": 1280, "height": 720},
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         )
         page = await context.new_page()
 
-        # ইমেজ ও ফন্ট ব্লক করা
+        # Stealth Script (Bot Detection Bypass)
+        await page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
+        # শুধুমাত্র হেভি মিডিয়া/ইমেজ ব্লক করা হচ্ছে (CSS অন থাকবে যাতে প্লেয়ার কাজ করে)
         await page.route(
-            "**/*.{png,jpg,jpeg,svg,webp,woff,woff2,ttf,css}",
+            "**/*.{png,jpg,jpeg,svg,webp,woff,woff2,ttf,mp4,ts}",
             lambda route: route.abort()
         )
 
-        captured_urls = set()
-        found_streams = []
+        captured_requests = []
 
         def handle_request(request):
             url = request.url
-            if ".m3u8" in url.lower() and url not in captured_urls:
-                captured_urls.add(url)
-                headers = request.headers
-                found_streams.append({
-                    "title": title,
+            if ".m3u8" in url.lower():
+                captured_requests.append({
                     "url": url,
-                    "logo": logo,
-                    "referer": headers.get("referer", embed_url),
-                    "user_agent": headers.get("user-agent", "Mozilla/5.0"),
-                    "origin": headers.get("origin", "https://embed.st"),
+                    "headers": request.headers,
                 })
-                print(f"   [INTERCEPTED] {url}")
+                print(f"   [CAPTURED REQUEST] {url}")
 
         page.on("request", handle_request)
 
         try:
             await page.goto(embed_url, wait_until="domcontentloaded", timeout=20000)
-            await asyncio.sleep(2)
+            await asyncio.sleep(3)
 
-            # ১. পেজের মাঝখানে বিভিন্ন কোঅর্ডিনেটে একাধিক ক্লিক
-            click_points = [(640, 360), (500, 300), (640, 400)]
-            for cx, cy in click_points:
-                try:
-                    await page.mouse.click(cx, cy)
-                    await asyncio.sleep(0.5)
-                except Exception:
-                    pass
+            # প্লেয়ার চালু করতে স্ক্রিনের মাঝে অটো-ক্লিক
+            try:
+                await page.mouse.click(640, 360)
+            except Exception:
+                pass
 
-            # ২. Iframes থাকলে ভেতরে প্লেয়ার বাটনে ক্লিক করা
+            # Iframes থাকলে সেগুলোর ভেতরের প্লে বাটন খোঁজা
             for frame in page.frames:
                 try:
                     play_btn = await frame.query_selector("button, .vjs-big-play-button, #player, .play-btn")
@@ -135,25 +168,54 @@ class FootballJsonScraper:
                 except Exception:
                     pass
 
-            # m3u8 বিশেষ করে mono.m3u8 এর জন্য ওয়েট করা
+            # নেটওয়ার্ক কলের জন্য ১০ সেকেন্ড অপেক্ষা
             for _ in range(10):
                 await asyncio.sleep(1)
-                if any("mono.m3u8" in s["url"].lower() for s in found_streams):
-                    print("   [SUCCESS] mono.m3u8 পাওয়া গেছে!")
+                if any("mono.m3u8" in r["url"].lower() for r in captured_requests):
+                    print("   [SUCCESS] mono.m3u8 সরাসরি ইন্টারসেপ্ট হয়েছে!")
                     break
 
         except Exception as e:
-            print(f"   [ERROR] {e}")
+            print(f"   [PAGE ERROR] {e}")
         finally:
             await context.close()
 
-        mono_list = [s for s in found_streams if "mono.m3u8" in s["url"].lower()]
-        if mono_list:
-            low_variant = next((s for s in mono_list if "low/" in s["url"].lower()), None)
-            return [low_variant or mono_list[-1]]
+        if not captured_requests:
+            return []
 
-        if found_streams:
-            return [found_streams[-1]]
+        # ১. যদি সরাসরি mono.m3u8 পেয়ে যায়
+        mono_reqs = [r for r in captured_requests if "mono.m3u8" in r["url"].lower()]
+        if mono_reqs:
+            low_mono = next((r for r in mono_reqs if "low/" in r["url"].lower()), None)
+            target = low_mono or mono_reqs[-1]
+            return [{
+                "title": title,
+                "url": target["url"],
+                "logo": logo,
+                "referer": target["headers"].get("referer", embed_url),
+                "user_agent": target["headers"].get("user-agent", "Mozilla/5.0"),
+                "origin": target["headers"].get("origin", "https://embed.st"),
+            }]
+
+        # ২. যদি শুধু playlist.m3u8 (Master Manifest) ক্যাপচার হয়, তবে অটোমেটিক mono.m3u8 বের করা
+        master_reqs = [r for r in captured_requests if ".m3u8" in r["url"].lower()]
+        if master_reqs:
+            master_target = master_reqs[0]
+            master_url = master_target["url"]
+            headers = master_target["headers"]
+            ref = headers.get("referer", embed_url)
+            ua = headers.get("user-agent", "Mozilla/5.0")
+
+            final_mono_url = await resolve_mono_from_master(http_session, master_url, ref, ua)
+
+            return [{
+                "title": title,
+                "url": final_mono_url,
+                "logo": logo,
+                "referer": ref,
+                "user_agent": ua,
+                "origin": headers.get("origin", "https://embed.st"),
+            }]
 
         return []
 
@@ -193,7 +255,7 @@ class FootballJsonScraper:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write("\n".join(lines))
 
-        print(f"[+] 'live_playlist.m3u' সফলভাবে আপডেট হয়েছে!")
+        print(f"\n[+] 'live_playlist.m3u' ফাইল সফলভাবে আপডেট হয়েছে!")
 
 
 if __name__ == "__main__":
