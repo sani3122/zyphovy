@@ -491,7 +491,7 @@ class TflixStreamScraper:
 
         return found_streams
 
-    def _generate_m3u(self, streams):
+        def _generate_m3u(self, streams):
         """Outputs valid M3U playlist file with absolute GitHub raw URLs for tvg-logo."""
         ts = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
         
@@ -548,4 +548,11 @@ class TflixStreamScraper:
             lines.append(url)
             lines.append("")
 
-        with open(OUTPUT_FI
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+        print(f"\n[+] Success! Playlist saved to {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    scraper = TflixStreamScraper()
+    asyncio.run(scraper.run())
