@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-06 08:03 UTC
+# generated: 2026-10-06 08:18 UTC
 # streams: 12
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rXnxAxiSSiG4hNIEFJAozICJf3GCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Kazakhstan VS Faroe Islands (hotel - Main)
@@ -7,81 +7,81 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb3.strmd.st/secure/VklyeipClFESrNnjTtrFVnvUHsQVLacW/hotel/stream/kazakhstan-vs-faroe-islands-uefa-nations-league-1791295200/1/playlist.m3u8
+https://lb27.strmd.st/secure/yGOeSbjcwSZoiODtEBcYwUoybwqckMtt/hotel/stream/kazakhstan-vs-faroe-islands-uefa-nations-league-1791295200/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://placehold.co/800x450/1a1a1a/ffffff.png?text=England%20vs%20Czechia&font=Oswald" group-title="Football",England VS Czechia (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb22.strmd.st/secure/LeUlsHEJVNglKYqEprLHoauFJnjPoeXU/hotel/stream/england-vs-czechia-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb31.strmd.st/secure/sEZymBnXsJGOHbvdORfTbsJWsKfHIoTa/hotel/stream/england-vs-czechia-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VMjl44cEENxB8QRqSBSmQu3YkbAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" group-title="Football",Scotland VS Slovenia (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb29.strmd.st/secure/BAbCbegoENjUNVliIieAJgGXmuMycwlD/hotel/stream/scotland-vs-slovenia-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb26.strmd.st/secure/mHBuxMnVCWiMkSbtPcfJVHtSCUoXiJrV/hotel/stream/scotland-vs-slovenia-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rKnDgD6ABhDcQfEMakgUZkBEshEMAsCQU+w2fRRgVKLh-L0ssryZaMA8xUQggA.webp" group-title="Football",Luxembourg VS Bulgaria (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb30.strmd.st/secure/TjDHDUYdqlhDtfMGRJJIlnUmzyDLxDvl/hotel/stream/luxembourg-vs-bulgaria-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb18.strmd.st/secure/uINkBpfMXGeFlUulcqsLZpwpbozlZoMr/hotel/stream/luxembourg-vs-bulgaria-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rRLVpSQfMEhDcdIY9pQgzEEJZwoCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Switzerland VS North Macedonia (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb5.strmd.st/secure/zVjfofSQIAKYxTFadXKhlHioOgHSnXxL/hotel/stream/switzerland-vs-north-macedonia-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb26.strmd.st/secure/PwocfIoldcOqyjCzHIeIzPBlDMTIuEDV/hotel/stream/switzerland-vs-north-macedonia-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJiGBhgSEJqkhuIPnpAGUICxBDWcfAjor3WIsSjAqUXD+XpZZXky0YB5iohBAA.webp" group-title="Football",Estonia VS Iceland (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb29.strmd.st/secure/RhmTplCnFnLvzbSPjoVEiHVvkPfncKWp/hotel/stream/estonia-vs-iceland-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb6.strmd.st/secure/xduIIiiGCqRRFSovrJyYkxJeWEOFtKKj/hotel/stream/estonia-vs-iceland-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VcCBApc-UiG4g+mkFK1mIICzikFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Football",Moldova VS Slovakia (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb14.strmd.st/secure/SlKvByULkjhcaYrDPdfFUFYCSqxbnZmX/hotel/stream/moldova-vs-slovakia-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb26.strmd.st/secure/GqgEQajmfxDRixoAfwMQWzUDkTTAOlXu/hotel/stream/moldova-vs-slovakia-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEKJA8wSUiBghuIPiFNSQKCyAjXc1gsCQU+w2fRRgVKLp-L0sst5MtGCeYqIQQA.webp" group-title="Football",Belarus VS Finland (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb6.strmd.st/secure/FstnlpPXEfwjYCbsutdmeUAIbqbvjVif/hotel/stream/belarus-vs-finland-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb16.strmd.st/secure/MgeToYHFpuYFKikDOPrkXadYsiyybRZu/hotel/stream/belarus-vs-finland-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rJvUQxSIRNxB8QRqSBSmQEC7l0FgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" group-title="Football",Albania VS San Marino (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb24.strmd.st/secure/QOmfXfqnrlVkCMbLIcOHqdVWbFYTSKQN/hotel/stream/albania-vs-san-marino-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb31.strmd.st/secure/FaenWoKfeeenAJuwpeoHBtuorZmxIKJD/hotel/stream/albania-vs-san-marino-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rfCFEAGCiBAoQ3EHz0gp+ixBBWcMAsCQU+w2fRRgVKLh-L0ssryZaMA8xUQggA.webp" group-title="Football",Croatia VS Spain (hotel - Main)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb29.strmd.st/secure/pDwSJjykRiEAkfgmphXZDosynEoFbevf/hotel/stream/croatia-vs-spain-uefa-nations-league-1791312300/1/playlist.m3u8
+https://lb19.strmd.st/secure/lqmFvmOswZpPQBrcRTvHbaGBsXSXoJmx/hotel/stream/croatia-vs-spain-uefa-nations-league-1791312300/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEHCkhRSYFpghuIPiBSGNucwcQwCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Argentina VS Benin (admin - English - Premier Sports 2)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb18.strmd.st/secure/zepzkpaaGOETZYUCgTyYlcclIJuVmoDr/rtmp/stream/Rz9_5jv-CT2zBcKOX6IWHuL9FfUCivW09basvkpKd6acp48sUvQ7tN8TVBpCz6PYtkPTmSo/1/playlist.m3u8
+https://lb16.strmd.st/secure/JmxjQKoimXbdvPylpWVcNEUHFNhKhzmg/rtmp/stream/6SU_tuUN813txTlTBSdgP47G1MT3NfTD6AwRmA0MyoWlVtRdoOXmJm8de1zsNWwNSEKLDzs/1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VHFnIzeYENxBSQfEBBMhzOYzBAwCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" group-title="Football",Chicago Fire VS Vancouver Whitecaps (admin - English - Apple TV)
 #EXTVLCOPT:http-referrer=https://embed.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://embed.st
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://embed.st/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36&Origin=https://embed.st
-https://lb31.strmd.st/secure/HdaokZvVTnpxSWqstuhALIFhVlyKNzCW/rtmp/stream/RM0f2eQYCdnR9l-v4u8UajMZdHdqxqDX6ZA7KS3Mv6YkCDBcyGYReeAiViKFXWY0nqZG77HV9y1e/1/playlist.m3u8
+https://lb30.strmd.st/secure/rmAzCyegxocwzdbHPfTFRwdxcwQClzeZ/rtmp/stream/Cokc-zdpNtKk1jfEdGukYpKgkeGl8OOLqqWhwdfIVjZKrUVYdXBmyuRW6jNiFl6HLwcEMqy16u6r/1/playlist.m3u8
