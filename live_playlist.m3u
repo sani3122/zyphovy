@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-08 18:16 UTC
+# generated: 2026-10-08 18:31 UTC
 # source: https://tflix.su/watch
 # streams: 3
 
@@ -8,18 +8,18 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/85ea9a9ea505bc069ecf15107e5dbb60d4d7817cb866f837ffe262ee8971c969/1791492363/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/264e3704b4cbafca75d86b370fb14e31a5cf0d83b4b549f2df6fc40009494fa4/1791493262/tntsports2-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/dallas-cowboys-vs-tampa-bay-buccaneers-1791482925296.png" group-title="Live Sports",Dallas Cowboys VS Tampa Bay Buccaneers (Stream 1)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/11058f93713071ad7244269de2760434af5c513040ce8bc8aafbca9b6215a46e/1791492377/tsn1-ca.m3u8
+https://vix.cdn9859.shop/tflix/secure/dc0833de7908c19bea9e4205db1080a80fc58a7e045db6c1850e7259d1e1f9b3/1791493276/tsn1-ca.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/dallas-cowboys-vs-tampa-bay-buccaneers-1791482925296.png" group-title="Live Sports",Dallas Cowboys VS Tampa Bay Buccaneers (Stream 2)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/f7569363a211041df207fb334f129e93d9a362e21dbd5cfaa8fb8649cf661e9e/1791492394/tsn3-ca.m3u8
+https://vix.cdn9859.shop/tflix/secure/7b6eed575ee9ce9dc2487bffac4eff5640b1d33f3801304f46866d857c1cc1d9/1791493292/tsn3-ca.m3u8
