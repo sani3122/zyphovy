@@ -1,11 +1,25 @@
 #EXTM3U
-# generated: 2026-10-09 17:46 UTC
+# generated: 2026-10-09 18:02 UTC
 # source: https://tflix.su/watch
-# streams: 1
+# streams: 3
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/galatasaray-vs-kasimpasa-1791536126723.png" group-title="Live Sports",Galatasaray VS Kasimpasa
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/457155aadaca36f0842be6c08a103ac003df1e2900e117d0d6658d8bdb090cfe/1791576953/beinsports1-tr.m3u8
+https://vix.cdn9859.shop/tflix/secure/915a526df89444f8065c9e3fa29aeec30b0fd27a7703cde37f0dc4a7f2f1910e/1791577868/beinsports1-tr.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/al-nassr-vs-diriyah-1791567219131.png" group-title="Live Sports",Al Nassr VS Diriyah
+#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
+https://vix.cdn9859.shop/tflix/secure/588492f1580de1718e689133714b3022cb3c9855d3a75c3ea1a11363b9cc84a6/1791577904/foxdeportes-usa.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
+#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
+https://vix.cdn9859.shop/tflix/secure/71a692b685e4684a376bc77dce75e7a450a9a0d007ec3f8787b3df474506863e/1791577936/skysportscricket-uk.m3u8
