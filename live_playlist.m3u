@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-09 15:31 UTC
+# generated: 2026-10-09 15:46 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/4141a0351d53e21f583c4098f14a882217885812d283fe03bdec2b222c2ac7c0/1791568861/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/ce40e08d6d0271c70ef6feff9bd7460097f526c4f617f34f234a22bf5ae13071/1791569756/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1791519632443.png" group-title="Live Sports",India VS West Indies
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/2f9f4622a8841988c7ceb7a01e2cd5053565f3ac03e341d6bf07247ecd7524e4/1791568875/skysport2-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/91b85437978f6d8c2ac558c033bf25f23be0d166d390632b85669ed4e62a9024/1791569770/skysport2-nz.m3u8
