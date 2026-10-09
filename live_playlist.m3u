@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-09 06:01 UTC
+# generated: 2026-10-09 06:16 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/afd37c95e8924e6d6de3dabb7f3a93c09accc0b59c3e09e0ec8b2cb9a84ead8f/1791534663/skysport4-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/fbb819ceb26cd1b47ab5a7256b60a545ff498ffcac6ee2dede587678dcc0779b/1791535564/skysport4-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-women-vs-bangladesh-women-1791515809305.png" group-title="Live Sports",Australia Women VS Bangladesh Women (Stream 2)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/c5aad8c4e47db889a9ff3e37b903db3ce1b273ba09a9820254f18b09fa73db6f/1791534679/fox-sports-501.m3u8
+https://vix.cdn9859.shop/tflix/secure/b9be96bb72d8dbbd389b7327ff5387b60c5612df8289d970320971da71a8f662/1791535580/fox-sports-501.m3u8
