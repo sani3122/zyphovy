@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-09 04:31 UTC
+# generated: 2026-10-09 04:46 UTC
 # source: https://tflix.su/watch
 # streams: 3
 
@@ -8,18 +8,18 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/751fc2485563c454d166e79d2a9baa26717965468c0bb5753d16bbe168d0551c/1791529260/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/e6d77935e2c5e36bf488d8b1338f9230983839367becba4c601bcd256e236bc6/1791530150/tntsports2-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-women-vs-bangladesh-women-1791515809305.png" group-title="Live Sports",Australia Women VS Bangladesh Women (Stream 1)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/557c11d4474e46f0c0cd84f684d5297b6d72c2b64e9a517e344cf7e283d88d0d/1791529273/skysport4-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/dc0e0cbdf2f3d5e9433676cc9bdc2c90ea20db7def786ff261591a7db6d6e0cb/1791530164/skysport4-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-women-vs-bangladesh-women-1791515809305.png" group-title="Live Sports",Australia Women VS Bangladesh Women (Stream 2)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/e039ab6a0e7467b97dea69dd81c6febbecb21239a965356fdc8fc7a2d2f2b8cb/1791529289/fox-sports-501.m3u8
+https://vix.cdn9859.shop/tflix/secure/b026b51f3a89b673e1d0ddd0d73f769b2319cd662859af15f4da27d01d93cc8c/1791530180/fox-sports-501.m3u8
