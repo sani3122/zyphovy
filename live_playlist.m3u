@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-09 01:16 UTC
+# generated: 2026-10-09 01:31 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/7417b012cdf5d8aa06203bd0a6aad8106168fd7fae0adecaf47eff561afb3efb/1791517551/tsn1-ca.m3u8
+https://vix.cdn9859.shop/tflix/secure/fdfac3e7416bdb0dffe5bba0d8db8f19dafc6e7fa79799f1a8b73b70d30fbd52/1791518466/tsn1-ca.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/dallas-cowboys-vs-tampa-bay-buccaneers-1791482925296.png" group-title="Live Sports",Dallas Cowboys VS Tampa Bay Buccaneers (Stream 2)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/8474ba0677ed3c824468e893d5fe93bcf0102692c990256671a1b971736f2474/1791517568/tsn3-ca.m3u8
+https://vix.cdn9859.shop/tflix/secure/364bdf9906a39c533b893a7a465ce58f362711fa36c1456d873a0256b83087dd/1791518483/tsn3-ca.m3u8
