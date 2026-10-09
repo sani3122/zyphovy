@@ -1,39 +1,32 @@
 #EXTM3U
-# generated: 2026-10-09 20:48 UTC
+# generated: 2026-10-09 21:02 UTC
 # source: https://tflix.su/watch
-# streams: 5
+# streams: 4
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/malaga-vs-espanyol-1791566889228.png" group-title="Live Sports",Malaga VS Espanyol
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/876498baf876e1e565a97f9c6bcb11aa8df4a89a61733edec6c92d7ebebdc47b/1791587780/espndeportes-usa.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/dortmund-vs-werder-breme-1791567202646.png" group-title="Live Sports",Dortmund VS Werder Breme
-#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xtrahut.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/14505ad4242288745ad5b7d3f4311e3849da9542c4a09d0cd75022b12a395936/1791587812/universo-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/56438f91d1baa82896f9d81c67051247e245edfc868d7e09d2c44938fb03e158/1791588661/espndeportes-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-lyon-1791536396193.png" group-title="Live Sports",Lens VS Lyon
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/375e6e52c80c4ae672de5341afaa548c13c67803674ba25993f8d7bc39b98559/1791587846/dazn2-de.m3u8
+https://vix.cdn9859.shop/tflix/secure/da5a9aed75a180dc04e616becfd864949a7f3e53479061fff0ab85928c283ae9/1791588697/dazn2-de.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/west-ham-vs-queens-park-r-1791567331174.png" group-title="Live Sports",West Ham VS Queens Park R
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/e852b09db854f646ccf459ab68aced992f470a0c8fed0b9644add062d7f7552a/1791587880/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/999861a32f329b089085ec12e0797c30dc0a945f39a901eaced48250975f69dc/1791588730/skysportsmainevent-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/cc113f5f503928bdd0bd840a4654218aeff78fd6ca8886543ee94ec483d80b0f/1791587915/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/70d0e676d10624f8340e3e56f5483f0cd6fdddbfbbd6e504ccb6cf9516f0744e/1791588764/skysportscricket-uk.m3u8
