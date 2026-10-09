@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-09 19:04 UTC
+# generated: 2026-10-09 19:19 UTC
 # source: https://tflix.su/watch
 # streams: 7
 
@@ -8,46 +8,46 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/29f1a4d92bd6af81e77f8cbc80a936d542cf6b1fe9d3bf8d748f58d3ecc1133f/1791581462/espndeportes-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/335f7812060258fff0717beab2b825e53081a991b5e64db33c38416f9b7ff09b/1791582353/espndeportes-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/dortmund-vs-werder-breme-1791567202646.png" group-title="Live Sports",Dortmund VS Werder Breme
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/53c8a843841699981222e31d9425c6bf8a74291cb7849bd2283083124a5e1661/1791581495/universo-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/b3ab3554b604b2b70e9cdc2cb6575417ca941c921201fd0241a5a00293cf1961/1791582387/universo-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-lyon-1791536396193.png" group-title="Live Sports",Lens VS Lyon
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/03a633c0e2279c19796fa245666b972a71684e7d165e8dfdbc87f2cef76dbb69/1791581528/dazn2-de.m3u8
+https://vix.cdn9859.shop/tflix/secure/26fae459fef81677d4dcaeacde7767b3698103883c1c3275d354794de914ccc1/1791582420/dazn2-de.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/west-ham-vs-queens-park-r-1791567331174.png" group-title="Live Sports",West Ham VS Queens Park R
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/a46ffa2ac0df94c779e5cb4e55c9bd993db500a58182bcee7c1128008fe1aa76/1791581561/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/af75e390edfa6aec71c2fd6dfa4968fca297492327839859d44f67ad4f865267/1791582455/skysportsmainevent-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/galatasaray-vs-kasimpasa-1791536126723.png" group-title="Live Sports",Galatasaray VS Kasimpasa
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/7f8bc09f547387df9b85ec336d991690f40bd31a692944bc7bfd3243584aa578/1791581595/beinsports1-tr.m3u8
+https://vix.cdn9859.shop/tflix/secure/af6577a7db1fae1ce7df0f5be095c1debec9f1564ae8f4ff11f7931bbf6ca893/1791582489/beinsports1-tr.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/al-nassr-vs-diriyah-1791567219131.png" group-title="Live Sports",Al Nassr VS Diriyah
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/4565b4d7abe4f63d31ae964c4dbefd0fb944174c046f6edbaa95bc5d60658c3c/1791581628/foxsoccer.m3u8
+https://vix.cdn9859.shop/tflix/secure/80bd6ab10f99e7da706f6703f5d6ccb1ec70bc84fe72d8d65c0fd6e978d16e15/1791582522/foxsoccer.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/22fa9d08e152357a7f964a4f8c57b597de85a47f3ac465a41e58a88097ab4ecf/1791581661/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/39e5afe6df7afbfcfa4f36f7d2bbb739669264d2f4b24afe6b0293ddfb8f9758/1791582556/skysportscricket-uk.m3u8
