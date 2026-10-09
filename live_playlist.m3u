@@ -1,39 +1,32 @@
 #EXTM3U
-# generated: 2026-10-09 10:16 UTC
+# generated: 2026-10-09 10:31 UTC
 # source: https://tflix.su/watch
-# streams: 5
+# streams: 4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-women-vs-bangladesh-women-1791515809305.png" group-title="Live Sports",Australia Women VS Bangladesh Women (Stream 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-women-vs-bangladesh-women-1791515809305.png" group-title="Live Sports",Australia Women VS Bangladesh Women
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/bf9f53924c3a2523ac0a1fb802e975b75744dcce13169a88aa01d4e4ecf2ae4d/1791549951/skysport4-nz.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-women-vs-bangladesh-women-1791515809305.png" group-title="Live Sports",Australia Women VS Bangladesh Women (Stream 2)
-#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xtrahut.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/b9b86fd78c88bf309ab4bcc22e88e3864526aecd3726af41d94bea480546c29a/1791549968/fox-sports-501.m3u8
+https://vix.cdn9859.shop/tflix/secure/82c771edff1bb6e4fe5b5649b8cbda09bd4471a8d1e7fe4f0019d552eb6b2b9e/1791550863/skysport4-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/794acfed83d09c456be722eec104ed3f625ed7971788d8f467b271678775d62e/1791549974/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/bbe481ca46d015ff49a19e46ee2d8f344da5a4f75998311607625d1d3c447714/1791550879/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-fp1-1791516188110.png" group-title="Live Sports",Singapore Gp VS Fp1 (Stream 1)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/63658db000e30283a3fdab3520cf67db392fb88eab530d0320177bdee7a78b30/1791549987/skysportsf1-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/122f15c0495e919d03103b74f92c46a031454a3c5f76a5c4f14f2c2c25bc55b4/1791550893/skysportsf1-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-fp1-1791516188110.png" group-title="Live Sports",Singapore Gp VS Fp1 (Stream 2)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/4fef74ab4a625d109a5b1cc3da8efd8aa0bf47c11c3b5dc06ff6a0ff95f6ad14/1791550004/skysport1-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/5e39455e0678608b2b6d04ae3f705f2dac623fd5beb228fe6793eeb22d92d0e6/1791550909/skysport1-nz.m3u8
