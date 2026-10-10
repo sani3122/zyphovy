@@ -1,11 +1,4 @@
 #EXTM3U
-# generated: 2026-10-10 16:19 UTC
+# generated: 2026-10-10 16:31 UTC
 # source: https://tflix.su/watch
-# streams: 1
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/inter-vs-parme-1791627568943.png" group-title="Live Sports",Inter VS Parme
-#EXTVLCOPT:http-referrer=https://vixembed.bid/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://vixembed.bid
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/880bc18c741a96f359e7894d27af14c8fc19dca5b7a4dbf488e4e32b68053412/1791658091/cbssportsgolazo.m3u8
+# streams: 0
