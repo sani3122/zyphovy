@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-10 19:03 UTC
+# generated: 2026-10-10 19:17 UTC
 # source: https://tflix.su/watch
 # streams: 4
 
@@ -8,25 +8,25 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://my.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://my.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://my.sjncvuaq.xyz
-https://vix.ijekhaje.xyz/tflix/secure/100c0befda1298ab81d7696356194b345d4d2907a2eb738d84b7e10e9487a6b7/1791667875/beinsports-2-au.m3u8
+https://vix.ijekhaje.xyz/tflix/secure/c2788e05cd1c5db4b8a7f1ee0be7875a29b96cc5d02baef83e19f04d40c1c74d/1791668752/beinsports-2-au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/napoli-vs-frosinone-1791627659715.png" group-title="Live Sports",Napoli VS Frosinone (Stream 2)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/f1f6c4f2cea3468506be390462fa1355689c302e24cfcb395cdc1f3133fc3060/1791667891/cbssportsgolazo.m3u8
+https://polovo.margutm.su/tflix/secure/f203f9057aeef90bbffaa9157adeb72325f2f63116caf1fa0483478cb9966798/1791668768/cbssportsgolazo.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/psg-vs-le-mans-1791656714349.png" group-title="Live Sports",Psg VS Le Mans
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/44a57e6c6159cf8034f519bf43ab8306a69dd387b341c71696887bafb90c4738/1791667920/beinsports-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/8b88f4ccd0b138048b1585a8dc2e45bbc3fdfee55a939a322d57bfdb4fcfdad6/1791668795/beinsports-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/41c6f986e399f49b7a2b26db4cabb8d4627fa4705ddbedb84946a4c507956a40/1791667988/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/2bf300c47f924028121fa26d3e8bac99e405296a9d8a6c5fef5e3567759ec515/1791668861/skysportscricket-uk.m3u8
