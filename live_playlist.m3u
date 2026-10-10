@@ -1,18 +1,25 @@
 #EXTM3U
-# generated: 2026-10-10 09:26 UTC
+# generated: 2026-10-10 09:31 UTC
 # source: https://tflix.su/watch
-# streams: 2
+# streams: 3
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/d4a2281800fc9d26c399e53c84910495ca4f4eee9d0d650c43ccb43636c4598e/1791633378/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/31d16564448f7b988cfb66eb207b435513959902d4eb03e2539bd15cf31ea84a/1791633660/skysportscricket-uk.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-sprint-1791614338620.png" group-title="Live Sports",Singapore Gp VS Sprint
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-sprint-1791614338620.png" group-title="Live Sports",Singapore Gp VS Sprint (Stream 1)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/7152018068cc9e2b955e0f7e4b01ef2c579de15b555aceecf91b4886de7fb355/1791633395/skysportsf1-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/fe204f4a15d015ec9c5524ede40b42aed16c6b50afe145dbb9b45384af590bde/1791633673/skysportsf1-uk.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-sprint-1791614338620.png" group-title="Live Sports",Singapore Gp VS Sprint (Stream 2)
+#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
+https://vix.cdn9859.shop/tflix/secure/e615af207359f8862062a9fa8dee85726a4c07e371736f8964dd3b02a54a7f03/1791633690/skysport2-nz.m3u8
