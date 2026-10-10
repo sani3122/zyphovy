@@ -1,123 +1,137 @@
 #EXTM3U
-# generated: 2026-10-10 14:08 UTC
+# generated: 2026-10-10 14:24 UTC
 # source: https://tflix.su/watch
-# streams: 17
+# streams: 19
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sunderland-vs-brighton-1791624956711.png" group-title="Live Sports",Sunderland VS Brighton
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/d69e5e35ff0e3e59c0bcf45e6ec867d1afa6be9242cbd736e72d59959e4635b8/1791649880/skysport6-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/3bd514c7e468b84575c7dcbf74b534cf96ae34ef638cb563e3f71536d87d2b88/1791650760/skysport6-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/aston-villa-vs-brentford-1791624934608.png" group-title="Live Sports",Aston Villa VS Brentford
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/ae4d8e41d4e5a6ea73fa6e281fc7f0922c9f3d0f0984e243b17c384c08ea9735/1791649913/skysport7-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/87a304f45aa98f276a6958ec63355471827b512b21e94e99d76e6978f209648c/1791650793/skysport7-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ipswich-town-vs-fulham-1791624913655.png" group-title="Live Sports",Ipswich Town VS Fulham
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/be983d36adcbedcd35253a88fa246182542f1746b451f19d3a00920191af610a/1791649948/skysport5-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/8eb854bd9f40aaa6d485b3d81b82a912200b09e1bfc3a33190eb3cea57b60caf/1791650829/skysport5-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/chelsea-vs-bournemouth-1791624893335.png" group-title="Live Sports",Chelsea VS Bournemouth (Stream 1)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/9889b1e1d3d4bc65e505eedbbc5747e8eb07fdbb214101ed87145a8fe7ac3f3a/1791649984/skysport4-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/4bd3ee34a7d041b37e2293f403de1f64cf9ba2b71e87edcf84dc52b829e65b6f/1791650864/skysport4-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/chelsea-vs-bournemouth-1791624893335.png" group-title="Live Sports",Chelsea VS Bournemouth (Stream 2)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/899dbfaa6b3526b1d0b67840d6b8db2ec4a70338d1da984b13ada1f0a14aed45/1791650001/skysport8-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/2f7952fc60b6ce4df53279359c59d95ceb45d2c282d2197c9c2f585087be8f05/1791650880/skysport8-nz.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/alaves-vs-atletico-madrid-1791626642962.png" group-title="Live Sports",Alaves VS Atletico Madrid (Stream 1)
+#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
+https://vix.cdn9859.shop/tflix/secure/fce111b47b94d3a392291fab8708bdef3c04bf93a18b76a85f86a214be639bf1/1791650907/espndeportes-usa.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/alaves-vs-atletico-madrid-1791626642962.png" group-title="Live Sports",Alaves VS Atletico Madrid (Stream 2)
+#EXTVLCOPT:http-referrer=https://tflix.xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://tflix.xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://tflix.xtrahut.xyz
+https://vix.ijekhaje.xyz/tflix/secure/aea8f7c8702b8e48307dbab78b17118f50732ef880c44b675f576a43f7f20428/1791650923/fancode-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/mainz-vs-leverkusen-1791627250685.png" group-title="Live Sports",Mainz VS Leverkusen
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/06e4bcf62a942cb425412f2ab2d582334d5380f359c49eff4a057ced6379c1e8/1791650030/skysportbundesliga3-de.m3u8
+https://vix.cdn9859.shop/tflix/secure/52474c684580eca805535491006a31324d3e3bb613b2371b1c874492cd1507b4/1791650950/skysportbundesliga3-de.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/hoffenheim-vs-hamburg-1791627224199.png" group-title="Live Sports",Hoffenheim VS Hamburg
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/5d0c311e68a3237a5738ccb7453aed976a9394ccf10e3cfb29231e4b6b0cea1f/1791650057/skysportbundesliga2-de.m3u8
+https://vix.cdn9859.shop/tflix/secure/507e8165c1132562fa726466f944442a09d2034fa17614caa3bc5f2a424b651b/1791650984/skysportbundesliga2-de.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/union-berlin-vs-elversberg-1791627192253.png" group-title="Live Sports",Union Berlin VS Elversberg
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/b7a7d14363793e0820ba75f2ea2a376b9dd3b4a0715e8fd3cc682d0bedcd20ca/1791650091/skysportbundesliga4-de.m3u8
+https://vix.cdn9859.shop/tflix/secure/8aa01fd70a4fc2a198af605d37ae9c22617387aae344428380ca019fdd30eece/1791651017/skysportbundesliga4-de.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/paderborn-vs-stuttgart-1791627166502.png" group-title="Live Sports",Paderborn VS Stuttgart
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/59f1f38616f4e1ab3b080fd88c2e8a797d52830c7d4e8055647228d98bbe1621/1791650126/skysportbundesliga5-de.m3u8
+https://vix.cdn9859.shop/tflix/secure/fe17fb4c4d4dd6445d8d436ec85a43fad310a6d4866aa1e9ef9e25bb84d729f2/1791651054/skysportbundesliga5-de.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/augsburg-vs-bayern-munich-1791627132646.png" group-title="Live Sports",Augsburg VS Bayern Munich
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/ce385f5c5a06e6c62c8185efbec0017c8f56eee95441cce1f20ee6a481df343a/1791650159/skysportbundesliga1-de.m3u8
+https://vix.cdn9859.shop/tflix/secure/0ed08453c53f448f5609fe3448c990381da0c542d8a739c40ebb36dfe029342b/1791651090/skysportbundesliga1-de.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/genoa-vs-fiorentina-1791627502697.png" group-title="Live Sports",Genoa VS Fiorentina
 #EXTVLCOPT:http-referrer=https://tflix.xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://tflix.xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://tflix.xtrahut.xyz
-https://vix.ijekhaje.xyz/tflix/secure/925dda0ed30927c3eecaab9d8da5e61cf105f7dc8e8a84b79f9facce9af3da9f/1791650187/beinsports-2-au.m3u8
+https://vix.ijekhaje.xyz/tflix/secure/2b61f6dc7af8a6ff94a491d8fdf0699af06686b82d97e67cee9373cd4d86052c/1791651123/beinsports-2-au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bolton-vs-stoke-1791629648175.png" group-title="Live Sports",Bolton VS Stoke
 #EXTVLCOPT:http-referrer=https://tflix.xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://tflix.xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://tflix.xtrahut.xyz
-https://vix.ijekhaje.xyz/tflix/secure/d0c8374d1adc1fbcd9410196b00630aa4338be3e18a5140a4bae7c32b00365c3/1791650221/beinsports-3-au.m3u8
+https://vix.ijekhaje.xyz/tflix/secure/d8699508142e421d06475705a1e4a1380ddf5406cce8dfc5ad297f8133d4569a/1791651157/beinsports-3-au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/samsunspor-vs-trabzonspor-1791629719158.png" group-title="Live Sports",Samsunspor VS Trabzonspor
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/93e6aef407b3a7468586915f899334d4da30f996f1cc9ea589a3f448b8f3684e/1791650254/beinsports1-tr.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
-#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://xtrahut.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/6eb97cf9378ec750eec6882a0bc5ec15784d26e9177adbb73f394402ede37c2c/1791650289/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/62309bdf376be70419d17ad89d9bf99b90f794ebf247adf916736eaf1f5effad/1791651190/beinsports1-tr.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-qualifying-1791614355866.png" group-title="Live Sports",Singapore Gp VS Qualifying (Stream 1)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/273af34c89caf16acca1d1309c43ec284f4e2cb286d8f36defe279883506b371/1791650302/skysportsf1-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/359c499fa1494e090f0fe5606789d145355e6c33ff8af22d3f7ece63270b9375/1791651225/skysportsf1-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-qualifying-1791614355866.png" group-title="Live Sports",Singapore Gp VS Qualifying (Stream 2)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/227a97cb81800d53aa7b795569ffe70ab5c3d9a7b9038c0cb7a68db2ecec2ddb/1791650313/skysport1-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/d0b54d547b413d15abb17ab893194e38f9745f4f76955f97f7c670696e363376/1791651236/skysport1-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/singapore-gp-vs-qualifying-1791614355866.png" group-title="Live Sports",Singapore Gp VS Qualifying (Stream 3)
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/16c40d8586532531d4480d3b13c218d8ed14dd2f89ae61ac5b0bedf802fe2670/1791650318/tsn5-ca.m3u8
+https://vix.cdn9859.shop/tflix/secure/1cc8476a477d706141aadd4b37c051974e191b29e15ac292341cc445d4f5b401/1791651241/tsn5-ca.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
+#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
+https://vix.cdn9859.shop/tflix/secure/8d05645fd18446e93d07a652ed80d52673a5bf1efd6da831ff044c484ebfc2a8/1791651248/skysportscricket-uk.m3u8
