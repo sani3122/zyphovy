@@ -1,11 +1,25 @@
 #EXTM3U
-# generated: 2026-10-10 17:19 UTC
+# generated: 2026-10-10 17:34 UTC
 # source: https://tflix.su/watch
-# streams: 1
+# streams: 3
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/manchester-united-vs-tottenham-1791625034179.png" group-title="Live Sports",Manchester United VS Tottenham (Stream 1)
+#EXTVLCOPT:http-referrer=https://sfs.cdn9859.shop/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://sfs.cdn9859.shop
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://sfs.cdn9859.shop/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://sfs.cdn9859.shop
+https://vix.cdn9859.shop/tflix/secure/24fe0c02c51305d20eb6e7006eeb3c5968ea567f133e37fee0f292e796fa1885/1791662459/skysportsmainevent-uk.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/manchester-united-vs-tottenham-1791625034179.png" group-title="Live Sports",Manchester United VS Tottenham (Stream 2)
+#EXTVLCOPT:http-referrer=https://sfs.cdn9859.shop/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://sfs.cdn9859.shop
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://sfs.cdn9859.shop/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://sfs.cdn9859.shop
+https://vix.cdn9859.shop/tflix/secure/7f81bbb935c23bae464e425fbe05c280ce5727c71db0c30b37c2838ac6a706f2/1791662470/skysport8-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/inter-vs-parme-1791627568943.png" group-title="Live Sports",Inter VS Parme
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/d2eec22bee4115660503f8afefa82d8fca66973d0e8379c2020a5b5afc3df44d/1791661707/cbssportsgolazo.m3u8
+https://polovo.margutm.su/tflix/secure/a0cf03967411e454c91b9130e68dc303650aa5b47015e90d94b2c88c276d2360/1791662599/cbssportsgolazo.m3u8
