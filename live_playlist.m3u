@@ -1,11 +1,18 @@
 #EXTM3U
-# generated: 2026-10-10 06:46 UTC
+# generated: 2026-10-10 07:01 UTC
 # source: https://tflix.su/watch
-# streams: 1
+# streams: 2
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/98cad10c8adb20883e5dbe3e93e64695344a29dfe28f440f23865b5c6c0def1a/1791623752/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/2a3a1851ef798632e62cedda627c41416d0f794c7a9834e9c31559682e6b1717/1791624655/skysportscricket-uk.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indonesia-gp-vs-sprint-1791614320847.png" group-title="Live Sports",Indonesia Gp VS Sprint
+#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
+https://vix.cdn9859.shop/tflix/secure/ba09e36d2c26ff789c7a9eafafee7711aadca93e9ed21c3d455ce5e4b759e4ba/1791624668/tntsports2-uk.m3u8
