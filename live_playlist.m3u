@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-10 07:31 UTC
+# generated: 2026-10-10 07:46 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/bd6e87234a26054e2febc49f4bd28dd5385779c5b178e2c5ac4bcf6e2b7d73ae/1791626455/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/bc606df1d3a2868a2bc9846d2b5cc9deb5c7802cbdfc407bc390f4bd8b06fa9a/1791627351/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indonesia-gp-vs-sprint-1791614320847.png" group-title="Live Sports",Indonesia Gp VS Sprint
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/5769e073b6f08db18e0ed396bb481625a6d2c4c242df11427c64fb64676f9702/1791626469/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/55b73b17f0d1dc84eb3030b169056cbf649038f45acf73f470d726c44cd286b2/1791627364/tntsports2-uk.m3u8
