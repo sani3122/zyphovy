@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-10 04:46 UTC
+# generated: 2026-10-10 05:01 UTC
 # source: https://tflix.su/watch
 # streams: 3
 
@@ -8,18 +8,18 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/058264144a9b0c19ec2823386f35ab634bcec714ddccbc812e3285a2d6e20b70/1791616554/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/3a7edccdf485a059f6d9eba21bd0771171479914611ff3833cf8afd970f925da/1791617462/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indonesia-gp-vs-q1-1791535833315.png" group-title="Live Sports",Indonesia Gp VS Q1
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/56af54e4c50aa37ad37463cc4c38458c3a137b55f982df07fc2704c6fc98b092/1791616568/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/b7925a1c7b23d3788bf400d1f3acdc5c178c5994e8a44382041c93189f29e2f8/1791617476/tntsports2-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indonesia-gp-vs-q2-1791535845294.png" group-title="Live Sports",Indonesia Gp VS Q2
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/43cf7f4df0aec793af6fe0e8917eb948e823e13fc84c39473896786dac21f1c0/1791616581/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/4ee5d0b765b6305e2c034248f609bb48a5527fb0c93668cb78b79ee24fbe31d5/1791617489/tntsports2-uk.m3u8
