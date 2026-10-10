@@ -1,32 +1,53 @@
 #EXTM3U
-# generated: 2026-10-10 18:33 UTC
+# generated: 2026-10-10 18:48 UTC
 # source: https://tflix.su/watch
-# streams: 4
+# streams: 7
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/manchester-united-vs-tottenham-1791625034179.png" group-title="Live Sports",Manchester United VS Tottenham (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/f6dacb8ac83e1ec704a5a2d03e503655fe4b26c0ca840f018effd3b90ab269e7/1791666063/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/47f6dd3c433898b851305550dab7e4cfa94eab8bf7b5d070a0f9317d7de6c1fa/1791666950/skysportsmainevent-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/manchester-united-vs-tottenham-1791625034179.png" group-title="Live Sports",Manchester United VS Tottenham (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/3a695a312935b3c1f0190694e1f76a0deea17d3c38f17729622a540c28fdfb92/1791666075/skysport8-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/060a6014f645b3c8fda6dd7a0b6f3d95c0b6215e4a00e32262706b14df19d20b/1791666962/skysport8-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leipzig-vs-eintracht-frankfurt-1791627290558.png" group-title="Live Sports",Leipzig VS Eintracht Frankfurt
 #EXTVLCOPT:http-referrer=https://my.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://my.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://my.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://my.sjncvuaq.xyz
-https://vix.ijekhaje.xyz/tflix/secure/93ee4ab70f31e4dc7bd3e9709eb98bef4d0d35675738d445517851b62e2f8f5c/1791666118/beinsports-1-au.m3u8
+https://vix.ijekhaje.xyz/tflix/secure/c2c1781276e354564518c39714460782cd954746c345ddf7710805f941856242/1791667005/beinsports-1-au.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/napoli-vs-frosinone-1791627659715.png" group-title="Live Sports",Napoli VS Frosinone (Stream 1)
+#EXTVLCOPT:http-referrer=https://my.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://my.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://my.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://my.sjncvuaq.xyz
+https://vix.ijekhaje.xyz/tflix/secure/14e888cf90304af0cb901eb6ce1cdf86f40293f6d3111f1f67f547c6e69e932c/1791667033/beinsports-2-au.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/napoli-vs-frosinone-1791627659715.png" group-title="Live Sports",Napoli VS Frosinone (Stream 2)
+#EXTVLCOPT:http-referrer=https://vixembed.bid/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vixembed.bid
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
+https://polovo.margutm.su/tflix/secure/37cebd1a52904fb3429a1af5c13425623ebeeb8b1a27b14dc7e38d98a4c1936d/1791667049/cbssportsgolazo.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/psg-vs-le-mans-1791656714349.png" group-title="Live Sports",Psg VS Le Mans
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/a66c2110eea584d0af9db8e7e009971822683c88b0142d2fe5028a6d51766895/1791667078/beinsports-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/327b2a2d6e195f9e5ebf3152009482ca2a1d7255efb93108166b84fef0bff121/1791666179/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/aa69ac68ce8f5ffd30bca3289c31a3e33115eb382cd1d5e6ed78fa4ee1a17663/1791667120/skysportscricket-uk.m3u8
