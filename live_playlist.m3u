@@ -1,18 +1,25 @@
 #EXTM3U
-# generated: 2026-10-10 02:46 UTC
+# generated: 2026-10-10 03:02 UTC
 # source: https://tflix.su/watch
-# streams: 2
+# streams: 3
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/2ca2542f21c8083e90bdb2be72635a6c9f6e1ba4638a80074e6ffab138068670/1791609358/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/dd0736d8fddbd9f18b21d0256fd6f4019c3e5011d37ea5222216f7142a4252a3/1791610329/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indonesia-gp-vs-fp2-1791535822639.png" group-title="Live Sports",Indonesia Gp VS Fp2
 #EXTVLCOPT:http-referrer=https://xtrahut.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xtrahut.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
-https://vix.cdn9859.shop/tflix/secure/fd1e5b37a85d3f5fede1fb5feb4c7d702326be2c93dba0f60cb201b31584f016/1791609371/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/161cbb6efd4b47d204b7a9c7524fe94caa530176abedadc2bcdd446d113779b2/1791610342/tntsports2-uk.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indonesia-gp-vs-q1-1791535833315.png" group-title="Live Sports",Indonesia Gp VS Q1
+#EXTVLCOPT:http-referrer=https://xtrahut.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xtrahut.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xtrahut.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xtrahut.xyz
+https://vix.cdn9859.shop/tflix/secure/35e1917cd4bed933bc7e32d4e049bfc6c5b5bd7924f878559450b01b38f94be1/1791610356/tntsports2-uk.m3u8
