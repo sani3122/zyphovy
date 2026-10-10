@@ -1,25 +1,39 @@
 #EXTM3U
-# generated: 2026-10-10 18:05 UTC
+# generated: 2026-10-10 18:20 UTC
 # source: https://tflix.su/watch
-# streams: 3
+# streams: 5
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/manchester-united-vs-tottenham-1791625034179.png" group-title="Live Sports",Manchester United VS Tottenham (Stream 1)
 #EXTVLCOPT:http-referrer=https://sfs.cdn9859.shop/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://sfs.cdn9859.shop
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://sfs.cdn9859.shop/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://sfs.cdn9859.shop
-https://vix.cdn9859.shop/tflix/secure/ecf84125642d4d724b3d03e5022a1e441f15b2c39d3f700f0b9a977fa6dc0e17/1791664261/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/e7179c2332c80d74ae537d980f1ad040b8c123b10bb415d5fc2f2bb6eb8b6c8f/1791665153/skysportsmainevent-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/manchester-united-vs-tottenham-1791625034179.png" group-title="Live Sports",Manchester United VS Tottenham (Stream 2)
-#EXTVLCOPT:http-referrer=https://sfs.cdn9859.shop/
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://sfs.cdn9859.shop
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://sfs.cdn9859.shop/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://sfs.cdn9859.shop
-https://vix.cdn9859.shop/tflix/secure/f8d34ea66d7f34530bb0727d26303bbf8f75f22fbe77a4f0349e2c16a4ad936f/1791664272/skysport8-nz.m3u8
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/2f8f6307ee57075e8fd3e6a8525e53c6156931a883abbbb0c97a5f139c852631/1791665164/skysport8-nz.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/barcelona-vs-getafe-1791626721183.png" group-title="Live Sports",Barcelona VS Getafe
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/41f45f8b62a3144ee547f7f51db4772bebcdc6ee70a62ec92bc2ca8eb810eddb/1791665191/espndeportes-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/inter-vs-parme-1791627568943.png" group-title="Live Sports",Inter VS Parme
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/ff7c8f8024e6147850ffbd6a63247f837a5d11282aa0ad6729db0b8c969f6957/1791664402/cbssportsgolazo.m3u8
+https://polovo.margutm.su/tflix/secure/c57cf8bb0282150a291db086b13ccbb36104f5b3f7062cc47270f6609ec52aa1/1791665296/cbssportsgolazo.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/0e5eaeefcb1d76745629893fa1825d7e05b16e212648b7356a9bd534ce7ef209/1791665388/skysportscricket-uk.m3u8
