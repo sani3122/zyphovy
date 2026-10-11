@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-11 21:31 UTC
+# generated: 2026-10-11 21:46 UTC
 # source: https://tflix.su/watch
 # streams: 3
 
@@ -8,18 +8,18 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/d909a5e200da1083147f6ac36e9de308467dc140da83a12e03644d0e76dc67cb/1791763265/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/cdde5f3b282a6d962910580ee46d39cd0228c6560cc66448b6b7b67ed432a8e0/1791764157/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-seahawks-vs-san-francisco-49ers-1791730917623.png" group-title="Live Sports",Seattle Seahawks VS San Francisco 49ers (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/70a286fd5998b7b5fe3cb2ab6b7aed9d49e193a9fd726b813bb2625006d29628/1791763279/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/aba822efdafc1c5771926b0ac4299e13ea6b02f9f07eb18efd5f3e073cf4e27b/1791764172/skysportsfootball-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-seahawks-vs-san-francisco-49ers-1791730917623.png" group-title="Live Sports",Seattle Seahawks VS San Francisco 49ers (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/9eb9836cc79194863b9293c3613a36bd2615d82ef26472a3b58a4ba5bd691a35/1791763290/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/ebb16ed8fcfe5e9484172833d785e229200ad4fd778a8f37d53fb42c95d072ce/1791764183/skysportsmainevent-uk.m3u8
