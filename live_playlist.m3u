@@ -1,11 +1,18 @@
 #EXTM3U
-# generated: 2026-10-11 23:31 UTC
+# generated: 2026-10-11 23:46 UTC
 # source: https://tflix.su/watch
-# streams: 1
+# streams: 2
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/6b23de3c7a8762265805863441986e701a2ecfb5c5af84872b806c34ac8c2b57/1791770457/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/34ee60b3057da63e10b569f4d243e0e465f96aa674f7c4f2206f11bc48c58b7f/1791771358/skysportscricket-uk.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-seahawks-vs-san-francisco-49ers-1791730917623.png" group-title="Live Sports",Seattle Seahawks VS San Francisco 49ers
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/9e77079b9acce765f26a762eeca6555ec497679e09476d65c40e692d54116d0d/1791771373/skysportsfootball-uk.m3u8
