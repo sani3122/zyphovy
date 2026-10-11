@@ -1,102 +1,95 @@
 #EXTM3U
-# generated: 2026-10-11 18:04 UTC
+# generated: 2026-10-11 18:18 UTC
 # source: https://tflix.su/watch
-# streams: 14
+# streams: 13
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sassuolo-vs-ac-milan-1791729010909.png" group-title="Live Sports",Sassuolo VS Ac Milan
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/a25c6f2df574accee119b39028b6e9cbeeec2eb337ede56aa96e89d0a9c33c80/1791750672/PARAMOUT-SERIA-1.m3u8
+https://nfl.cdn9859.shop/tflix/secure/bc0d9fa42527d9f854bae1ca4a9307b4f35d2c4d4e5a5273daece60a0291b50f/1791751553/PARAMOUT-SERIA-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/d0f5e336849008f473b3f1e356dc6823b0882cd55e366ea27938cfcf436ee957/1791750705/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/7cb83765635ca14da935f1d549e27651f46c620add9ba72678d1fcd3519061e7/1791751586/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1791724417191.png" group-title="Live Sports",India VS West Indies (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/a95fb3d8a9a99911d4f74db7ccd98c65c93eb57c4def1423aa27806b5d5fc19b/1791750718/tntsports3-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/85e2669c045ed31e5e48b5e63ba639b8ab1a99159c10f461c4893298655ff721/1791751599/tntsports3-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1791724417191.png" group-title="Live Sports",India VS West Indies (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/edd9151026e8a204787381f7e85d7cce5068cc62108343fade8f6402a01b25bc/1791750734/willow-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/9e3d3e250beb3a5c5f7d1420062cef4ed9a0bb8517226667871bda76bc80cd51/1791751615/willow-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/miami-dolphins-vs-cincinnati-bengals-1791738298797.png" group-title="Live Sports",Miami Dolphins VS Cincinnati Bengals
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/31ac85bcca0e890297ea236f9f75bb7aba14cbbb19ca4ce9e404fd2b4f1f0832/1791750741/NFL-10.m3u8
+https://nfl.cdn9859.shop/tflix/secure/186cca0c0dc6f81af2666a3faa1b6312f9176b32835ae43c053d160cfaa2ec14/1791751622/NFL-10.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/washington-commanders-vs-new-york-giants-1791738187378.png" group-title="Live Sports",Washington Commanders VS New York Giants
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/5abbfaae9d0ac76ff5d7864dec40db74054bc1d10ab726e51569291489d40d2e/1791750756/NFL-8.m3u8
+https://nfl.cdn9859.shop/tflix/secure/a6d2bf2aa01ea78da26a0bfcf72134d95012924f6a7aac118ea738bf107eab52/1791751634/NFL-8.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/tennessee-titans-vs-houston-texans-1791738156579.png" group-title="Live Sports",Tennessee Titans VS Houston Texans
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/523f6c470e5cd849edd885a99a9eed77b4eca827a365c4df08cc55580441a3fa/1791750769/NFL-7.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/pittsburgh-steelers-vs-indianapolis-colts-1791738120457.png" group-title="Live Sports",Pittsburgh Steelers VS Indianapolis Colts
-#EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/371f807fc1f790c26069f3e0a4384c62ba579f0ef429a6c304f04b9ce11dfaaa/1791750783/NFL-6.m3u8
+https://nfl.cdn9859.shop/tflix/secure/2f5ae920cd7ad62395b09f91bce48c2ff83e9a6e002551faf5d20148c608ccb1/1791751648/NFL-7.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-jets-vs-cleveland-browns-1791738080242.png" group-title="Live Sports",New York Jets VS Cleveland Browns
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/d74081f57b74a3470fe401e6cdef0385b854ea6d37944460f5f30e69ab8dea34/1791750799/NFL-5.m3u8
+https://nfl.cdn9859.shop/tflix/secure/b84019fd20a5e9580e566aeba8fdacbbfaa8ddd9d1e230bfe1e632ddb8125483/1791751668/NFL-5.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-minnesota-vikings-1791738030541.png" group-title="Live Sports",New Orleans Saints VS Minnesota Vikings
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/cbf6607ed5bf4087a6e9901aaeda8133893abde48a23f6f8a248fd272a1f915c/1791750813/NFL-4.m3u8
+https://nfl.cdn9859.shop/tflix/secure/65d13c88167a103c4243d26eb06b7f70b28b0e20d41f52ac0cda8285b0a5a3ab/1791751682/NFL-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-england-patriots-vs-las-vegas-raiders-1791737984597.png" group-title="Live Sports",New England Patriots VS Las Vegas Raiders
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/6963d96d63aff71a1d57c3872c0473253cba06f01ba120bf95283024f0146c75/1791750827/NFL-3.m3u8
+https://nfl.cdn9859.shop/tflix/secure/1ba6f53b4267a73d557a24e5c527b26cc1a819d6749fae7e3ddedd9eb418ffa6/1791751695/NFL-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/green-bay-packers-vs-chicago-bears-1791730897508.png" group-title="Live Sports",Green Bay Packers VS Chicago Bears (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/58b97b2ce3c972131fde264998376617796615719a7f3f9cd009c799cb0262e2/1791750841/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/49225d1076d1c7287808a0b57f79abf5520a76972e1cdc088d99f1b66b280cd5/1791751708/skysportsfootball-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/green-bay-packers-vs-chicago-bears-1791730897508.png" group-title="Live Sports",Green Bay Packers VS Chicago Bears (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/93d8099026c6448b9f62aa6b25c146af38406045864905ee24a20c7b57b4889c/1791750852/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/dbfa28dba11e0589638a056283ad80ae6224372484d13c039b6acb141f72a279/1791751719/skysportsmainevent-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/green-bay-packers-vs-chicago-bears-1791730897508.png" group-title="Live Sports",Green Bay Packers VS Chicago Bears (Stream 3)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/5691711c338c8e4e9ecfc7a6a10cfad28f21c07469daec16c8c8b9b02736272f/1791750857/NFL-9.m3u8
+https://nfl.cdn9859.shop/tflix/secure/204a3f155fc785a874bb69c2b43387087a0e2f3422eeb7c36983d425fb26d194/1791751724/NFL-9.m3u8
