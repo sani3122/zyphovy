@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-11 07:31 UTC
+# generated: 2026-10-11 07:46 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/4ee4c80d169c32a5df5d0e27670d59f87d23fcc9a171d2d1a5dc41a44320484e/1791712865/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/c2fd34282c31e64aa8d9e99724aa4df2c0a084af37c5aa675b3f2dddb0b2fe5e/1791713750/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indonesia-gp-vs-race-1791630137803.png" group-title="Live Sports",Indonesia Gp VS Race
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/44548e11115940c44f2f5df12e9e541b6f3f44720a6240e00781ad6a2892b5ff/1791712879/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/ba4350e0df0cc4639e8a375bd4fa6319c41326d72236ee4401b1fb626ec276f2/1791713763/tntsports2-uk.m3u8
