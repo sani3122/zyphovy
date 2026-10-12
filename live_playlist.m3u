@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-12 03:01 UTC
+# generated: 2026-10-12 03:16 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/67e70d889ff5b546cd8185449dbc6ee769f67f2a2463c24485446fc2ac3aaf2c/1791783064/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/8c5f47a720e3407f75b5681befa8cfd416768fc939aa86d45defadc587223914/1791783956/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/atlanta-falcons-vs-baltimore-ravens-1791730939610.png" group-title="Live Sports",Atlanta Falcons VS Baltimore Ravens
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/52489daeda6f4cdabf5c568f29d49f98d0974826a51cd6204ce631298e0deda9/1791783077/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/32aa877b036d14b947bafa6c4fa4de2ccd913ab8d59ce1eb3d4789524c7651d8/1791783970/skysportsmainevent-uk.m3u8
