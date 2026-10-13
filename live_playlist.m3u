@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-13 05:46 UTC
+# generated: 2026-10-13 06:01 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/bad8be55b546918c337312a9dd480c5752475933c28e628049edbbb2d630d3fa/1791879367/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/ff50510e41a4f89c20e746e4a90fa30f282bf49505dc5fe1ab2e4eb15a23a281/1791880259/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/cb58b449c938e9b99a21e69fa3b21e316778385abba7c27f3b56345e8b3c5a7f/1791879383/willow-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/e81a02af8413b967d9d35a07e34a71bf06e5aadbf1ef7d3e51d1723100cd161a/1791880275/willow-usa.m3u8
