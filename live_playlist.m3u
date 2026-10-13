@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-13 16:51 UTC
+# generated: 2026-10-13 17:02 UTC
 # source: https://tflix.su/watch
 # streams: 6
 
@@ -8,39 +8,39 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/f0b587de150366d77ebb08b39efcd16657d5eb07ca2c34168f3d525ddc37d9d1/1791919241/tntsports4-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/c1f7d81b3b6955c7545293768dd99e64611e45a25953c27010c7be235277fc62/1791919880/tntsports4-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabah-vs-slavia-prague-1791868313182.png" group-title="Live Sports",Sabah VS Slavia Prague (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/bdead3f8b87b3a18da6ffeaac5a9effb7ac785bc5b4ec442bd51305971ddbcac/1791919253/novasport3-cz.m3u8
+https://vix.cdn9859.shop/tflix/secure/08a0f14fb1285e9401803c57bc0b3f7caee65fd3a87f4dddf14ded1a3dbd45f5/1791919891/novasport3-cz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabah-vs-slavia-prague-1791868313182.png" group-title="Live Sports",Sabah VS Slavia Prague (Stream 3)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/c3ea73837bd4ecd7847f607389276ad6594e59a61ba0c47342e597dddf5197ba/1791919258/PARAMOUT-PLUS-2.m3u8
+https://nfl.cdn9859.shop/tflix/secure/ca9689ed2959387e31d968d1c611525dabc3f6893647243c407f42b734569116/1791919896/PARAMOUT-PLUS-2.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-sporting-1791867997471.png" group-title="Live Sports",Lens VS Sporting (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/1f8daa593857eaa49ece6ff03c4823b8532be72453d240b57ff186e4ea750cda/1791919265/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/9d6d715d63677fcc899b18b1f76241e5a6de56d3394867fcf42e6a8e4a3d9d96/1791919903/tntsports2-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-sporting-1791867997471.png" group-title="Live Sports",Lens VS Sporting (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/e2c3f0b18ab8c7feeb02ee3a0e21ed8f1560d5c4dc2fedabf5b069c612bce9b5/1791919276/sporttv5-pt.m3u8
+https://vix.cdn9859.shop/tflix/secure/d64857eb351cd0962cdd04363561339b19fd283c0eaf6fe9d8e147f9ebc8dbcd/1791919914/sporttv5-pt.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-sporting-1791867997471.png" group-title="Live Sports",Lens VS Sporting (Stream 3)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/af3e1f95372bec79c07cd1385029cf343766a97bc5d9916ef2c8e60025c4197e/1791919281/PARAMOUT-PLUS-1.m3u8
+https://nfl.cdn9859.shop/tflix/secure/c3e1c42cda42563f1b7ed8ef46cccce9901a1b409a8ade04993451d7e422e8d0/1791919919/PARAMOUT-PLUS-1.m3u8
