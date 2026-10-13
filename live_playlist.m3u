@@ -1,46 +1,39 @@
 #EXTM3U
-# generated: 2026-10-13 18:46 UTC
+# generated: 2026-10-13 19:05 UTC
 # source: https://tflix.su/watch
-# streams: 6
+# streams: 5
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabah-vs-slavia-prague-1791868313182.png" group-title="Live Sports",Sabah VS Slavia Prague (Stream 1)
-#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/b9efb30dc829add834fadea3b50f02e30c52f8a41780b8ebcc71d1207c21f39c/1791926153/tntsports4-uk.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabah-vs-slavia-prague-1791868313182.png" group-title="Live Sports",Sabah VS Slavia Prague (Stream 2)
-#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/4fadd1dcc3a9577dbeef90cc36a106424b0406defe40f21ee272e40e4d2b7163/1791926165/novasport3-cz.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabah-vs-slavia-prague-1791868313182.png" group-title="Live Sports",Sabah VS Slavia Prague (Stream 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/atletico-madrid-vs-manchester-united-1791870134760.png" group-title="Live Sports",Atletico Madrid VS Manchester United
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/40536e6356774fde9a63738256b4dc16295a38042397c1e1950c493cd4a7daef/1791926170/PARAMOUT-PLUS-2.m3u8
+https://nfl.cdn9859.shop/tflix/secure/dd6ae582fc612e4880e5d98479a6910edd1dfbef4c98e7305e8f54945f562abd/1791927152/PARAMOUT-PLUS-5.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-sporting-1791867997471.png" group-title="Live Sports",Lens VS Sporting (Stream 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/viking-vs-bayern-munich-1791869724400.png" group-title="Live Sports",Viking VS Bayern Munich
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/aeb432447d7f4e0424ceedb15691bfea67d5f746eab86b2af58a001e15f60c15/1791926176/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/a16961785905b02e909509fd4f8d4048b565a060e04442b35f439fc4305c10df/1791927238/tntsports4-uk.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-sporting-1791867997471.png" group-title="Live Sports",Lens VS Sporting (Stream 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leipzig-vs-psv-eindhoven-1791869320280.png" group-title="Live Sports",Leipzig VS Psv Eindhoven (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/03764110b9d4a36b5fbaa1fe0ddf0609f3753a7212bbf57295f0a645f0065250/1791926188/sporttv5-pt.m3u8
+https://vix.cdn9859.shop/tflix/secure/5c918c39575d7a8f1fb645dcbf1cd0b90de310144698330888f5a3fb21a7d963/1791927278/movistardeportes4-es.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lens-vs-sporting-1791867997471.png" group-title="Live Sports",Lens VS Sporting (Stream 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leipzig-vs-psv-eindhoven-1791869320280.png" group-title="Live Sports",Leipzig VS Psv Eindhoven (Stream 2)
+#EXTVLCOPT:http-referrer=https://vixembed.bid/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vixembed.bid
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
+https://polovo.margutm.su/tflix/secure/7921313fb80ed6542030b3334f61e21a3e2b655db3a85cf543163fa0791ca0e3/1791927289/cbssports.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leipzig-vs-psv-eindhoven-1791869320280.png" group-title="Live Sports",Leipzig VS Psv Eindhoven (Stream 3)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/ef18a27725b75c4353b451ef2ace3e9a05743dcf94ab4e230b72eca11bbfca95/1791926193/PARAMOUT-PLUS-1.m3u8
+https://nfl.cdn9859.shop/tflix/secure/2a5de262a8ea2460a19a8d8e94cf2b0d29fd32a19ebe25217a7845236d420ce4/1791927294/PARAMOUT-PLUS-7.m3u8
