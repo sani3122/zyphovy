@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-13 02:46 UTC
+# generated: 2026-10-13 03:01 UTC
 # source: https://tflix.su/watch
 # streams: 4
 
@@ -8,25 +8,25 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/1265d9ec8d5212b06be9a2cf5901e26c78e327ff92172b39b761ef957f1e79d6/1791868553/skysportscricket-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/efa837136d2888aa7d3e8a42ab00470cc23c493c07eee999f3c6423880e50484/1791869477/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1791519754515.png" group-title="Live Sports",South Africa VS Australia (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/9f1242bc6db7104e2c99639224ada1a7dad23fcdfad72de6aaf6ca6dd226f89f/1791868570/willow-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/8ef692e49fa0ac9700df2a28600e4fcfc1a4637e81533fa6297dcc8cc965b384/1791869494/willow-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/los-angeles-rams-vs-buffalo-bills-1791794854178.png" group-title="Live Sports",Los Angeles Rams VS Buffalo Bills (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/0ed7a0af4452976dec57fd419ca0f40c353292359fec14147831a789003a55f1/1791868576/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/a6eaef53175c21061ac6db27d5c355ff3cda70a86849ee041790ad48ebf432c6/1791869501/skysportsfootball-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/los-angeles-rams-vs-buffalo-bills-1791794854178.png" group-title="Live Sports",Los Angeles Rams VS Buffalo Bills (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/1dc9a78ba4e221b747c6a38ce7743e9728a069d71e437fabaa8e65cc6bcba415/1791868588/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/96ad0a8f066393acd3d83d6e3591f914215b1b654cff42e2c5eeb2ba02ae529c/1791869513/skysportsmainevent-uk.m3u8
