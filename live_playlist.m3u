@@ -1,4 +1,32 @@
 #EXTM3U
-# generated: 2026-10-14 19:01 UTC
+# generated: 2026-10-14 19:19 UTC
 # source: https://tflix.su/watch
-# streams: 0
+# streams: 4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bodoglimt-vs-dortmund-1791991074663.png" group-title="Live Sports",Bodoglimt VS Dortmund (Stream 1)
+#EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
+https://nfl.cdn9859.shop/tflix/secure/51aa9dafaa3dad6d9c521e6006728c4c65cd4cc2648c16b67bce11a172eeea18/1792014456/tntsports5.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bodoglimt-vs-dortmund-1791991074663.png" group-title="Live Sports",Bodoglimt VS Dortmund (Stream 2)
+#EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
+https://nfl.cdn9859.shop/tflix/secure/fa9b408ed2d5d37daeb1494c6273516541cfa6d4926aac03f55499e379b4f347/1792014472/bein-ar-6.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/s-bratislava-vs-stuttgart-1791990949791.png" group-title="Live Sports",S Bratislava VS Stuttgart
+#EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
+https://nfl.cdn9859.shop/tflix/secure/cfc7de57fe5e8cae64024f619a26551fc2a39c2c191eb9a9569c14f8584771c4/1792014537/tntsports7.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/shakhtar-vs-aek-1791990892904.png" group-title="Live Sports",Shakhtar VS Aek
+#EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
+https://nfl.cdn9859.shop/tflix/secure/c8688199baf499e645667c7e866f216ac1995829646b1e7f3bdb13b4b91e1af5/1792014549/tntsports8.m3u8
