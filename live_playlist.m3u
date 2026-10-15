@@ -1,200 +1,193 @@
 #EXTM3U
-# generated: 2026-10-15 12:41 UTC
+# generated: 2026-10-15 12:55 UTC
 # source: https://tflix.su/watch
-# streams: 28
+# streams: 27
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lyon-vs-crystal-palace-1792041194959.png" group-title="Live Sports",Lyon VS Crystal Palace (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/a742883d0e49bb07d15f613e3a2aebbad812c4175b189d9f590886f12a5e333f/1792076459/tntsports1-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/8de4cfb65863a58a8a0f98c9945771bdd324639bcb27f9596d129a2d11f2214a/1792077355/tntsports1-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lyon-vs-crystal-palace-1792041194959.png" group-title="Live Sports",Lyon VS Crystal Palace (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/4419e39870f80c205b5b077e251951a28616c4bfb6a3d233e4ad70c061d935c3/1792076470/bein-ar-2.m3u8
+https://nfl.cdn9859.shop/tflix/secure/89382e0d2a765b69bbe11e113bd0d6a5374fab0f41c2d4d0a416e74feb979815/1792077366/bein-ar-2.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lyon-vs-crystal-palace-1792041194959.png" group-title="Live Sports",Lyon VS Crystal Palace (Stream 3)
 #EXTVLCOPT:http-referrer=https://vixembed.bid/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vixembed.bid
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vixembed.bid/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vixembed.bid
-https://polovo.margutm.su/tflix/secure/58025193ba3994182a6112b26594c3d97f1e1a5be99925e77ebc096037ad114d/1792076475/cbssports.m3u8
+https://polovo.margutm.su/tflix/secure/7079468d6fb10a827c4c249cf77afa172f856737cde64b3bccde46532b23085c/1792077371/cbssports.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/salzburg-vs-ac-milan-1792041131819.png" group-title="Live Sports",Salzburg VS Ac Milan (Stream 1)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/621a2aaafc19a41769e777f965b519a0632c25f28987afc5d8b5b8c8f1bab16f/1792076502/tntsports5.m3u8
+https://nfl.cdn9859.shop/tflix/secure/b76323613471ff5c47e38049509e51c45b4d95cb715662ca1bb94fb63f4d76c0/1792077398/tntsports5.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/salzburg-vs-ac-milan-1792041131819.png" group-title="Live Sports",Salzburg VS Ac Milan (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/42b93bb8b29babbe52b5a54a9f9229b455b52031ae7c17050e72cbde39368d90/1792076513/bein-ar-1.m3u8
+https://nfl.cdn9859.shop/tflix/secure/d3617833e3f088a4ba49359273f8ae53eed9acdcd1ceaf2a59adca0e8b179994/1792077409/bein-ar-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/salzburg-vs-ac-milan-1792041131819.png" group-title="Live Sports",Salzburg VS Ac Milan (Stream 3)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/76f9916b36787c95d7a37c7d8decc4bf6a3626aa1d517af084470edec4272424/1792076518/movistardeportes4-es.m3u8
+https://vix.cdn9859.shop/tflix/secure/eff88c968fb91e830ebd3bef0b9121fa545ca093ca88718d9839fbe111275d64/1792077414/movistardeportes4-es.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/torreense-vs-sunderland-1792040998457.png" group-title="Live Sports",Torreense VS Sunderland (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/f1b8f10be32c05a6ce36538974c846231696eaf5dafe135bc40d5208ad1ae65f/1792076545/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/5a1293f114c18fa75eae5dc21b88451f14720d95e2c61141f9945fd065b15974/1792077441/tntsports2-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/torreense-vs-sunderland-1792040998457.png" group-title="Live Sports",Torreense VS Sunderland (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/8cfd5ba14c96c05d799a77600d1e618dbaf1f7a0f6d5e936537ee2fa64aa9b8b/1792076561/bein-ar-4.m3u8
+https://nfl.cdn9859.shop/tflix/secure/5a3f10ded47d6ab23d63cd3bba4577418c67059b6641a02adc7784eec225121a/1792077457/bein-ar-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lech-poznan-vs-leverkusen-1792040878990.png" group-title="Live Sports",Lech Poznan VS Leverkusen
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/774876d1183d49d844176c6d6c23d6d1b096443e91364c3cbfc7b0632b89907a/1792076588/tntsports6.m3u8
+https://nfl.cdn9859.shop/tflix/secure/5d0aff04885e2a402f8fd765537b930c9de74d69ae2ac3f55e90a959f91e9b78/1792077485/tntsports6.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/union-sg-vs-real-sociedad-1792040774358.png" group-title="Live Sports",Union Sg VS Real Sociedad (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/c173659878f6dc087abd900bdcdac2f19882af93e72346dc3f95c2d9066f9b16/1792076621/movistardeportes-es.m3u8
+https://vix.cdn9859.shop/tflix/secure/27e017ae36ed9994e59c7965bd77ba67e0688a8bd4f5f510ceab0d550c34be7a/1792077518/movistardeportes-es.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/union-sg-vs-real-sociedad-1792040774358.png" group-title="Live Sports",Union Sg VS Real Sociedad (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/406f0912f22db407ca5eaf434e24536474663202a1b85fc73a2163d1b81edec0/1792076633/bein-ar-6.m3u8
+https://nfl.cdn9859.shop/tflix/secure/98087c18ef6e408034dd6ab1833d71d4def005fa6ddd9522d7640614ce8d0992/1792077529/bein-ar-6.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sparta-prague-vs-lillestrom-1792040683117.png" group-title="Live Sports",Sparta Prague VS Lillestrom
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/fd2d5da596d73309221381b01fc558a4a477e180b01779aa538ca274afd5e1e3/1792076659/bein-ar-7.m3u8
+https://nfl.cdn9859.shop/tflix/secure/3ff09d20949143187ac3bb2ac8867f6cca9e8192ba643b57430fe5c61ad7512e/1792077557/bein-ar-7.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/az-alkmaar-vs-h-beer-sheva-1792040599757.png" group-title="Live Sports",Az Alkmaar VS H Beer Sheva
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/80dd561b263dd5aab7c4a5209ca74faf3071b5cd213e1f8985538e34cfdc02f8/1792076693/ziggo-sport-2-nl.m3u8
+https://vix.cdn9859.shop/tflix/secure/af8e17ccae8c25bdc140a20a9e3032e85d16f64fb49a18e49004e8acb97afba4/1792077591/ziggo-sport-2-nl.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bournemouth-vs-sturm-graz-1792041789908.png" group-title="Live Sports",Bournemouth VS Sturm Graz (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/7c676ed517e6c1a6e62a9431b9075e353815a758336a4f4b72a1a0034faf765d/1792076726/tntsports1-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/ec86f4ddfa1ce5a07ff7fbfc670ada81bc2d21ac1235ed254a04da09ffb97711/1792077624/tntsports1-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bournemouth-vs-sturm-graz-1792041789908.png" group-title="Live Sports",Bournemouth VS Sturm Graz (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/4460cb2ea069deda51d5295d6e06c31ca6deb64a2d3ec001abedcbf1730034f6/1792076742/bein-ar-4.m3u8
+https://nfl.cdn9859.shop/tflix/secure/215f876f45d64cc5ade8e4babe1b41e07e5c5b3243ba43f1216582a2cb628fb1/1792077640/bein-ar-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/benfica-vs-celtic-1792041721817.png" group-title="Live Sports",Benfica VS Celtic (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/3d73ba5cdd9f80f29084d48ed822541b6302e246af7158ecd2d334d64234b088/1792076769/tntsports3-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/165bb591837dec61733617ec9b8bcb409e6507de2cf713f09407207d715e22f0/1792077667/tntsports3-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/benfica-vs-celtic-1792041721817.png" group-title="Live Sports",Benfica VS Celtic (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/1655cc30706f111101edfba98bdf70e7566088fe37724872aaa84cdcc04eef4c/1792076785/bein-ar-5.m3u8
+https://nfl.cdn9859.shop/tflix/secure/5eb5af821ad58d2e829b6a3eae09596626791b511e4ec8c842e9a656d69922ed/1792077684/bein-ar-5.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/celta-vigo-vs-juventus-1792041668561.png" group-title="Live Sports",Celta Vigo VS Juventus (Stream 1)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/d524b52d28f543f43d95c56b03f34c503a6659b75fdff64a6a871cc0888e9e10/1792076812/tntsports5.m3u8
+https://nfl.cdn9859.shop/tflix/secure/ee4bcd00e4c8ceefd6d5fa316b93af3fe84ddb08a5ad1b582c2edaf19d8dde38/1792077711/tntsports5.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/celta-vigo-vs-juventus-1792041668561.png" group-title="Live Sports",Celta Vigo VS Juventus (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/fd9fb9b1c30db044f5d34bad29b0966f0e4624ef82fea394c0d1458c3cdb14f2/1792076828/bein-ar-1.m3u8
+https://nfl.cdn9859.shop/tflix/secure/4b3dd39e4b81cd0b0487d87f91cb0960658b39acc8c9302067855f57f007c303/1792077727/bein-ar-1.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/marseille-vs-olympiakos-1792041608463.png" group-title="Live Sports",Marseille VS Olympiakos (Stream 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/marseille-vs-olympiakos-1792041608463.png" group-title="Live Sports",Marseille VS Olympiakos
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/e5ab4cd32912fefbdda00671c590698b1187d1d6ceeda3faf1cd55c770ee5e48/1792076855/tntsports6.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/marseille-vs-olympiakos-1792041608463.png" group-title="Live Sports",Marseille VS Olympiakos (Stream 2)
-#EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/38cb2b6854b10e744df72dfbeb198eecf72d23a9eab0d9846d87c0d199b12c3d/1792076871/bein-ar-2.m3u8
+https://nfl.cdn9859.shop/tflix/secure/d0c29115f77821f2b03443d0c2da93c671d7d71ceedf59a24af87833795d1898/1792077756/tntsports6.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/rennes-vs-ofi-1792041541440.png" group-title="Live Sports",Rennes VS Ofi
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/c329ad79c1b4d2c884ef024ec960fa00de053103be05581b0f6c85485092e72d/1792076898/tntsports8.m3u8
+https://nfl.cdn9859.shop/tflix/secure/bd623441a7712f13739708f3797ecfaf5b9c223c6fea9a271bd09c3f2bee0cb6/1792077773/tntsports8.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nec-vs-levski-sofia-1792041279577.png" group-title="Live Sports",Nec VS Levski Sofia
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/823a64a00aa638643c1ddbdbf3922cc2d2baa8f232da01cd5cbd6b239eee9458/1792076931/ziggo-sport-2-nl.m3u8
+https://vix.cdn9859.shop/tflix/secure/22f50642aa16a2a6769e4cac87028aed1413a8a49166a2b8a4b4684fea1ccc33/1792077807/ziggo-sport-2-nl.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/universitatea-craiova-vs-getafe-1792041869500.png" group-title="Live Sports",Universitatea Craiova VS Getafe
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shop/tflix/secure/3d6cfec701447b0c24b1a4429728a52136cbed95b953612bcdc3abc150ddde70/1792076965/tntsports8.m3u8
+https://nfl.cdn9859.shop/tflix/secure/6a7e185dd2a86f39680154b1558169477ba27a35145f239fcd5f3b0dff6eec24/1792077841/tntsports8.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/brighton-vs-kauno-zalgiris-1792041924965.png" group-title="Live Sports",Brighton VS Kauno Zalgiris
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/504e20beb5c76464ee1f97aee9696ccc97053805b761bc22c14310debc978154/1792076997/tntsports2-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/e30313a9e3d62beee1d4e919e0e29f4a262f6f0c2e431ee2235bcc40add98a43/1792077874/tntsports2-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/hearts-vs-nordsjaelland-1792041904212.png" group-title="Live Sports",Hearts VS Nordsjaelland
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/9baf04c00aee72a219af675eaeb7af68f03cd7916c37605268e4f42d77164045/1792077031/tntsports4-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/85c194a89ea1794d7c5c4fff80f2dd6efcde252c464f8dc8a82a7b885d098c77/1792077908/tntsports4-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/fe53d6eefa67542c056717c055b1c732e0375297106479bd0fcafe9f3ba5800a/1792077059/tntsports1-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/eb94fcf9173d15602ccef4c9ea10b3fe89ecf314301bab5ed2c36da224861ef9/1792077936/tntsports1-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/9a2b82734a29f075b6366df41b4dba325436b614ec538b13279f520f85380c43/1792077075/willow-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/bacdc050f959123905e2ea3c8253a9df82659e082b55222e71d73fd07099168f/1792077952/willow-usa.m3u8
