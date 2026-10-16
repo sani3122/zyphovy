@@ -1,25 +1,18 @@
 #EXTM3U
-# generated: 2026-10-16 21:16 UTC
+# generated: 2026-10-16 21:31 UTC
 # source: https://tflix.su/watch
-# streams: 3
+# streams: 2
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/a-coruna-vs-levante-1792127130269.png" group-title="Live Sports",A Coruna VS Levante (Stream 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/7ad39be2808d4e2e6be1b11e6c65cbbad5568edf7f1e44755722f0e03aa3b1b6/1792194367/espndeportes-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/babb0ba882a18b155b58462d17db8cd8d7cfbba7e613e991aa4d2c9a05bd6546/1792195264/tntsports1-uk.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/a-coruna-vs-levante-1792127130269.png" group-title="Live Sports",A Coruna VS Levante (Stream 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/74846189ac6da70b892af77748d058cca0c344b5fba37ba23da3e740578cf25d/1792194378/espndeportes-usa.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/a-coruna-vs-levante-1792127130269.png" group-title="Live Sports",A Coruna VS Levante (Stream 3)
-#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/94870128a034377ce3d6fc7056b75d77279370b69d72e4aa8fbb45ec84f11537/1792194383/beinsports2-au.m3u8
+https://vix.cdn9859.shop/tflix/secure/bd048af62a3f9bb1d1ed763314b2cc43c8b036a5c8ec6788a1be8d199c629646/1792195281/willow-usa.m3u8
