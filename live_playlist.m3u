@@ -1,32 +1,46 @@
 #EXTM3U
-# generated: 2026-10-16 19:03 UTC
+# generated: 2026-10-16 19:18 UTC
 # source: https://tflix.su/watch
-# streams: 4
+# streams: 6
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/a-coruna-vs-levante-1792127130269.png" group-title="Live Sports",A Coruna VS Levante
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/a-coruna-vs-levante-1792127130269.png" group-title="Live Sports",A Coruna VS Levante (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/44d46d5aed43d0c6ea4c9bceffc997683d0a3dca4998883f1f270a6accda6d7b/1792186276/espndeportes-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/2a7b754abd57c3a2fe619984361abf70aa3521eb016115e420ac56492e4a69f8/1792187151/espndeportes-usa.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/a-coruna-vs-levante-1792127130269.png" group-title="Live Sports",A Coruna VS Levante (Stream 2)
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/4c93c1d5d8d26caf60db0490c7d8f7bd4bfb286b3e01ce960382011f71dd1a38/1792187163/espndeportes-usa.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/a-coruna-vs-levante-1792127130269.png" group-title="Live Sports",A Coruna VS Levante (Stream 3)
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/7ce33883935d1e148770cd647a0d1c4b81b9a961b5a24dbad32245733f19c4ac/1792187168/beinsports2-au.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/frosinone-vs-sassuolo-1792127298908.png" group-title="Live Sports",Frosinone VS Sassuolo (Stream 1)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shopg/tflix/secure/0952e32da9f74e65bd7e45dcf4c43081ef583cf2b1c40b1b02b3c6e907ee2ad2/1792186347/PARAMOUT-SERIA-1.m3u8
+https://nfl.cdn9859.shopg/tflix/secure/5d1f3c573ac91c82568fa91694a6828b93bfcb34a47eff904beb3ade53cb2238/1792187239/PARAMOUT-SERIA-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/frosinone-vs-sassuolo-1792127298908.png" group-title="Live Sports",Frosinone VS Sassuolo (Stream 2)
 #EXTVLCOPT:http-referrer=https://nfl.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://nfl.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://nfl.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://nfl.sjncvuaq.xyz
-https://nfl.cdn9859.shopg/tflix/secure/c580ec9ed707f84aed7ff699ec39b0042ef8ecc4ec84820482dc923cd98b9dba/1792186364/PARAMOUT-SERIA-1.m3u8
+https://nfl.cdn9859.shopg/tflix/secure/a39fdd3cb1226a7ade0c0d93e00477e3dde43efc62ddfe6434d9678eba191677/1792187255/PARAMOUT-SERIA-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/frosinone-vs-sassuolo-1792127298908.png" group-title="Live Sports",Frosinone VS Sassuolo (Stream 3)
 #EXTVLCOPT:http-referrer=https://my.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://my.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://my.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://my.sjncvuaq.xyz
-https://vix.ijekhaje.xyz/tflix/secure/97d1a992dc328442bdba02d1d9c521e6af97b0b6c25840ad78730ad1b9c3f0d0/1792186369/beinsports-1-au.m3u8
+https://vix.ijekhaje.xyz/tflix/secure/a97eac9ee19040175ef45948cea7fb61f81204ce6ea90e1a680001f6e97a7f53/1792187260/beinsports-1-au.m3u8
