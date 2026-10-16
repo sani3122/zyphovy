@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-16 03:16 UTC
+# generated: 2026-10-16 03:31 UTC
 # source: https://tflix.su/watch
 # streams: 2
 
@@ -8,11 +8,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/7a86902beca9e46c82a1e45550ec64dab0a2c324938c0913147850fff3a42a29/1792129564/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/2eea14c7d3f07524972707548181c2f703fdf5de6118fb84412e044b7fadeba7/1792130463/skysportsmainevent-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/denver-broncos-vs-seattle-seahawks-1792068397019.png" group-title="Live Sports",Denver Broncos VS Seattle Seahawks (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/1de1d7a0ccdea03a490dc6e24a9f2f4dbc1ff97795766aa1b7c0b57a36af8c60/1792129585/skysportsmainevent-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/a0da3e9050a4a751c07b34d222772dbd2e9b758cf6639d1b50bcf3f6cc1a01df/1792130485/skysportsmainevent-uk.m3u8
