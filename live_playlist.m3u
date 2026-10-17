@@ -1,25 +1,32 @@
 #EXTM3U
-# generated: 2026-10-17 12:32 UTC
+# generated: 2026-10-17 12:47 UTC
 # source: https://tflix.su/watch
-# streams: 3
+# streams: 4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/everton-vs-chelsea-1792232051771.png" group-title="Live Sports",Everton VS Chelsea
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/everton-vs-chelsea-1792232051771.png" group-title="Live Sports",Everton VS Chelsea (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/9ff89874a32b703ad8b6ab4f9028777694c899a76ba5af4cc974cfb64ceb7c67/1792249272/skysport8-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/c551a127f4dabe479124f5a82b75f770a8b079183fbfc2af07569c4c8e8ac0bc/1792250175/skysport8-nz.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/everton-vs-chelsea-1792232051771.png" group-title="Live Sports",Everton VS Chelsea (Stream 2)
+#EXTVLCOPT:http-referrer=https://xu.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xu.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xu.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xu.sjncvuaq.xyz
+https://vix1.cdn9859.shop/tflix/secure/8b2ce01bd4d186606598de1f13c0c128cb0788a76f696fa5d73c13c8df4d98ee/1792250180/STAN-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/watford-vs-charlton-1792235799939.png" group-title="Live Sports",Watford VS Charlton (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/6fc8d315ee5b6e7060c97f155772976881b219aea2c998b8fa237fa7fd78e8ef/1792249289/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/79e4de6e2b0db50302b9e8786d9c6c640c8b09159e9e4c9ff6b0d168f6bcfa88/1792250207/skysportsfootball-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/watford-vs-charlton-1792235799939.png" group-title="Live Sports",Watford VS Charlton (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/087633a871e2acde280a43e2ada0a218fea8db682332415d123de5ad1f044190/1792249301/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/29b5d62c09d7ae6043e108e132bfce2ade4620ae7c2fedbd0dabbe4b568cf7f8/1792250218/skysportsfootball-uk.m3u8
