@@ -1,46 +1,53 @@
 #EXTM3U
-# generated: 2026-10-17 13:33 UTC
+# generated: 2026-10-17 13:48 UTC
 # source: https://tflix.su/watch
-# streams: 6
+# streams: 7
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/everton-vs-chelsea-1792232051771.png" group-title="Live Sports",Everton VS Chelsea (Stream 1)
+#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
+https://vix.cdn9859.shop/tflix/secure/8e8cdc2cc91f6ff08363ae1a41ef37034ccb14bd3275aa5560b31f77d51c32c3/1792253775/skysport8-nz.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/everton-vs-chelsea-1792232051771.png" group-title="Live Sports",Everton VS Chelsea (Stream 2)
+#EXTVLCOPT:http-referrer=https://xu.sjncvuaq.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://xu.sjncvuaq.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xu.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xu.sjncvuaq.xyz
+https://vix1.cdn9859.shop/tflix/secure/8263fea96197e15ef1552ffd9f629fdb353e7c3d47b3da41aab636694bc1e784/1792253780/STAN-3.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/venezia-vs-napoli-1792235652465.png" group-title="Live Sports",Venezia VS Napoli (Stream 1)
 #EXTVLCOPT:http-referrer=https://xu.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xu.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xu.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xu.sjncvuaq.xyz
-https://vix1.cdn9859.shop/tflix/secure/4244ae6c9bec6bf87fdbb671c54a0d3110a3dc9381a08ef4e020dc9603973379/1792252881/PARAMOUT-SERIA-1.m3u8
+https://vix1.cdn9859.shop/tflix/secure/68b31c5edb17a2eb95f912d8b7d1c2d74dbb60d047c5516d3878fbdfc78c7fb1/1792253806/PARAMOUT-SERIA-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/venezia-vs-napoli-1792235652465.png" group-title="Live Sports",Venezia VS Napoli (Stream 2)
 #EXTVLCOPT:http-referrer=https://xu.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://xu.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://xu.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://xu.sjncvuaq.xyz
-https://vix1.cdn9859.shop/tflix/secure/12835daf1f4fae71e5673eb15f49c158809375cfdae528fd65d931da4343a1fb/1792252897/PARAMOUT-SERIA-1.m3u8
+https://vix1.cdn9859.shop/tflix/secure/985bef585a4b765fca5ae07258a28b2022564fd293266efd806073a91dcc9015/1792253823/PARAMOUT-SERIA-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/watford-vs-charlton-1792235799939.png" group-title="Live Sports",Watford VS Charlton (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/7575bed690a1dc37d111b65ba8d61019b3767e20c0af6a89e779ffe8fcf77aff/1792252925/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/fde7deebf87418aa75ade4328667ecde41105ec20e1abc6ed822c3ea13bd6212/1792253850/skysportsfootball-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/watford-vs-charlton-1792235799939.png" group-title="Live Sports",Watford VS Charlton (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/46ba94490fce0aacd9e1effd40b6b9cca59594df68d4e518207e32fb23343db0/1792252935/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/78d8868e7434f119c7b9e836dbb31ee1c56a7c2459eae31dfe7b01bd96669acf/1792253861/skysportsfootball-uk.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/4a4977d2aca6d5a79c4bfe2ea86b3a22f2a563253126239a5d2b2d37e4f72a1f/1792252976/willow-usa.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 2)
-#EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/601a714073d6e4176f2e9ad2461d9fc7338c58cafd2fdc6784d2b1a68dd5310b/1792252992/willow-usa.m3u8
+https://vix.cdn9859.shop/tflix/secure/6b7a5b01c33effd055c27fe29ab601cd5e0e0c141bf8232cb73c024c28b80b95/1792253900/willow-usa.m3u8
