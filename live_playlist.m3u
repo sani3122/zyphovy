@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-17 11:47 UTC
+# generated: 2026-10-17 12:02 UTC
 # source: https://tflix.su/watch
 # streams: 3
 
@@ -8,18 +8,18 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/24691e390b650c7dcbf2ccf3507235bc868b1200386eee2a6d227478fb02310d/1792246575/skysport8-nz.m3u8
+https://vix.cdn9859.shop/tflix/secure/5390841fce36f127845d4fa400c4346a71b788bc25ee5957eaba8900b3aee40a/1792247485/skysport8-nz.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/watford-vs-charlton-1792235799939.png" group-title="Live Sports",Watford VS Charlton (Stream 1)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/19de11a259f19fb799329857e7ef78beb3287ced2e3b76a3fe96cf79bbc2e789/1792246603/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/f46ae8f20a7aff8858c6b803255b9bdd03e6bf9b75a6671196ee3b56a343a87f/1792247514/skysportsfootball-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/watford-vs-charlton-1792235799939.png" group-title="Live Sports",Watford VS Charlton (Stream 2)
 #EXTVLCOPT:http-referrer=https://vix.sjncvuaq.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://vix.sjncvuaq.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://vix.sjncvuaq.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://vix.sjncvuaq.xyz
-https://vix.cdn9859.shop/tflix/secure/a143d20af9526477c5111906eb8d75462c6a68c19e6a7c351b2f0ff1d8939549/1792246613/skysportsfootball-uk.m3u8
+https://vix.cdn9859.shop/tflix/secure/d079a4f5841982ba64f1f1ea2da441d3245e411ae49add720e5142b348248511/1792247524/skysportsfootball-uk.m3u8
