@@ -1,4 +1,18 @@
 #EXTM3U
-# generated: 2026-10-18 11:02 UTC
+# generated: 2026-10-18 11:17 UTC
 # source: https://tflix.su/watch
-# streams: 0
+# streams: 2
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/udinese-vs-lecce-1792321423749.png" group-title="Live Sports",Udinese VS Lecce (Stream 1)
+#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/f7b5ad653d9142404689856356ce176307dcf846a3d4aa24aff4542f71b193fd/1792331155/DAZN-1-IT.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/udinese-vs-lecce-1792321423749.png" group-title="Live Sports",Udinese VS Lecce (Stream 2)
+#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/4b88cfab9dad26e5d4f04cc1e652ca92c44558f48354080604a3e3276529bb02/1792331172/DAZN-1-IT.m3u8
