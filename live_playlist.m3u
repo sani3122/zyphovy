@@ -1,32 +1,4 @@
 #EXTM3U
-# generated: 2026-10-18 15:47 UTC
+# generated: 2026-10-18 16:03 UTC
 # source: https://tflix.su/watch
-# streams: 4
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 1)
-#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/30eac85ee5bb6b0424a5d601ceb8027cc55189368d649a3221fddc3accbd94ce/1792347351/SKY-SPORT-8-NZ.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 2)
-#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/27bb391057428e8c38a819028f581e2d5069d774a6f0f2106cd15e19cf60c009/1792347363/SKY-SPORT-8-NZ.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 3)
-#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/2db025e703326125d35b805d3b43de5cc208ba7bb77d4b834ed3f6106dac6e79/1792347368/SKY-SPORTS-MAIN-EVENT-UK.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 4)
-#EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/39ce4bb2648f77b0428919f6332ad9ade65b9b45156538150ce9b8293e98dd7a/1792347373/SKY-SPORTS-PREMIER-LEAGUE-UK.m3u8
+# streams: 0
