@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-18 11:47 UTC
+# generated: 2026-10-18 12:02 UTC
 # source: https://tflix.su/watch
 # streams: 5
 
@@ -8,32 +8,32 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/5bf62d3a1cd59c02504889d830c8e21379fd4e0b719976e48588aec8f979c7dc/1792332962/DAZN-1-IT.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/1ae43a5516d6d308746ca8768271aa632cf79be6a63f9900101f6abd179e5b7b/1792333868/DAZN-1-IT.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/udinese-vs-lecce-1792321423749.png" group-title="Live Sports",Udinese VS Lecce (Stream 2)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/fcf5fb64b099f2acf9d014c3dca6485136e38d72d4c275e3db258ddb45ed028a/1792332978/DAZN-1-IT.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/d8ed97461d2f841b0498e13adc680e0424f4c6d17ee3ecedabf27ee56eab129a/1792333884/DAZN-1-IT.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 1)
 #EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/0401c6cb2e7638d69df387cd5da25d1231f6c301ceb13b7fde87688b1654f271/1792332998/willow-usa.m3u8
+https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/71cee46f3be776f1d87ca13633889c0f3bd4d1309555a31fd87a59680c647a0e/1792333904/willow-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 2)
 #EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/28abf22575fdd0b9f18ac0ef281f200b848a8c3528eda3c461ba775823d53faa/1792333015/willow-usa.m3u8
+https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/cddd4abe643162cae9c96bab6d2f36dbb3393ab9e77c78eda552ea442076535a/1792333921/willow-usa.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1792251730406.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/02ca343b54b863527c7437b13d407042728cbd6e9a3f9e52874be47b2925bbe0/1792333022/skysportscricket-uk.m3u8
+https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/5ff47ea0c0cafbd19debd29b09d8601ca048645ebfde0f1cfb4e42a18ca15c4b/1792333930/skysportscricket-uk.m3u8
