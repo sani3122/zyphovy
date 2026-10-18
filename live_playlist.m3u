@@ -1,95 +1,102 @@
 #EXTM3U
-# generated: 2026-10-18 13:48 UTC
+# generated: 2026-10-18 14:03 UTC
 # source: https://tflix.su/watch
-# streams: 13
+# streams: 14
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bournemouth-vs-sunderland-1792322554034.png" group-title="Live Sports",Bournemouth VS Sunderland
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bournemouth-vs-sunderland-1792322554034.png" group-title="Live Sports",Bournemouth VS Sunderland (Stream 1)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/92dffe3da3dfedd0a526fbb52b59a3f802afd817d3d0af203a95e22ec40a271b/1792340168/SKY-SPORT-1-NZ.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/484236f8181cb9dc13dc2668bd4b3e85e7da70ce0f30174ded3b3b6b09ab628d/1792341064/SKY-SPORT-1-NZ.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bournemouth-vs-sunderland-1792322554034.png" group-title="Live Sports",Bournemouth VS Sunderland (Stream 2)
+#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/f90b8fb3a81298e115d4bd6e09982b9314cfe91cd1eb98f47458629d2a55e5ad/1792341080/SKY-SPORT-1-NZ.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/brighton-vs-crystal-palace-1792322508228.png" group-title="Live Sports",Brighton VS Crystal Palace (Stream 1)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/6394ce508ca5438fae2075b61a74c9198cb3c473e3d9e4b43017423372da1fb7/1792340183/SKY-SPORT-2-NZ.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/09f63d6f9f8f5af5856f20e7bcf82379f172ea4c64a67727572ed15abd364c44/1792341087/SKY-SPORT-2-NZ.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/brighton-vs-crystal-palace-1792322508228.png" group-title="Live Sports",Brighton VS Crystal Palace (Stream 2)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/d338966ff5e8097a90e5078229a8bdca3aa9424e5eab256573c37243c7b42b7b/1792340194/SKY-SPORT-2-NZ.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/b2f191fdc07200c2a205a60dcc598d5a0fddfb661ad5130a5209aa38e356aba1/1792341098/SKY-SPORT-2-NZ.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/brighton-vs-crystal-palace-1792322508228.png" group-title="Live Sports",Brighton VS Crystal Palace (Stream 3)
 #EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/b7b41f49cd3067b01d0c0882e04d3f0cb45de7c1bc8efded38e3987787b68c4f/1792340199/SKY-SPORTS-PREMIER-LEAGUE-UK.m3u8
+https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/dd33deb16501ab8b47c1ccba3a31efa9f4e5ad8a4816d3026b2d35c4460bc018/1792341103/SKY-SPORTS-PREMIER-LEAGUE-UK.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leeds-united-vs-manchester-united-1792322464570.png" group-title="Live Sports",Leeds United VS Manchester United (Stream 1)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/4c659646ff53815da52ce9bd4c50a9a2dba19b4ab2e73b92ad2f7a0dfd0eb3b8/1792340206/SKY-SPORTS-MAIN-EVENT-UK.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/07264fdea5d2ad18cdba2ca7289f00b3be9220b1c98f879589130974f58a9cc0/1792341114/SKY-SPORTS-MAIN-EVENT-UK.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leeds-united-vs-manchester-united-1792322464570.png" group-title="Live Sports",Leeds United VS Manchester United (Stream 2)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/df8268adf58393501cecbfca76912f05b4fd5d6898e8a76d12b80d063080a8ca/1792340218/SKY-SPORTS-MAIN-EVENT-UK.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/ca77ade61afd0a81d84f8bf566ac6197226b8b2cc175561e19271050896f106c/1792341126/SKY-SPORTS-MAIN-EVENT-UK.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leeds-united-vs-manchester-united-1792322464570.png" group-title="Live Sports",Leeds United VS Manchester United (Stream 3)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/9df9622caa601d640da801a8cc0d9e2113fcb9ace66a9597b6bea6dc07ec6158/1792340223/SKY-SPORT-8-NZ.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/946dcd884caba71dfa9f9db68bda813c7266e14590b55fc0e85a83371328d7ef/1792341131/SKY-SPORT-8-NZ.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/leverkusen-vs-freiburg-1792331006156.png" group-title="Live Sports",Leverkusen VS Freiburg
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/460ab093898e9e561f860ea0d45a6f15ccdf7406c26c24560a78fedd9c1d539f/1792340231/SKY-BUNDESLIGA-1.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/ab915121cc63abd25da13a708b0cd855e7f2cf1cce2292e8b5de3d4fb05a941d/1792341137/SKY-BUNDESLIGA-1.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/fiorentina-vs-como-1792321465500.png" group-title="Live Sports",Fiorentina VS Como (Stream 1)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/12755f99c5770e072e8ee96e8a9e7ce8443cc21c2e5d3f0506aa897a53fef02a/1792340245/DAZN-1-IT.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/f8b1efc61191b8d5691725e3c4b2869a043e1ef737b7ef00d4d9240757afb719/1792341151/DAZN-1-IT.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/fiorentina-vs-como-1792321465500.png" group-title="Live Sports",Fiorentina VS Como (Stream 2)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/2865a138001392cffe6523b4e03139def26b452323381d1e749a01c13f636e63/1792340262/DAZN-1-IT.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/eca5cc4bab7f6e0e4109151ffa02d5607f5e6a22e8186d8b793f1172034c568d/1792341166/DAZN-1-IT.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/south-africa-vs-australia-1792251730406.png" group-title="Live Sports",South Africa VS Australia
 #EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/cfe0e904c08cce17b793def7ebcbf3640143a79ad50320141843fb8d03509d47/1792340269/skysportscricket-uk.m3u8
+https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/5a9c966050a86576dda54496d75cb6f62cde671be8fa01dfedb14e1a8f70a677/1792341173/skysportscricket-uk.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/jacksonville-jaguars-vs-houston-texans-1792326475878.png" group-title="Live Sports",Jacksonville Jaguars VS Houston Texans (Stream 1)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/c57c0258642c4c5e430f0a623fefa3eee974c36be4bc05604c4338fb355f5735/1792340292/SKY-SPORTS-ACTION.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/47c82a755504f4b339a362f5fcff64f93af349913dbb569f394d266e8f8aef37/1792341194/SKY-SPORTS-ACTION.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/jacksonville-jaguars-vs-houston-texans-1792326475878.png" group-title="Live Sports",Jacksonville Jaguars VS Houston Texans (Stream 2)
 #EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/239864289ff9579fe9fdb5778fe6c8b20e2161231b1a4371bf327eb63a7544b6/1792340308/NFL-NETWORK.m3u8
+https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/2b3031c9e57c2f7dfd854b39eb04b27d925e36f1b00444c4a91166d559d2ba3b/1792341209/NFL-NETWORK.m3u8
