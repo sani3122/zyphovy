@@ -1,81 +1,67 @@
 #EXTM3U
-# generated: 2026-10-18 17:49 UTC
+# generated: 2026-10-18 18:03 UTC
 # source: https://tflix.su/watch
-# streams: 11
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 1)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/ee637d00316697684b3bd1d417824ae01d59045b1db3e5b5e7c611a2a95cfc87/1792354559/SKY-SPORT-8-NZ.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 2)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/1c28922e9be86caa6f92c1f2c4d4cfc5c35b0186eea7dc150d86b93217501027/1792354570/SKY-SPORT-8-NZ.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 3)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/d4761a3fcf40f0a46b1dca1234bf2335147ee8df15d4bd8245c242599df65c97/1792354575/SKY-SPORTS-MAIN-EVENT-UK.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nottingham-forest-vs-arsenal-1792325879823.png" group-title="Live Sports",Nottingham Forest VS Arsenal (Stream 4)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/493504129322ee828870473e3a400d22b7377bd5d0b066f5b7ce47e4a889465b/1792354580/SKY-SPORTS-PREMIER-LEAGUE-UK.m3u8
+# streams: 9
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ac-milan-vs-atalanta-1792321490587.png" group-title="Live Sports",Ac Milan VS Atalanta (Stream 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/73d0f49956d2680c2be7eb993576238bd0c5918ec0491d605538ed5f068bc66e/1792354607/TNT-SPORTS-1-UK.m3u8
+https://saka.kpores.ru/tflix/secure/18253813d762db2972acd375c060b07d1e9429a3338fa1c10a0da1d6cdc95a87/1792355467/TNT-SPORTS-1-UK.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ac-milan-vs-atalanta-1792321490587.png" group-title="Live Sports",Ac Milan VS Atalanta (Stream 2)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/56e8d7f9ab3a089bad05f542700840eb1ab224323f27ec01289ed6d5a17f4c84/1792354623/TNT-SPORTS-1-UK.m3u8
+https://saka.kpores.ru/tflix/secure/a20636a3b4345d55cbb0439c1dd84633cd46038f1fb232bab3f341f172ea532a/1792355483/TNT-SPORTS-1-UK.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/tampa-bay-buccaneers-vs-pittsburgh-steelers-1792344380191.png" group-title="Live Sports",Tampa Bay Buccaneers VS Pittsburgh Steelers
+#EXTVLCOPT:http-referrer=https://kpores.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://kpores.ru
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+https://saka.kpores.ru/tflix/secure/a245ffa86d817ed42d91f168df131e628fe771609c7f54bf18145721a5a9c606/1792355527/NFL-9.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/philadelphia-eagles-vs-carolina-panthers-1792342358516.png" group-title="Live Sports",Philadelphia Eagles VS Carolina Panthers
+#EXTVLCOPT:http-referrer=https://kpores.ru/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://kpores.ru
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+https://saka.kpores.ru/tflix/secure/fb8e5129a57a3ae89af2dd3f0aeb5da7a8ba9337b964f305b87a3c20b5c0bc90/1792355541/NFL-8.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-giants-vs-new-orleans-saints-1792342297160.png" group-title="Live Sports",New York Giants VS New Orleans Saints
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/248da90a0cd1d6373aa5d66ef13b526550df471e235ae08a6d8128264179cd25/1792354678/NFL-7.m3u8
+https://saka.kpores.ru/tflix/secure/bcfab3d0fc83b885196e68447f81baed82979c2aeea52587d51b780f720c1c85/1792355556/NFL-7.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-england-patriots-vs-new-york-jets-1792342245976.png" group-title="Live Sports",New England Patriots VS New York Jets
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/047a3b9a0001f908a193ae3294c26e48582873ce855f9e7e968c36fcb3c63ee2/1792354691/NFL-6.m3u8
+https://saka.kpores.ru/tflix/secure/0aedc3b6a759e113ae675b98743df1555a8397cc2636caa0ad5dc53af5463dd0/1792355570/NFL-6.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/indianapolis-colts-vs-tennessee-titans-1792342162927.png" group-title="Live Sports",Indianapolis Colts VS Tennessee Titans
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/fe120b7990a77a34fec3d13dabcefd97f26429afc53eae7a7a09e2c586334d40/1792354704/NFL-5.m3u8
+https://saka.kpores.ru/tflix/secure/8e25232022b083ff21e337e2974df861b2b5fb694e550ee9896598091d5c1767/1792355582/NFL-5.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/cleveland-browns-vs-baltimore-ravens-1792341998238.png" group-title="Live Sports",Cleveland Browns VS Baltimore Ravens
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/a43601d90193b37fcaca7a359c8ebcbbe1422fc4863d6b2d3feb0a22b191c768/1792354717/NFL-4.m3u8
+https://saka.kpores.ru/tflix/secure/29129249a5e0eb4edf1df9a8bf8ac212d37a2907773d0ed063fc966a97893a3f/1792355596/NFL-4.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/atlanta-falcons-vs-chicago-bears-1792341932683.png" group-title="Live Sports",Atlanta Falcons VS Chicago Bears
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/a59fe3bab9c14d03c379f2d03e9682d38dc3abf6c59704df728afb04a18001a0/1792354730/NFL-3.m3u8
+https://saka.kpores.ru/tflix/secure/6ca2184c67de23fe73740bdfe2930b53aa1b4b107415e4d19557cbb7b3d2ffce/1792355610/NFL-3.m3u8
