@@ -1,32 +1,4 @@
 #EXTM3U
-# generated: 2026-10-18 12:47 UTC
+# generated: 2026-10-18 13:02 UTC
 # source: https://tflix.su/watch
-# streams: 4
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/udinese-vs-lecce-1792321423749.png" group-title="Live Sports",Udinese VS Lecce (Stream 1)
-#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/b71dca35e5708361d2f1ad8874103517a91f103d2cda74e4d60399db08fcaa03/1792336562/DAZN-1-IT.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/udinese-vs-lecce-1792321423749.png" group-title="Live Sports",Udinese VS Lecce (Stream 2)
-#EXTVLCOPT:http-referrer=https://mix1.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix1.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix1.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix1.eeeertwfvsgs.xyz
-https://vix1.dsfigosdhgfvsshed.xyz/tflix/secure/8d531de696b4307728e26875a3a973e7623706575a745598b1acc38d4cc632dd/1792336578/DAZN-1-IT.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 1)
-#EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/53eb0ddc51a8a97540d99077c933013cd6a2513e6676d2af8dfc50c704d9263a/1792336598/willow-usa.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-vs-west-indies-1792061864036.png" group-title="Live Sports",India VS West Indies (Stream 2)
-#EXTVLCOPT:http-referrer=https://mix.eeeertwfvsgs.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://mix.eeeertwfvsgs.xyz
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://mix.eeeertwfvsgs.xyz/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://mix.eeeertwfvsgs.xyz
-https://vix.dsfigosdhgfvsshed.xyz/tflix/secure/5edeeaf05d8d45d8f02b0c26654aea3832630dc2ba87ecf840910baa8d0b39ab/1792336615/willow-usa.m3u8
+# streams: 0
