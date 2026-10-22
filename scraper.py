@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Cricflixs Live Stream M3U Scraper (Foolproof Direct Live Card Scanner)
-- Directly scans all match cards on the page for the 'LIVE' badge
-- Extracts watch links and IOS server streams robustly
-- Validates and saves working streams instantly
+Cricflixs Live Stream M3U Scraper (Cloudflare Bypass & Stealth Edition)
+- Uses advanced Chromium stealth flags to bypass Cloudflare bot detection
+- Safely handles page loading without strict failing timeouts
+- Automatically extracts working IOS streams and generates playlists
 """
 
 import asyncio
@@ -145,7 +145,9 @@ class CricflixStreamScraper:
     async def run(self):
         self._clean_logos_folder()
 
-        print(f"[*] Initializing Chromium Browser for Cricflixs: {self.target_url}")
+        print(
+            f"[*] Initializing Stealth Chromium Browser for Cricflixs: {self.target_url}"
+        )
         async with async_playwright() as p:
             browser = await p.chromium.launch(
                 headless=True,
@@ -153,15 +155,20 @@ class CricflixStreamScraper:
                     "--no-sandbox",
                     "--disable-setuid-sandbox",
                     "--disable-dev-shm-usage",
+                    "--disable-accelerated-2d-canvas",
+                    "--disable-gpu",
                     "--disable-blink-features=AutomationControlled",
+                    "--ignore-certificate-errors",
                 ],
             )
             context = await browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+                viewport={"width": 1366, "height": 768},
+                locale="en-US",
             )
             page = await context.new_page()
 
-            print("\n[Tier 1] Scanning LIVE matches directly...")
+            print("\n[Tier 1] Scanning LIVE matches with Cloudflare bypass...")
             match_links = await self._tier_1_find_live_matches(page)
             print(f"    -> Found {len(match_links)} live match(es).")
 
@@ -203,12 +210,12 @@ class CricflixStreamScraper:
             self._generate_m3u(self.captured_streams)
 
     async def _tier_1_find_live_matches(self, page):
-        """Scrapes all match cards on the page and filters only those containing 'LIVE'."""
+        """Loads site safely and handles Cloudflare challenge delay before scraping."""
         try:
-            await page.goto(self.target_url, wait_until="networkidle", timeout=30000)
-            # Wait for watch links to render fully
-            await page.wait_for_selector('a[href*="/watch/"]', timeout=15000)
-            await asyncio.sleep(3)
+            await page.goto(self.target_url, wait_until="domcontentloaded", timeout=45000)
+            # Give extra time for Cloudflare JS challenge to auto-resolve in headless mode
+            print("    -> Waiting for Cloudflare clearance & dynamic render...")
+            await asyncio.sleep(8)
         except Exception as e:
             print(f"[!] Target page load warning: {e}")
 
@@ -222,12 +229,11 @@ class CricflixStreamScraper:
                     const href = a.href;
                     if (!href || seen.has(href)) return;
 
-                    // Find the parent match container card
                     const card = a.closest('div, section, article') || a.parentElement;
                     const cardText = card ? card.innerText.toUpperCase() : '';
 
-                    // Check if this specific card contains the LIVE indicator
-                    if (cardText.includes('LIVE')) {
+                    // Grab match if it's active or contains live elements
+                    if (cardText.includes('LIVE') || href.includes('/watch/')) {
                         let title = card ? card.innerText.trim().replace(/\n/g, ' - ') : 'Live Match';
                         if (title.length > 70) title = "Live Match";
 
@@ -248,7 +254,8 @@ class CricflixStreamScraper:
         self, browser, match_url, match_title, match_logo
     ):
         context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+            viewport={"width": 1366, "height": 768},
         )
         page = await context.new_page()
         found_streams = []
@@ -278,8 +285,8 @@ class CricflixStreamScraper:
         await page.route("**/*", route_handler)
 
         try:
-            await page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
-            await asyncio.sleep(4)
+            await page.goto(match_url, wait_until="domcontentloaded", timeout=45000)
+            await asyncio.sleep(6)
 
             # Click IOS servers automatically (ignoring AQ DRM servers)
             clicked_ios = await page.evaluate("""
@@ -381,4 +388,4 @@ class CricflixStreamScraper:
 if __name__ == "__main__":
     scraper = CricflixStreamScraper()
     asyncio.run(scraper.run())
-            
+                    
