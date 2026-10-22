@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Cricflixs Live Stream M3U Scraper (Precise Live Tab Clicker Edition)
-- Accurately targets the 'Live (5)' filter tab at the top
-- Extracts match watch links cleanly
-- Automatically clicks IOS servers and validates streams
+Cricflixs Live Stream M3U Scraper (Foolproof Direct Live Card Scanner)
+- Directly scans all match cards on the page for the 'LIVE' badge
+- Extracts watch links and IOS server streams robustly
+- Validates and saves working streams instantly
 """
 
 import asyncio
@@ -161,7 +161,7 @@ class CricflixStreamScraper:
             )
             page = await context.new_page()
 
-            print("\n[Tier 1] Scanning LIVE matches...")
+            print("\n[Tier 1] Scanning LIVE matches directly...")
             match_links = await self._tier_1_find_live_matches(page)
             print(f"    -> Found {len(match_links)} live match(es).")
 
@@ -203,32 +203,12 @@ class CricflixStreamScraper:
             self._generate_m3u(self.captured_streams)
 
     async def _tier_1_find_live_matches(self, page):
-        """Clicks the precise top 'Live' filter button and extracts match links."""
+        """Scrapes all match cards on the page and filters only those containing 'LIVE'."""
         try:
             await page.goto(self.target_url, wait_until="networkidle", timeout=30000)
-            await asyncio.sleep(5)
-
-            # Strictly target the top filter tab containing 'LIVE' (e.g. 'Live (5)')
-            live_clicked = await page.evaluate("""
-                () => {
-                    const elements = Array.from(document.querySelectorAll('div, span, button, a'));
-                    const liveBtn = elements.find(el => {
-                        const txt = el.innerText ? el.innerText.trim().toUpperCase() : '';
-                        // Must match filter pill format like 'LIVE (X)' or exact 'LIVE' button in header filter area
-                        return (txt.startsWith('LIVE') && txt.length < 15 && el.children.length <= 2);
-                    });
-                    if (liveBtn) {
-                        liveBtn.click();
-                        return true;
-                    }
-                    return false;
-                }
-            """)
-            if live_clicked:
-                print("    -> Successfully clicked top 'Live' filter tab.")
-                await asyncio.sleep(4)
-            else:
-                print("    -> Filter tab click skipped, scanning page directly...")
+            # Wait for watch links to render fully
+            await page.wait_for_selector('a[href*="/watch/"]', timeout=15000)
+            await asyncio.sleep(3)
         except Exception as e:
             print(f"[!] Target page load warning: {e}")
 
@@ -236,21 +216,27 @@ class CricflixStreamScraper:
             () => {
                 const results = [];
                 const seen = new Set();
-                const links = Array.from(document.querySelectorAll('a[href*="/watch/"]'));
+                const watchLinks = Array.from(document.querySelectorAll('a[href*="/watch/"]'));
 
-                links.forEach(a => {
+                watchLinks.forEach(a => {
                     const href = a.href;
                     if (!href || seen.has(href)) return;
 
+                    // Find the parent match container card
                     const card = a.closest('div, section, article') || a.parentElement;
-                    let title = card ? card.innerText.trim().replace(/\n/g, ' - ') : 'Live Match';
-                    if (title.length > 70) title = "Live Match";
+                    const cardText = card ? card.innerText.toUpperCase() : '';
 
-                    let slug = href.split('/watch/')[1]?.split('?')[0] || 'match';
-                    slug = slug.replace(/[^a-zA-Z0-9-_]/g, '_');
+                    // Check if this specific card contains the LIVE indicator
+                    if (cardText.includes('LIVE')) {
+                        let title = card ? card.innerText.trim().replace(/\n/g, ' - ') : 'Live Match';
+                        if (title.length > 70) title = "Live Match";
 
-                    seen.add(href);
-                    results.push([title, href, slug]);
+                        let slug = href.split('/watch/')[1]?.split('?')[0] || 'match';
+                        slug = slug.replace(/[^a-zA-Z0-9-_]/g, '_');
+
+                        seen.add(href);
+                        results.push([title, href, slug]);
+                    }
                 });
 
                 return results;
@@ -395,4 +381,4 @@ class CricflixStreamScraper:
 if __name__ == "__main__":
     scraper = CricflixStreamScraper()
     asyncio.run(scraper.run())
-                
+            
