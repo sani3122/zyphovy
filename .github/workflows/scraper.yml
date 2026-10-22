@@ -39,7 +39,7 @@ jobs:
           git stash --include-untracked || true
           git pull origin main --rebase --autostash || true
           git stash pop || true
-          git add live_playlist.m3u logos/
+          git add live_playlist.m3u || true
+          [ -d "logos" ] && git add logos/ || true
           git commit -m "Auto-update Cricflixs playlist and banners [skip ci]" || exit 0
           git push origin main
-          
