@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Cricflixs Live Stream M3U Scraper (Cloudflare Bypass & Stealth Edition)
-- Uses advanced Chromium stealth flags to bypass Cloudflare bot detection
-- Safely handles page loading without strict failing timeouts
-- Automatically extracts working IOS streams and generates playlists
+Tflix.su Live Stream M3U Scraper
+- Scrapes live matches from https://tflix.su/
+- Automatically opens source selection dropdown and iterates through all available servers
+- Validates and saves working stream links into live_playlist.m3u
 """
 
 import asyncio
@@ -19,10 +19,10 @@ from PIL import Image, ImageDraw, ImageFont
 import pycountry
 from playwright.async_api import async_playwright
 
-TARGET_URL = "https://www.cricflixs.com/"
+TARGET_URL = "https://tflix.su/"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
-WAIT_PLAYER = 7
+WAIT_PLAYER = 6  # Seconds to wait per source switch
 
 STREAM_RE = re.compile(
     r"(\.m3u8(\?|$)|manifest\.mpd|playlist|stream|hls)", re.IGNORECASE
@@ -130,7 +130,7 @@ async def validate_stream_link(
     return False
 
 
-class CricflixStreamScraper:
+class TflixStreamScraper:
 
     def __init__(self, target_url=TARGET_URL):
         self.target_url = target_url
@@ -145,9 +145,7 @@ class CricflixStreamScraper:
     async def run(self):
         self._clean_logos_folder()
 
-        print(
-            f"[*] Initializing Stealth Chromium Browser for Cricflixs: {self.target_url}"
-        )
+        print(f"[*] Initializing Stealth Browser for Tflix: {self.target_url}")
         async with async_playwright() as p:
             browser = await p.chromium.launch(
                 headless=True,
@@ -155,20 +153,16 @@ class CricflixStreamScraper:
                     "--no-sandbox",
                     "--disable-setuid-sandbox",
                     "--disable-dev-shm-usage",
-                    "--disable-accelerated-2d-canvas",
-                    "--disable-gpu",
                     "--disable-blink-features=AutomationControlled",
-                    "--ignore-certificate-errors",
                 ],
             )
             context = await browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
                 viewport={"width": 1366, "height": 768},
-                locale="en-US",
             )
             page = await context.new_page()
 
-            print("\n[Tier 1] Scanning LIVE matches with Cloudflare bypass...")
+            print("\n[Tier 1] Scanning LIVE matches on Tflix...")
             match_links = await self._tier_1_find_live_matches(page)
             print(f"    -> Found {len(match_links)} live match(es).")
 
@@ -177,7 +171,9 @@ class CricflixStreamScraper:
                 for title, url, slug in match_links:
                     print(f"\n[Tier 2] Processing Match: {title}")
 
-                    parts = title.split(" - ")
+                    parts = title.split(" vs ")
+                    if len(parts) < 2:
+                        parts = title.split(" vs. ")
                     t1 = parts[0] if len(parts) > 0 else "Team 1"
                     t2 = parts[1] if len(parts) > 1 else "Team 2"
 
@@ -210,12 +206,10 @@ class CricflixStreamScraper:
             self._generate_m3u(self.captured_streams)
 
     async def _tier_1_find_live_matches(self, page):
-        """Loads site safely and handles Cloudflare challenge delay before scraping."""
+        """Finds all live match cards and their watch links from Tflix homepage."""
         try:
-            await page.goto(self.target_url, wait_until="domcontentloaded", timeout=45000)
-            # Give extra time for Cloudflare JS challenge to auto-resolve in headless mode
-            print("    -> Waiting for Cloudflare clearance & dynamic render...")
-            await asyncio.sleep(8)
+            await page.goto(self.target_url, wait_until="networkidle", timeout=45000)
+            await asyncio.sleep(6)
         except Exception as e:
             print(f"[!] Target page load warning: {e}")
 
@@ -232,10 +226,11 @@ class CricflixStreamScraper:
                     const card = a.closest('div, section, article') || a.parentElement;
                     const cardText = card ? card.innerText.toUpperCase() : '';
 
-                    // Grab match if it's active or contains live elements
-                    if (cardText.includes('LIVE') || href.includes('/watch/')) {
-                        let title = card ? card.innerText.trim().replace(/\n/g, ' - ') : 'Live Match';
-                        if (title.length > 70) title = "Live Match";
+                    if (cardText.includes('LIVE')) {
+                        let title = card ? card.innerText.trim().replace(/\n/g, ' vs ') : 'Live Match';
+                        // Clean up title formatting
+                        title = title.split(' vs ')[0] + ' vs ' + (title.split(' vs ')[1] || 'Match');
+                        if (title.length > 60) title = "Tflix Live Match";
 
                         let slug = href.split('/watch/')[1]?.split('?')[0] || 'match';
                         slug = slug.replace(/[^a-zA-Z0-9-_]/g, '_');
@@ -286,29 +281,57 @@ class CricflixStreamScraper:
 
         try:
             await page.goto(match_url, wait_until="domcontentloaded", timeout=45000)
-            await asyncio.sleep(6)
+            await asyncio.sleep(5)
 
-            # Click IOS servers automatically (ignoring AQ DRM servers)
-            clicked_ios = await page.evaluate("""
-                () => {
-                    const elements = Array.from(document.querySelectorAll('div, button, a, span'));
-                    let clickedCount = 0;
-
-                    elements.forEach(el => {
-                        const text = el.innerText ? el.innerText.toUpperCase() : '';
-                        if (text.includes('IOS') && !text.includes('AQ')) {
-                            const clickable = el.closest('button, a, div[class*="server"]') || el;
-                            if (clickable && typeof clickable.click === 'function') {
-                                clickable.click();
-                                clickedCount++;
-                            }
-                        }
+            # Click SOURCE dropdown and iterate through available stream sources
+            source_buttons = await page.evaluate("""
+                async () => {
+                    // Find and click the source dropdown selector
+                    const sourceBtn = Array.from(document.querySelectorAll('div, button, span')).find(el => {
+                        const txt = el.innerText ? el.innerText.toUpperCase() : '';
+                        return txt.includes('SOURCE') || txt.includes('PRIME VIDEO') || txt.includes('SKY SPORT');
                     });
-                    return clickedCount;
+                    
+                    if (sourceBtn) {
+                        sourceBtn.click();
+                        await new Promise(r => setTimeout(r, 1000));
+                    }
+
+                    // Collect all dropdown source items
+                    const items = Array.from(document.querySelectorAll('div, li, button, a')).filter(el => {
+                        const txt = el.innerText ? el.innerText.toUpperCase() : '';
+                        return txt.includes('AQ') || txt.includes('SPORT') || txt.includes('WILLOW') || txt.includes('PRIME');
+                    });
+
+                    return items.map((el, idx) => ({ index: idx, name: el.innerText.trim().split('\\n')[0] }));
                 }
             """)
-            print(f"    -> Triggered clicks on {clicked_ios} IOS server element(s).")
-            await asyncio.sleep(WAIT_PLAYER)
+
+            if source_buttons:
+                print(f"    -> Found {len(source_buttons)} stream source(s) in dropdown.")
+                for srv in source_buttons[:6]:  # Iterate top sources
+                    print(f"    -> Switching to Source: {srv['name']}")
+                    try:
+                        await page.evaluate(
+                            """
+                            (idx) => {
+                                const items = Array.from(document.querySelectorAll('div, li, button, a')).filter(el => {
+                                    const txt = el.innerText ? el.innerText.toUpperCase() : '';
+                                    return txt.includes('AQ') || txt.includes('SPORT') || txt.includes('WILLOW') || txt.includes('PRIME');
+                                });
+                                if (items[idx]) items[idx].click();
+                            }
+                            """,
+                            srv["index"],
+                        )
+                    except Exception:
+                        pass
+                    await asyncio.sleep(WAIT_PLAYER)
+            else:
+                print(
+                    "    [!] No dropdown sources found, waiting on default player..."
+                )
+                await asyncio.sleep(WAIT_PLAYER)
 
         except Exception as e:
             print(f"    [!] Error during match stream extraction: {e}")
@@ -318,7 +341,7 @@ class CricflixStreamScraper:
         for idx, s in enumerate(found_streams):
             s["logo"] = match_logo
             if len(found_streams) > 1:
-                s["title"] = f"{s['title']} (IOS Server {idx + 1})"
+                s["title"] = f"{s['title']} (Source {idx + 1})"
 
         return found_streams
 
@@ -363,7 +386,7 @@ class CricflixStreamScraper:
             origin = s["headers"].get("origin", "")
 
             lines.append(
-                f'#EXTINF:-1 tvg-logo="{full_logo_url}" group-title="Cricflixs Live",{title}'
+                f'#EXTINF:-1 tvg-logo="{full_logo_url}" group-title="Tflix Live",{title}'
             )
             lines.append(f"#EXTVLCOPT:http-referrer={ref}")
             lines.append(f"#EXTVLCOPT:http-user-agent={ua}")
@@ -386,6 +409,6 @@ class CricflixStreamScraper:
 
 
 if __name__ == "__main__":
-    scraper = CricflixStreamScraper()
+    scraper = TflixStreamScraper()
     asyncio.run(scraper.run())
-                    
+        
