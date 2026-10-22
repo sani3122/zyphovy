@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Cricflixs Live Stream M3U Scraper (Advanced IOS Stream Hunter)
-- Successfully finds live matches and clicks IOS servers
-- Broadened stream pattern matcher to catch all types of m3u8/manifest links
-- Validates and saves working streams instantly
+Cricflixs Live Stream M3U Scraper (Precise Live Tab Clicker Edition)
+- Accurately targets the 'Live (5)' filter tab at the top
+- Extracts match watch links cleanly
+- Automatically clicks IOS servers and validates streams
 """
 
 import asyncio
@@ -22,9 +22,8 @@ from playwright.async_api import async_playwright
 TARGET_URL = "https://www.cricflixs.com/"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
-WAIT_PLAYER = 7  # Increased wait time for player stream initialization
+WAIT_PLAYER = 7
 
-# Broader regex to catch any m3u8, manifest, or stream chunk/playlist URL
 STREAM_RE = re.compile(
     r"(\.m3u8(\?|$)|manifest\.mpd|playlist|stream|hls)", re.IGNORECASE
 )
@@ -204,23 +203,32 @@ class CricflixStreamScraper:
             self._generate_m3u(self.captured_streams)
 
     async def _tier_1_find_live_matches(self, page):
-        """Clicks 'Live' tab and extracts all valid match links."""
+        """Clicks the precise top 'Live' filter button and extracts match links."""
         try:
             await page.goto(self.target_url, wait_until="networkidle", timeout=30000)
             await asyncio.sleep(5)
 
-            # Click the 'Live' filter button
-            await page.evaluate("""
+            # Strictly target the top filter tab containing 'LIVE' (e.g. 'Live (5)')
+            live_clicked = await page.evaluate("""
                 () => {
                     const elements = Array.from(document.querySelectorAll('div, span, button, a'));
                     const liveBtn = elements.find(el => {
                         const txt = el.innerText ? el.innerText.trim().toUpperCase() : '';
-                        return txt.includes('LIVE');
+                        // Must match filter pill format like 'LIVE (X)' or exact 'LIVE' button in header filter area
+                        return (txt.startsWith('LIVE') && txt.length < 15 && el.children.length <= 2);
                     });
-                    if (liveBtn) liveBtn.click();
+                    if (liveBtn) {
+                        liveBtn.click();
+                        return true;
+                    }
+                    return false;
                 }
             """)
-            await asyncio.sleep(4)
+            if live_clicked:
+                print("    -> Successfully clicked top 'Live' filter tab.")
+                await asyncio.sleep(4)
+            else:
+                print("    -> Filter tab click skipped, scanning page directly...")
         except Exception as e:
             print(f"[!] Target page load warning: {e}")
 
@@ -228,12 +236,11 @@ class CricflixStreamScraper:
             () => {
                 const results = [];
                 const seen = new Set();
-                const links = Array.from(document.querySelectorAll('a'));
+                const links = Array.from(document.querySelectorAll('a[href*="/watch/"]'));
 
                 links.forEach(a => {
                     const href = a.href;
-                    if (!href || !href.includes('/watch/')) return;
-                    if (seen.has(href)) return;
+                    if (!href || seen.has(href)) return;
 
                     const card = a.closest('div, section, article') || a.parentElement;
                     let title = card ? card.innerText.trim().replace(/\n/g, ' - ') : 'Live Match';
@@ -265,9 +272,7 @@ class CricflixStreamScraper:
             request = route.request
             url = request.url
 
-            # Capture any streaming URL request matching our broad pattern
             if STREAM_RE.search(url) and url not in captured_urls:
-                # Filter out obvious static assets or ads if any
                 if not any(
                     ext in url.lower()
                     for ext in [".js", ".css", ".png", ".jpg", ".ico", ".woff"]
@@ -290,7 +295,7 @@ class CricflixStreamScraper:
             await page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
             await asyncio.sleep(4)
 
-            # Click IOS servers automatically and robustly
+            # Click IOS servers automatically (ignoring AQ DRM servers)
             clicked_ios = await page.evaluate("""
                 () => {
                     const elements = Array.from(document.querySelectorAll('div, button, a, span'));
@@ -299,8 +304,7 @@ class CricflixStreamScraper:
                     elements.forEach(el => {
                         const text = el.innerText ? el.innerText.toUpperCase() : '';
                         if (text.includes('IOS') && !text.includes('AQ')) {
-                            // Find the clickable button or element
-                            const clickable = el.closest('button, a, div[class*="server"], div[class*="card"]') || el;
+                            const clickable = el.closest('button, a, div[class*="server"]') || el;
                             if (clickable && typeof clickable.click === 'function') {
                                 clickable.click();
                                 clickedCount++;
