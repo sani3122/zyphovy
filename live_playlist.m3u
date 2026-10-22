@@ -1,73 +1,114 @@
 #EXTM3U
+<<<<<<< Updated upstream
 # generated: 2026-10-22 20:33 UTC
+=======
+# generated: 2026-10-22 20:49 UTC
+>>>>>>> Stashed changes
 # source: https://tflix.su/
-# streams: 11
+# streams: 10
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-1-baaf7c31005f.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 https://saka.kpores.ru/tflix/secure/813ef2bae24c505c6c59ed465cf050239fb9de450418852ecea54b9506f65d61/1792709810/SKY-SPORT-3-NZ.m3u8
+=======
+https://saka.kpores.ru/tflix/secure/5d9a35195998d1b6fb0bf091a54c7262d3fe7815ba6b46ad67e9d503a1857703/1792710757/SKY-SPORT-3-NZ.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bournemouth-vs-milan-a8b7a1b5d554.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 https://saka.kpores.ru/tflix/secure/16c44da3db08c71a40b406231e5a3e5316f51305ed6fb44a345b1ac07a91c7f6/1792709847/TNT-SPORTS-1-UK.m3u8
+=======
+https://saka.kpores.ru/tflix/secure/e4bfa70b66e31a5b275bf1153c909cf38dbfdedff0a717bb30a212c482c424aa/1792710794/TNT-SPORTS-1-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ajax-amsterdam-vs-atalanta-33a94e17e5f4.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 https://vix.cdnfan.site/tflix/secure/03620a58efe3d624ad415c2668c58e6ff834df8abae8e715c6cc9008ed07952c/1792709884/TNT-SPORTS-8.m3u8
+=======
+https://vix.cdnfan.site/tflix/secure/37ae3c9f54d511880273264a205fec5f03a11416870ea0167cc352dfbb78cfce/1792710832/TNT-SPORTS-8.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/besiktas-vs-crystal-palace-85f7eeed4976.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 https://saka.kpores.ru/tflix/secure/f7398f6e896578fc92b787242bf0cf0ff34031fd0e4714b78b0fb1083ed005e3/1792709921/TNT-SPORTS-2-UK.m3u8
+=======
+https://saka.kpores.ru/tflix/secure/fc9fe4582887766dc646c5517682955e4f0a3abbb015e5205fc39b2401857678/1792710869/TNT-SPORTS-2-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/celtic-glasgow-vs-celta-vigo-8ecc3c7f1766.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 https://saka.kpores.ru/tflix/secure/bd2b9245cb39424b194298c038ba7821d991935c1d362dc5ed3be5172b863345/1792709958/TNT-SPORTS-3-UK.m3u8
+=======
+https://saka.kpores.ru/tflix/secure/7a7eb7a0a1017b8011c3c22ca2a38e2bf2ec560aa5b4e66c1b1ecb1ebec97e32/1792710906/TNT-SPORTS-3-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/hoffenheim-vs-lyon-0750bb6d2bdc.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 https://vix.cdnfan.site/tflix/secure/c7116fc9100cfceb85e8738198fe30d03149fc911dac8aefbe8ded919e7dcf20/1792709995/TNT-SPORTS-5.m3u8
+=======
+https://vix.cdnfan.site/tflix/secure/eee51ee6c471c3542cb962e363b211cb3e986934372dc2c843a2993ed282798f/1792710943/TNT-SPORTS-5.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/omonia-nicosie-vs-benfica-3ea03b7be194.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 https://vix.cdnfan.site/tflix/secure/cda05a0d9ce75a0320caa31c0fd30bf8444a6e24733adc98cd3c157659402555/1792710058/TNT-SPORTS-6.m3u8
+=======
+https://vix.cdnfan.site/tflix/secure/c112bee32a3970e6a37bc5e538232225f0f5b01762154b164b8b6ead99c3ceeb/1792711006/TNT-SPORTS-6.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/as-monaco-vs-fribourg-b2ba0e96f780.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/as-monaco-vs-fribourg-b2ba0e96f780
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/as-monaco-vs-fribourg-b2ba0e96f780&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+<<<<<<< Updated upstream
 https://tflix.su/api/player/hls/1b904c58-7f99-4ef9-926f-af261a27ec22?u=aHR0cHM6Ly9jaGF0Z3B0LmhlcmVpc21hbi5uZXQvcGxheWxpc3QvNTg0MDcvbG9hZC1wbGF5bGlzdC1tdWx0aQ&expires=1792787508&sig=_3NC4jhAMHT59w8FM0vAu9bDgJ0qgfIvSR8rURWVUIs
+=======
+https://tflix.su/api/player/hls/1b904c58-7f99-4ef9-926f-af261a27ec22?u=aHR0cHM6Ly9jaGF0Z3B0LmhlcmVpc21hbi5uZXQvcGxheWxpc3QvNTg0MDcvbG9hZC1wbGF5bGlzdC1tdWx0aQ&expires=1792788456&sig=fgQJEWR2mDOtaZw8hYc1nUb0Rxe_vWj8i8eUGxmPBiI
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/as-monaco-vs-fribourg-b2ba0e96f780.png" group-title="Tflix Live",LIVE vs 1 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/as-monaco-vs-fribourg-b2ba0e96f780
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/as-monaco-vs-fribourg-b2ba0e96f780&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+<<<<<<< Updated upstream
 https://tflix.su/api/player/hls/1b904c58-7f99-4ef9-926f-af261a27ec22?u=aHR0cHM6Ly9jaGF0Z3B0LmhlcmVpc21hbi5uZXQvcGxheWxpc3QvNTg0MDcvYS5uZXd2ZWdhbjkuc3BhY2UvY2F4aQ&expires=1792787509&sig=DxwkmunmYDGwV_GWJ_AykYlqAt02dMwsLoK0kEd5wtk
+=======
+https://tflix.su/api/player/hls/1b904c58-7f99-4ef9-926f-af261a27ec22?u=aHR0cHM6Ly9jaGF0Z3B0LmhlcmVpc21hbi5uZXQvcGxheWxpc3QvNTg0MDcvYS5uZXd2ZWdhbjExLnNwYWNlL2NheGk&expires=1792788456&sig=TmWWadN3PIG9C1F9tNx0TeNFIJf9bHseVMVnLV660Wg
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/as-monaco-vs-fribourg-b2ba0e96f780.png" group-title="Tflix Live",LIVE vs 1 (Source 5)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/as-monaco-vs-fribourg-b2ba0e96f780
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/as-monaco-vs-fribourg-b2ba0e96f780&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+<<<<<<< Updated upstream
 https://tflix.su/api/player/hls/1b904c58-7f99-4ef9-926f-af261a27ec22?u=aHR0cHM6Ly9jaGF0Z3B0LmhlcmVpc21hbi5uZXQvcGxheWxpc3QvNTg0MDcvYS5uZXd2ZWdhbjkuc3BhY2UvY2F4aS1sb3c&expires=1792787509&sig=0UmoSkkm8S5mSDnNdogv2zP-QvtD63dbz7159FYB8Ec
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lillestr-m-vs-real-sociedad-f102710edeb6.png" group-title="Tflix Live",LIVE vs 1 (Source 1)
@@ -76,3 +117,6 @@ https://tflix.su/api/player/hls/1b904c58-7f99-4ef9-926f-af261a27ec22?u=aHR0cHM6L
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
 https://vix.cdnfan.site/tflix/secure/b39689d27bcf8c8c908ea94f3333ed220a899d415a7bfc09e1b31e67c4b3b43c/1792710174/TNT-SPORTS-7.m3u8
+=======
+https://tflix.su/api/player/hls/1b904c58-7f99-4ef9-926f-af261a27ec22?u=aHR0cHM6Ly9jaGF0Z3B0LmhlcmVpc21hbi5uZXQvcGxheWxpc3QvNTg0MDcvYS5uZXd2ZWdhbjExLnNwYWNlL2NheGktbG93&expires=1792788456&sig=ATm26Zl0JAftur-1YPz1G9ymUsQs-wGT2OVU4tgWQYU
+>>>>>>> Stashed changes
