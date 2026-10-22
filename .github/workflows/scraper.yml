@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          git pull origin main --rebase || echo "No rebase needed"
           git add live_playlist.m3u logos/
-          git commit -m "Auto-update Cricflixs IOS stream playlist and banners [skip ci]" || exit 0
-          git push
-          
+          git commit -m "Auto-update Cricflixs playlist and banners [skip ci]" || exit 0
+          git push origin main
