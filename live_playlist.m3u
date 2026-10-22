@@ -1,39 +1,18 @@
 #EXTM3U
-# generated: 2026-10-22 16:51 UTC
+# generated: 2026-10-22 17:11 UTC
 # source: https://tflix.su/
-# streams: 5
+# streams: 2
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/juventus-vs-rennes-76c94909d3d1.png" group-title="Tflix Live",LIVE vs 23 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/union-sg-vs-h-be-er-sheva-5f6db71e988a.png" group-title="Tflix Live",LIVE vs 39 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
-https://vix.cdnfan.site/tflix/secure/2caa1168d1d83218ced696bb6b6270e913425482076990002403f39247801f15/1792696600/Juventus.m3u8
+https://vix.cdnfan.site/tflix/secure/1042247d9b4553c0ebcc26e4b3cbf37800e6b31cd8bca0252889f89b457fde39/1792697842/TNT-SPORTS-8.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ferencvaros-vs-torreense-4a4d45c78fcd.png" group-title="Tflix Live",LIVE vs 23 (Source 1)
-#EXTVLCOPT:http-referrer=https://event.kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://event.kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
-https://vix.cdnfan.site/tflix/secure/ed8d65b7e0f430888f36990ac80aacae11f10ef00dc7e99c3b229507707f7604/1792696619/Torreense.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/jablonec-vs-brighton-3f9577881761.png" group-title="Tflix Live",LIVE vs 23 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-1-baaf7c31005f.png" group-title="Tflix Live",LIVE vs 39 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/77e3872b6a667dc251bab9ced963597f46662a282c79e9352c4c40c567941d68/1792696719/TNT-SPORTS-2-UK.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/trabzonspor-vs-hearts-5a1a8c504780.png" group-title="Tflix Live",LIVE vs 23 (Source 1)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/8278386ce82a44c1cbeda0334573e8408521ad8433bc29a40f4a48126e5344f9/1792696756/TNT-SPORTS-3-UK.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/etoile-rouge-vs-copenhague-fa19b3e4e0c1.png" group-title="Tflix Live",LIVE vs 23 (Source 1)
-#EXTVLCOPT:http-referrer=https://event.kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://event.kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
-https://vix.cdnfan.site/tflix/secure/adf360670392323f477bf4b46bab0a924efe91d2520d8f9fe42b9726fd163865/1792696867/Copenhagen.m3u8
+https://saka.kpores.ru/tflix/secure/c8d86574f5090985ea9687ea5cd9e08fc336e4c8c73194469945009cc1dc25eb/1792698026/SKY-SPORT-3-NZ.m3u8
