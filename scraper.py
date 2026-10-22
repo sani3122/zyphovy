@@ -20,7 +20,7 @@ from PIL import Image, ImageDraw, ImageFont
 import pycountry
 from playwright.async_api import async_playwright
 
-TARGET_URL = "https://tflix.su/"
+TARGET_URL = "https://www.cricflixs.com/"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
 WAIT_PLAYER = 5  # Seconds to wait per stream tab
