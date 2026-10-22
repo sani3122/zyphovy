@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """
-Cricflixs Live Stream M3U Scraper (IOS Server Edition)
-- Scrapes only LIVE matches from https://www.cricflixs.com/
-- Filters and clicks ONLY 'IOS' tagged servers (bypassing AQ DRM servers)
-- Validates captured stream URLs before saving
-- Automatically cleans old logos and outputs absolute GitHub raw URLs
+Cricflixs Live Stream M3U Scraper (Fixed Selector & IOS Server Edition)
+- Scrapes live matches from https://www.cricflixs.com/ with proper wait selectors
+- Filters and clicks IOS tagged servers
+- Validates stream URLs and outputs clean absolute GitHub raw URLs
 """
 
 import asyncio
@@ -23,7 +22,7 @@ from playwright.async_api import async_playwright
 TARGET_URL = "https://www.cricflixs.com/"
 OUTPUT_FILE = "live_playlist.m3u"
 LOGOS_DIR = "logos"
-WAIT_PLAYER = 5  # Seconds to wait per IOS server tab
+WAIT_PLAYER = 5
 
 STREAM_RE = re.compile(
     r"(playlist\.m3u8|index\.m3u8|mono\.m3u8|\.m3u8(\?|$))", re.IGNORECASE
@@ -160,7 +159,7 @@ class CricflixStreamScraper:
             )
             page = await context.new_page()
 
-            print("\n[Tier 1] Scanning ONLY LIVE matches...")
+            print("\n[Tier 1] Scanning LIVE matches...")
             match_links = await self._tier_1_find_live_matches(page)
             print(f"    -> Found {len(match_links)} live match(es).")
 
@@ -169,7 +168,7 @@ class CricflixStreamScraper:
                 for title, url, slug in match_links:
                     print(f"\n[Tier 2] Processing Match: {title}")
 
-                    parts = title.split(" VS ")
+                    parts = title.split(" - ")
                     t1 = parts[0] if len(parts) > 0 else "Team 1"
                     t2 = parts[1] if len(parts) > 1 else "Team 2"
 
@@ -202,36 +201,34 @@ class CricflixStreamScraper:
             self._generate_m3u(self.captured_streams)
 
     async def _tier_1_find_live_matches(self, page):
-        """Scrapes only matches that explicitly display LIVE status."""
+        """Scrapes watch links directly with proper wait handlers."""
         try:
-            await page.goto(self.target_url, wait_until="commit", timeout=30000)
+            await page.goto(self.target_url, wait_until="domcontentloaded", timeout=30000)
+            await page.wait_for_selector('a[href*="/watch/"]', timeout=15000)
             await asyncio.sleep(4)
         except Exception as e:
-            print(f"[!] Target page load failed: {e}")
+            print(f"[!] Target page load or selector wait failed: {e}")
             return []
 
         matches = await page.evaluate(r"""
             () => {
                 const results = [];
                 const seen = new Set();
-                
-                // Find all match cards containing a LIVE indicator or watch link
-                const cards = Array.from(document.querySelectorAll('a[href*="/watch/"], div[class*="match"], div, section'));
+                const watchLinks = Array.from(document.querySelectorAll('a[href*="/watch/"]'));
 
-                cards.forEach(card => {
-                    const text = card.innerText ? card.innerText.toUpperCase() : '';
-                    // Must be strictly live and contain team/match info
-                    if (text.includes('LIVE') && (text.includes('VS') || text.includes(' | '))) {
-                        const linkEl = card.tagName === 'A' ? card : card.querySelector('a[href*="/watch/"]');
-                        if (!linkEl || !linkEl.href) return;
+                watchLinks.forEach(a => {
+                    const href = a.href;
+                    if (!href || seen.has(href)) return;
 
-                        const href = linkEl.href;
-                        if (seen.has(href)) return;
+                    const card = a.closest('div, section') || a.parentElement;
+                    const cardText = card ? card.innerText.toUpperCase() : '';
 
-                        let title = card.innerText.trim().replace(/\n/g, ' - ');
-                        if (title.length > 50 || title.includes('Live Events')) return;
+                    // Check if match card contains LIVE status
+                    if (cardText.includes('LIVE')) {
+                        let title = card ? card.innerText.trim().replace(/\n/g, ' - ') : 'Live Match';
+                        if (title.length > 60) title = "Live Match";
 
-                        let slug = href.split('/').filter(Boolean).pop() || 'match';
+                        let slug = href.split('/watch/')[1]?.split('?')[0] || 'match';
                         slug = slug.replace(/[^a-zA-Z0-9-_]/g, '_');
 
                         seen.add(href);
@@ -268,7 +265,7 @@ class CricflixStreamScraper:
                     "headers": headers,
                     "referer": match_url,
                 })
-                print(f"        -> [CAPTURED IOS STREAM] {url[:70]}")
+                print(f"        -> [CAPTURED STREAM] {url[:70]}")
             await route.continue_()
 
         await page.route("**/*", route_handler)
@@ -277,37 +274,32 @@ class CricflixStreamScraper:
             await page.goto(match_url, wait_until="domcontentloaded", timeout=30000)
             await asyncio.sleep(3)
 
-            # Find server buttons and ONLY click those tagged with 'IOS' (avoiding 'AQ' DRM servers)
+            # Click IOS servers automatically
             ios_servers = await page.evaluate("""
                 () => {
-                    const serverRows = Array.from(document.querySelectorAll('div, button, a, span'));
+                    const elements = Array.from(document.querySelectorAll('div, button, a, span'));
                     const targets = [];
 
-                    serverRows.forEach((el, idx) => {
+                    elements.forEach((el, idx) => {
                         const text = el.innerText ? el.innerText.toUpperCase() : '';
-                        // Check if row/button contains 'IOS' label
                         if (text.includes('IOS') && !text.includes('AQ')) {
-                            // Find clickable element or the container row
                             targets.push({ index: idx, name: text.split('\\n')[0] });
                         }
                     });
-
                     return targets;
                 }
             """)
 
             if ios_servers:
-                print(
-                    f"    -> Found {len(ios_servers)} IOS (non-DRM) server(s)."
-                )
+                print(f"    -> Found {len(ios_servers)} IOS server(s).")
                 for srv in ios_servers:
                     print(f"    -> Clicking IOS Server: {srv['name']}")
                     try:
                         await page.evaluate(
                             """
                             (idx) => {
-                                const serverRows = Array.from(document.querySelectorAll('div, button, a, span'));
-                                if (serverRows[idx]) serverRows[idx].click();
+                                const elements = Array.from(document.querySelectorAll('div, button, a, span'));
+                                if (elements[idx]) elements[idx].click();
                             }
                             """,
                             srv["index"],
@@ -316,9 +308,6 @@ class CricflixStreamScraper:
                         pass
                     await asyncio.sleep(WAIT_PLAYER)
             else:
-                print(
-                    "    [!] No explicit IOS servers found via tag, falling back to default wait..."
-                )
                 await asyncio.sleep(WAIT_PLAYER)
 
         except Exception as e:
@@ -374,7 +363,7 @@ class CricflixStreamScraper:
             origin = s["headers"].get("origin", "")
 
             lines.append(
-                f'#EXTINF:-1 tvg-logo="{full_logo_url}" group-title="Cricflixs Live (IOS)",{title}'
+                f'#EXTINF:-1 tvg-logo="{full_logo_url}" group-title="Cricflixs Live",{title}'
             )
             lines.append(f"#EXTVLCOPT:http-referrer={ref}")
             lines.append(f"#EXTVLCOPT:http-user-agent={ua}")
@@ -399,4 +388,4 @@ class CricflixStreamScraper:
 if __name__ == "__main__":
     scraper = CricflixStreamScraper()
     asyncio.run(scraper.run())
-    
+            
