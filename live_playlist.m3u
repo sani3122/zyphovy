@@ -1,5 +1,9 @@
 #EXTM3U
+<<<<<<< Updated upstream
 # generated: 2026-10-22 18:47 UTC
+=======
+# generated: 2026-10-22 18:53 UTC
+>>>>>>> Stashed changes
 # source: https://tflix.su/
 # streams: 1
 
@@ -8,4 +12,8 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 https://saka.kpores.ru/tflix/secure/d25b23fd7ee14c24bcf4a08ce48ab23fed82716b20a30972612214475788910f/1792703830/SKY-SPORT-3-NZ.m3u8
+=======
+https://saka.kpores.ru/tflix/secure/d6ab07f002771fd0b6e19ff4267a0cc787c351f8718cd5f9caee6021bd7a6b76/1792704156/SKY-SPORT-3-NZ.m3u8
+>>>>>>> Stashed changes
