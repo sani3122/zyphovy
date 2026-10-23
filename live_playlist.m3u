@@ -1,5 +1,5 @@
 #EXTM3U
-# generated: 2026-10-23 09:32 UTC
+# generated: 2026-10-23 09:47 UTC
 # source: https://tflix.su/
 # streams: 1
 
@@ -8,4 +8,4 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/774a1cde79052f81c5fd0a4569d8f9352a43493c4c5e1d4e0d4874562402fdd7/1792756922/SKY-SPORT-4-NZ.m3u8
+https://saka.kpores.ru/tflix/secure/8d469b38292e1ddc5af1a0503122b05e384927b12e4865190771bdaaa229c61c/1792757801/SKY-SPORT-4-NZ.m3u8
