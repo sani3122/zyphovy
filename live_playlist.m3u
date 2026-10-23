@@ -1,104 +1,104 @@
 #EXTM3U
-# generated: 2026-10-22 23:54 UTC
+# generated: 2026-10-23 00:08 UTC
 # source: https://tflix.su/
 # streams: 16
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/philadelphia-76ers-vs-cleveland-cavaliers-0e089c2e81fe.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/philadelphia-76ers-vs-cleveland-cavaliers-0e089c2e81fe.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
-https://vix.cdnfan.site/tflix/secure/a371c262ccbaad0331e35d5212edcc430994acd6f789439130972479f96642f6/1792722071/SPORT-TV-1-PT.m3u8
+https://vix.cdnfan.site/tflix/secure/0456a2af1fc9b75cb8f2b92f8183bcf44cddbc9930184a56990fe115ca447b7c/1792722943/SPORT-TV-1-PT.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ottawa-senators-vs-san-jose-sharks-71ca0b403ee9.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ottawa-senators-vs-san-jose-sharks-71ca0b403ee9.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
-https://vix.cdnfan.site/tflix/secure/3c91f57860d88deaaccfe86d9c2c9d86587b422f9fa50ce890f3e1a1be307fbb/1792722108/TSN-5.m3u8
+https://vix.cdnfan.site/tflix/secure/98052fe8d9b0dfd4e4c3d005c7e69532e8275aeefb6a94e37b6396a5c4206374/1792722980/TSN-5.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/toronto-maple-leafs-vs-new-york-rangers-96fc6dc5eb4c.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/toronto-maple-leafs-vs-new-york-rangers-96fc6dc5eb4c.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
-https://vix.cdnfan.site/tflix/secure/4043a217cc2c5bedef11597f4d2b00e36d8515dc5e21b445606b88c2e3c40645/1792722127/TSN-4.m3u8
+https://vix.cdnfan.site/tflix/secure/d6e613c8f4aa8d23fd54222a4680f8e33475450955080d78d86e5f815a691c8d/1792722999/TSN-4.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-jersey-devils-vs-anaheim-ducks-d0514d19116c.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-jersey-devils-vs-anaheim-ducks-d0514d19116c.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/new-jersey-devils-vs-anaheim-ducks-d0514d19116c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/new-jersey-devils-vs-anaheim-ducks-d0514d19116c&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-8f37c80435b195590e5733eb
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-jersey-devils-vs-anaheim-ducks-d0514d19116c.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-jersey-devils-vs-anaheim-ducks-d0514d19116c.png" group-title="Tflix Live",LIVE vs 9 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/new-jersey-devils-vs-anaheim-ducks-d0514d19116c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/new-jersey-devils-vs-anaheim-ducks-d0514d19116c&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-8f37c80435b195590e5733eb
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-jersey-devils-vs-anaheim-ducks-d0514d19116c.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-jersey-devils-vs-anaheim-ducks-d0514d19116c.png" group-title="Tflix Live",LIVE vs 9 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/new-jersey-devils-vs-anaheim-ducks-d0514d19116c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/new-jersey-devils-vs-anaheim-ducks-d0514d19116c&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-8f37c80435b195590e5733eb?u=aHR0cHM6Ly9lZGdlc3RyZWFtMy5wcm8vaGxzL3J0emFleXZoYjUzLm0zdTg&expires=1792799546&sig=jPvgqBsYYGUOaNxxbCR42QhfnGbE6TRF1BRZGyfSp4c
+https://tflix.su/api/player/hls/event-playlist-8f37c80435b195590e5733eb?u=aHR0cHM6Ly9lZGdlc3RyZWFtMy5wcm8vaGxzL3J0emFleXZoYjUzLm0zdTg&expires=1792800418&sig=fRRkcFK8FYXEZMCqndi_pM8OpFor8Y2heg4LSbc0tng
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-455bd8e1542d176af153baf3
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac.png" group-title="Tflix Live",LIVE vs 9 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-455bd8e1542d176af153baf3
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac.png" group-title="Tflix Live",LIVE vs 9 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/pittsburgh-penguins-vs-florida-panthers-439772fcb2ac&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-455bd8e1542d176af153baf3?u=aHR0cHM6Ly9lZGdlc3RyZWFtNC5wcm8vaGxzL2JudmN4d2hmZzU0Lm0zdTg&expires=1792799559&sig=y5Oa6IIcDGw9-phWfit_ohRWAkvmJIWnHcRUP2PztyY
+https://tflix.su/api/player/hls/event-playlist-455bd8e1542d176af153baf3?u=aHR0cHM6Ly9lZGdlc3RyZWFtNC5wcm8vaGxzL2JudmN4d2hmZzU0Lm0zdTg&expires=1792800431&sig=ZEOTCXmFew1Jo_Ew43q8UtFzwrWlIUKiO494iAAFIt4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/boston-bruins-vs-nashville-predators-e19e1260b4b0.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/boston-bruins-vs-nashville-predators-e19e1260b4b0.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/boston-bruins-vs-nashville-predators-e19e1260b4b0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/boston-bruins-vs-nashville-predators-e19e1260b4b0&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-4058d55ed7cb203f5a2dd780
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/boston-bruins-vs-nashville-predators-e19e1260b4b0.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/boston-bruins-vs-nashville-predators-e19e1260b4b0.png" group-title="Tflix Live",LIVE vs 9 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/boston-bruins-vs-nashville-predators-e19e1260b4b0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/boston-bruins-vs-nashville-predators-e19e1260b4b0&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-4058d55ed7cb203f5a2dd780
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/boston-bruins-vs-nashville-predators-e19e1260b4b0.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/boston-bruins-vs-nashville-predators-e19e1260b4b0.png" group-title="Tflix Live",LIVE vs 9 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/boston-bruins-vs-nashville-predators-e19e1260b4b0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/boston-bruins-vs-nashville-predators-e19e1260b4b0&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-4058d55ed7cb203f5a2dd780?u=aHR0cHM6Ly9lZGdlc3RyZWFtMy5wcm8vaGxzL3V5b3B6YXJmNTAubTN1OA&expires=1792799572&sig=Qgp9A2f-2mkri7AIGrV5FW4clHhjDl_aCOjsvPA6n08
+https://tflix.su/api/player/hls/event-playlist-4058d55ed7cb203f5a2dd780?u=aHR0cHM6Ly9lZGdlc3RyZWFtMy5wcm8vaGxzL3V5b3B6YXJmNTAubTN1OA&expires=1792800445&sig=UUEU9D3frSHDCJBDTrOuz5uxCU6SHek-SI2eHAxPlHU
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-islanders-vs-los-angeles-kings-82f28cae7643.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-islanders-vs-los-angeles-kings-82f28cae7643.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/new-york-islanders-vs-los-angeles-kings-82f28cae7643
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/new-york-islanders-vs-los-angeles-kings-82f28cae7643&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-acf6e833462f6780f639454a
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-islanders-vs-los-angeles-kings-82f28cae7643.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-islanders-vs-los-angeles-kings-82f28cae7643.png" group-title="Tflix Live",LIVE vs 9 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/new-york-islanders-vs-los-angeles-kings-82f28cae7643
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/new-york-islanders-vs-los-angeles-kings-82f28cae7643&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-acf6e833462f6780f639454a
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-islanders-vs-los-angeles-kings-82f28cae7643.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-york-islanders-vs-los-angeles-kings-82f28cae7643.png" group-title="Tflix Live",LIVE vs 9 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/new-york-islanders-vs-los-angeles-kings-82f28cae7643
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/new-york-islanders-vs-los-angeles-kings-82f28cae7643&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-acf6e833462f6780f639454a?u=aHR0cHM6Ly9lZGdlc3RyZWFtMS5wcm8vaGxzL3NkZXpxZnphNTUubTN1OA&expires=1792799586&sig=nRQD1EpJGUqlQS2ogr41s-1lq-MgEXQ_iyzH44msNxs
+https://tflix.su/api/player/hls/event-playlist-acf6e833462f6780f639454a?u=aHR0cHM6Ly9lZGdlc3RyZWFtMS5wcm8vaGxzL3NkZXpxZnphNTUubTN1OA&expires=1792800458&sig=j00l5svfUYY-nreGCPVXjoWe0QKGxATrfawCWjNlx5I
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-gp-vs-fp1-71c871efd95d.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-gp-vs-fp1-71c871efd95d.png" group-title="Tflix Live",LIVE vs 9 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/dd8f58ce49c34841606b885a440ddbc8597e0ca39582c4ff75d604befa680071/1792722199/TNT-SPORTS-2-UK.m3u8
+https://saka.kpores.ru/tflix/secure/1826440e92955a6aa5c443cb5309434956aba96699b2317be37e3a3030f10e6a/1792723071/TNT-SPORTS-2-UK.m3u8
