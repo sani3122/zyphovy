@@ -1,28 +1,4 @@
 #EXTM3U
-# generated: 2026-10-23 05:16 UTC
+# generated: 2026-10-23 06:46 UTC
 # source: https://tflix.su/
-# streams: 4
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 0 (Source 1)
-#EXTVLCOPT:http-referrer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/player/event-playlist-3b3c95ff98a3ed70be1c2f5e
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 0 (Source 2)
-#EXTVLCOPT:http-referrer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/channel/event-playlist-3b3c95ff98a3ed70be1c2f5e
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 0 (Source 1)
-#EXTVLCOPT:http-referrer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/player/event-playlist-ec372cdb630d9a75154e515f
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 0 (Source 2)
-#EXTVLCOPT:http-referrer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/channel/event-playlist-ec372cdb630d9a75154e515f
+# streams: 0
