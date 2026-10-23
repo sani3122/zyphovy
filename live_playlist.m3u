@@ -1,18 +1,4 @@
 #EXTM3U
-# generated: 2026-10-23 12:32 UTC
+# generated: 2026-10-23 12:46 UTC
 # source: https://tflix.su/
-# streams: 2
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-women-vs-zimbabwe-women-3a4015cd2869.png" group-title="Tflix Live",LIVE vs 4 (Source 1)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/3da25f82bc5f335277fdb830c9c71ad2a47dfc98a416803bf837d086d0c54194/1792767702/SKY-SPORT-4-NZ.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/afghanistan-vs-zimbabwe-9f2eaa68a19c.png" group-title="Tflix Live",LIVE vs 4 (Source 1)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/30555399d94311863a026168d5a1677f60683c8b1419cada154893f868365565/1792767739/FOX-SPORTS-505-AU.m3u8
+# streams: 0
