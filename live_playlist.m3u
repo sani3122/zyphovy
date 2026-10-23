@@ -1,83 +1,76 @@
 #EXTM3U
-# generated: 2026-10-23 04:33 UTC
+# generated: 2026-10-23 04:47 UTC
 # source: https://tflix.su/
-# streams: 13
+# streams: 12
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/australia-gp-vs-fp1-71c871efd95d.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/f077d594dab7031ecfeb658d23a749f987815aa03ea3a337701da02fd17529fc/1792738912/TNT-SPORTS-2-UK.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8.png" group-title="Tflix Live",LIVE vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-f985e81f9ef0068106670203
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8.png" group-title="Tflix Live",LIVE vs 0 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-f985e81f9ef0068106670203
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8.png" group-title="Tflix Live",LIVE vs 0 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/edmonton-oilers-vs-carolina-hurricanes-0eccfc28d3d8&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-f985e81f9ef0068106670203?u=aHR0cHM6Ly9lZGdlc3RyZWFtNC5wcm8vaGxzL2J2bnphZGZ2eXQ1OS5tM3U4&expires=1792816348&sig=WRke0BxbAgpaRfpMG4RFkGKfyRgtshjEmYcQg1SsG9g
+https://tflix.su/api/player/hls/event-playlist-f985e81f9ef0068106670203?u=aHR0cHM6Ly9lZGdlc3RyZWFtNC5wcm8vaGxzL2J2bnphZGZ2eXQ1OS5tM3U4&expires=1792817204&sig=w32KUaQAvzdIoT02Dwoi0VZVBLRkslraMXJkqW-3iTw
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70.png" group-title="Tflix Live",LIVE vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-1999fe751b42471298ef3394
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70.png" group-title="Tflix Live",LIVE vs 0 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-1999fe751b42471298ef3394
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70.png" group-title="Tflix Live",LIVE vs 0 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/calgary-flames-vs-minnesota-wild-b8a2e1ed6b70&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-1999fe751b42471298ef3394?u=aHR0cHM6Ly9lZGdlc3RyZWFtMy5wcm8vaGxzL2VhcnpmZGRzaGc1OC5tM3U4&expires=1792816361&sig=D23wvHtYs7YeDMXz9YCvM-iYLHxfymHFXzuTcT9ZHQI
+https://tflix.su/api/player/hls/event-playlist-1999fe751b42471298ef3394?u=aHR0cHM6Ly9lZGdlc3RyZWFtMy5wcm8vaGxzL2VhcnpmZGRzaGc1OC5tM3U4&expires=1792817217&sig=Dhbqw_613UE0fpmZ9-btf-ZtG1-yL959b6faWF6fqUU
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-3b3c95ff98a3ed70be1c2f5e
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 0 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-3b3c95ff98a3ed70be1c2f5e
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/vancouver-canucks-vs-detroit-red-wings-c667fadc7197.png" group-title="Tflix Live",LIVE vs 0 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/vancouver-canucks-vs-detroit-red-wings-c667fadc7197&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-3b3c95ff98a3ed70be1c2f5e?u=aHR0cHM6Ly9lZGdlc3RyZWFtNS5wcm8vaGxzL2dmaGZnc3FkYTYxLm0zdTg&expires=1792816374&sig=P_jGZL3dZCPTJrXobZWaSHK6X522yPQ6JbOVGuyuG2o
+https://tflix.su/api/player/hls/event-playlist-3b3c95ff98a3ed70be1c2f5e?u=aHR0cHM6Ly9lZGdlc3RyZWFtNS5wcm8vaGxzL2dmaGZnc3FkYTYxLm0zdTg&expires=1792817230&sig=GuPvLCxbL4sgY21wlrRxcAQ1vBBas2AMb0SIWUtm_JE
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 11 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/player/event-playlist-ec372cdb630d9a75154e515f
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 11 (Source 2)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 0 (Source 2)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 https://tflix.su/api/player/channel/event-playlist-ec372cdb630d9a75154e515f
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 11 (Source 3)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/seattle-kraken-vs-utah-mammoth-a48577dd5d8b.png" group-title="Tflix Live",LIVE vs 0 (Source 3)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/seattle-kraken-vs-utah-mammoth-a48577dd5d8b&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-playlist-ec372cdb630d9a75154e515f?u=aHR0cHM6Ly9lZGdlc3RyZWFtNy5wcm8vaGxzL2N3eHZibmZnaHE2MC5tM3U4&expires=1792816387&sig=z7OQex9odVQIME3ofLVsY1JaZejazVsgTwLyYxVg_68
+https://tflix.su/api/player/hls/event-playlist-ec372cdb630d9a75154e515f?u=aHR0cHM6Ly9lZGdlc3RyZWFtNy5wcm8vaGxzL2N3eHZibmZnaHE2MC5tM3U4&expires=1792817243&sig=QGxE-2LyTQ2rwZ4LLRzXQ2LqIuUq8NE23_iRYWeBPAU
