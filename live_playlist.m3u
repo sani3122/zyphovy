@@ -1,11 +1,11 @@
 #EXTM3U
-# generated: 2026-10-23 11:15 UTC
+# generated: 2026-10-23 11:17 UTC
 # source: https://tflix.su/
 # streams: 1
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-women-vs-zimbabwe-women-3a4015cd2869.png" group-title="Tflix Live",LIVE vs 3 (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/india-women-vs-zimbabwe-women-3a4015cd2869.png" group-title="Tflix Live",LIVE vs 6 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/728cfb2f0b203f648f81ee51c800b3546d2b82084f8b94a827e6603ba63cdc87/1792763068/SKY-SPORT-4-NZ.m3u8
+https://saka.kpores.ru/tflix/secure/4c9f1b2ab04ccd59b8a1792ee2d7f1d80499a5344dff8e4ff640266f41a728be/1792763201/SKY-SPORT-4-NZ.m3u8
