@@ -1,31 +1,25 @@
 #EXTM3U
-# generated: 2026-10-25 14:42 UTC
+# generated: 2026-10-25 14:57 UTC
 # source: https://tflix.su/
-# streams: 4
+# streams: 3
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-pittsburgh-steelers-d9a20e4a845b.png" group-title="Tflix Live",1 vs Hoffenheim (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/1cd0df65382413095b0c2d334a676d05d831631e62800a38bc86ae938d63f564/1792948044/NFL-NETWORK.m3u8
+https://saka.kpores.ru/tflix/secure/d992b99b0489e1fd712aa8ddca161fef629e714e7c796e6cfcd5fbf146ceaf0e/1792948930/NFL-NETWORK.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/konyaspor-vs-genclerbirligi-55d1259da0f1.png" group-title="Tflix Live",1 vs Hoffenheim (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/d7e3b72d9523381ae6f474f5d9ddc55a339b07f55a0c236cb3475d5e54729423/1792948131/BEIN-SPORTS-1-TR.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabadell-vs-tenerife-4cf4292e2c2c.png" group-title="Tflix Live",1 vs Hoffenheim (Source 1)
-#EXTVLCOPT:http-referrer=https://tflix.su/watch/sabadell-vs-tenerife-4cf4292e2c2c
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/sabadell-vs-tenerife-4cf4292e2c2c&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-api-ad546d589b606e7942478aa0?u=aHR0cHM6Ly9saXZlLnZpdm8xNTUuY29tL2xpdmUvc2QtMS00NTY3MzMzLm0zdTg_dHhTZWNyZXQ9NTUxYmZiZDA1NTFlOGE5OGNlMGY2MzZmMTZiYmYwZjcmdHhUaW1lPTZBREUxMDZB&expires=1793025568&sig=cNjbNuwEWrdhhaZdGdwFnlS3TruR_xe9ixk4ZIyPL04
+https://saka.kpores.ru/tflix/secure/988e122f72503826bca10d226cab11e8de34f42f3b29b06276b06963f4164af3/1792949016/BEIN-SPORTS-1-TR.m3u8
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-4-afternoon-839928ba8876.png" group-title="Tflix Live",1 vs Hoffenheim (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/b0dd8bbc3f264768946886dff8ce0228e7069047e1f37aff78c1b5c946a79a24/1792948195/SKY-SPORT-2-NZ.m3u8
+https://saka.kpores.ru/tflix/secure/08fb6298f5a90b98c8d64d30deb1bf743c7314d978ae3e0675c7c914534e16b5/1792949079/SKY-SPORT-2-NZ.m3u8
