@@ -69,6 +69,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # generated: 2026-10-24 21:56 UTC
 =======
 # generated: 2026-10-24 22:11 UTC
@@ -109,16 +110,20 @@
 =======
 # generated: 2026-10-25 14:10 UTC
 >>>>>>> Stashed changes
+=======
+# generated: 2026-10-25 14:26 UTC
+>>>>>>> Stashed changes
 # source: https://tflix.su/
 # streams: 4
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-pittsburgh-steelers-d9a20e4a845b.png" group-title="Tflix Live",134 vs Liverpool (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-pittsburgh-steelers-d9a20e4a845b.png" group-title="Tflix Live",0 vs Celta Vigo (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/2f0d4cc63e54b4e6854fb7543e59f7887b210b884aa827b5161f4352d46c1721/1792946136/NFL-NETWORK.m3u8
+https://saka.kpores.ru/tflix/secure/6b8f94c6b59641d5ae78dfc67441f6d8ba7de15b2d46b7206a6029c87ccc51ee/1792947102/NFL-NETWORK.m3u8
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 # generated: 2026-10-25 12:32 UTC
@@ -156,10 +161,14 @@ https://saka.kpores.ru/tflix/secure/2f0d4cc63e54b4e6854fb7543e59f7887b210b884aa8
 =======
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/konyaspor-vs-genclerbirligi-55d1259da0f1.png" group-title="Tflix Live",134 vs Liverpool (Source 1)
 >>>>>>> Stashed changes
+=======
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/konyaspor-vs-genclerbirligi-55d1259da0f1.png" group-title="Tflix Live",0 vs Celta Vigo (Source 1)
+>>>>>>> Stashed changes
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -441,18 +450,22 @@ https://saka.kpores.ru/tflix/secure/128ac11f5ce07ffb4945e84e4b4bca362b3a88a6c8c8
 =======
 https://saka.kpores.ru/tflix/secure/e011b72fc47bb601ac722154cb659c7c7a3ca2c548386bba88468a1ae4cefade/1792944996/SKY-SPORTS-PREMIER-LEAGUE-UK.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/80343af1262b144230dd4f02164452b481afa93d4c5fe66d11884d0f2441da24/1792947189/BEIN-SPORTS-1-TR.m3u8
+>>>>>>> Stashed changes
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabadell-vs-tenerife-4cf4292e2c2c.png" group-title="Tflix Live",134 vs Liverpool (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sabadell-vs-tenerife-4cf4292e2c2c.png" group-title="Tflix Live",0 vs Celta Vigo (Source 1)
 #EXTVLCOPT:http-referrer=https://tflix.su/watch/sabadell-vs-tenerife-4cf4292e2c2c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://tflix.su/watch/sabadell-vs-tenerife-4cf4292e2c2c&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-https://tflix.su/api/player/hls/event-api-ad546d589b606e7942478aa0?u=aHR0cHM6Ly9saXZlLnZpdm8xNTUuY29tL2xpdmUvc2QtMS00NTY3MzMzLm0zdTg_dHhTZWNyZXQ9NTUxYmZiZDA1NTFlOGE5OGNlMGY2MzZmMTZiYmYwZjcmdHhUaW1lPTZBREUxMDZB&expires=1793023660&sig=Q-bz0BUi9PLNtXuWjYZ1Iwmk0GMPeAdhHO82wbjcHCI
+https://tflix.su/api/player/hls/event-api-ad546d589b606e7942478aa0?u=aHR0cHM6Ly9saXZlLnZpdm8xNTUuY29tL2xpdmUvc2QtMS00NTY3MzMzLm0zdTg_dHhTZWNyZXQ9NTUxYmZiZDA1NTFlOGE5OGNlMGY2MzZmMTZiYmYwZjcmdHhUaW1lPTZBREUxMDZB&expires=1793024626&sig=KHVEegp8FxYz8087zw5k-_JkNlXbN8dpxeo8p3ZxPao
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-4-afternoon-839928ba8876.png" group-title="Tflix Live",134 vs Liverpool (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-4-afternoon-839928ba8876.png" group-title="Tflix Live",0 vs Celta Vigo (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -9874,4 +9887,7 @@ https://saka.kpores.ru/tflix/secure/bc87feee02e72d70fe75ea5a6e7ff34c71c96f46156e
 >>>>>>> Stashed changes
 =======
 https://saka.kpores.ru/tflix/secure/ef1c46a25d3f8c33db4c46e7b0695b35e632c0cd2a7cac387a45a07b4780cd33/1792947044/ESPN-DEPORTS.m3u8
+>>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/3bfd2892c0400504b823ebc91a41c70b66885a34e48fce6bfd8e2adb36e6998b/1792947253/SKY-SPORT-2-NZ.m3u8
 >>>>>>> Stashed changes
