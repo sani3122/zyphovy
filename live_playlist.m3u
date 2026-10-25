@@ -1,18 +1,4 @@
 #EXTM3U
-# generated: 2026-10-25 15:55 UTC
+# generated: 2026-10-25 16:01 UTC
 # source: https://tflix.su/
-# streams: 2
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-pittsburgh-steelers-d9a20e4a845b.png" group-title="Tflix Live",300 vs Man United (Source 1)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/0dbcc2082160add0a63ad296bb9d83f189dec7f496a24050c8b5a0630286d79a/1792952522/NFL-NETWORK.m3u8
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-4-afternoon-839928ba8876.png" group-title="Tflix Live",300 vs Man United (Source 1)
-#EXTVLCOPT:http-referrer=https://kpores.ru/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-#EXTVLCOPT:http-origin=https://kpores.ru
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/a598c5daec0395c7358d8a476826c7a1ebb1da699f56af8873cb9beaaebdd2fc/1792952584/SKY-SPORT-2-NZ.m3u8
+# streams: 0
