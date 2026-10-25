@@ -51,6 +51,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 # generated: 2026-10-24 21:56 UTC
 =======
 # generated: 2026-10-24 22:11 UTC
@@ -372,11 +373,18 @@ https://vix.cdnfan.site/tflix/secure/d79f6043add8fe19698a9392d271a459c311e1e6224
 # streams: 37
 
 >>>>>>> Stashed changes
+=======
+# generated: 2026-10-25 10:32 UTC
+# source: https://tflix.su/
+# streams: 37
+
+>>>>>>> Stashed changes
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/hibernian-vs-celtic-glasgow-ac89e5fa14ae.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -572,12 +580,16 @@ https://saka.kpores.ru/tflix/secure/01307e4464e6a5c7266f9c7473b65871ef969ce8bb97
 =======
 https://saka.kpores.ru/tflix/secure/5942c6da264ed119525f405cc146c25fd1b43a03a78d89d451ca462d05c590fb/1792930619/SKY-SPORTS-FOOTBALL-UK.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/107e9b3dc7a5dca2e6d977138f2bf91e80b8b0ff8f81a4dfc545a659fb694182/1792931526/SKY-SPORTS-FOOTBALL-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/liverpool-vs-brighton-bcf6f7bad30c.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -787,12 +799,16 @@ https://saka.kpores.ru/tflix/secure/bc3bebbdbe480a8336c92c90aed1e6daf4155c691446
 =======
 https://saka.kpores.ru/tflix/secure/2af68b73f862b4e7197c43492dc9d98a6f8bea782e6a1fb15b9bdc9717f2b021/1792930656/SKY-SPORT-1-NZ.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/9df9c3d009d347a23e253ef54d614b677a7f907a24ede7015774cfc8980c0737/1792931563/SKY-SPORT-1-NZ.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/crystal-palace-vs-newcastle-4d8551c768af.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -941,12 +957,16 @@ https://saka.kpores.ru/tflix/secure/2cde9c812147d6d2588a12df65b9306b2eb93c71dacb
 =======
 https://saka.kpores.ru/tflix/secure/d8f78765bc9790f4f726790feabad8898e0fcddd25ab5d146ae7486b5b85e679/1792930693/SKY-SPORT-4-NZ.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/ce3bb3c3079de505f31c5bbd2189237c313e99d6779aab2ee967561a7bf54140/1792931600/SKY-SPORT-4-NZ.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/konyaspor-vs-genclerbirligi-55d1259da0f1.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1125,12 +1145,16 @@ https://saka.kpores.ru/tflix/secure/236b33d519368b0516c43a92f37524af72daca7ecf26
 =======
 https://saka.kpores.ru/tflix/secure/0d10dfa965cd0235555475e5ae5ee26b26dc4286048c90a38307da4b5cd49177/1792930805/BEIN-SPORTS-1-TR.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/d5449dcb5eb6f677c1b38c9d727ad7ee45ccf5325116a05c762460c502a4e9ea/1792931710/BEIN-SPORTS-1-TR.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/as-monaco-vs-lille-c3cb2b300ebb.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1340,12 +1364,16 @@ https://vix.cdnfan.site/tflix/secure/764febd87f55f66d078e5b3e1af3be3315663839191
 =======
 https://vix.cdnfan.site/tflix/secure/b0e6dc33c120ac8063c9666800fb94646b905539726d53bb712e1d4f9e1a4233/1792930861/SPORT-TV-3-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/8b1eb6aff98eaa3df91006431e8a483cb01e98fe45616376e72cb43c4bcaa754/1792931766/SPORT-TV-3-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/man-united-vs-bournemouth-b6bc7a6d965a.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1555,12 +1583,16 @@ https://saka.kpores.ru/tflix/secure/68b1c8828e6981c44c629b7d9e064669c849fe1777e7
 =======
 https://saka.kpores.ru/tflix/secure/0ca3ed23c63773b2ff4d4be365cfb0a0182062e86ba80819d7ce89d9a835a74c/1792930898/SKY-SPORT-3-NZ.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/a044a445748f311e0835618d599420f9129ecdef7cbeb847642bf18c03844215/1792931802/SKY-SPORT-3-NZ.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/hoffenheim-vs-b-leverkusen-8687a8046c03.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1769,12 +1801,16 @@ https://vix.cdnfan.site/tflix/secure/09be354f9c2d825c8c69cbf4b7c0e5c94ac842f60e2
 =======
 https://vix.cdnfan.site/tflix/secure/3452677a2fce55a44af5b585392d350bc3732cce8678999fc32276a813b31287/1792930991/ONE-SOCCER.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/a928b11ebdeca850e38dbb9bb43e670988e10317b380c74d1ef46c6b0ce6a84c/1792931894/ONE-SOCCER.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/goztepe-vs-corum-fk-bb1ceaf5b716.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1833,12 +1869,16 @@ https://saka.kpores.ru/tflix/secure/06a692c3a5cdf84ea9a77b9583ae15360b4ba2e71f17
 =======
 https://saka.kpores.ru/tflix/secure/52f4a566ba54d7cd2c5875252ab5a130fa7992503d947c95a0ffee1d95a1e3fd/1792931004/BEIN-SPORTS-1-TR.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/d32be2a2583988065fa87a7279e0ba2ea25591b9c1d4ef1c818fac485613a100/1792931907/BEIN-SPORTS-1-TR.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sunderland-vs-leeds-united-f3d7229951b8.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -2048,12 +2088,16 @@ https://saka.kpores.ru/tflix/secure/b85dc81b7ce0cd15eb354e4b84f8fcb9a21442d15266
 =======
 https://saka.kpores.ru/tflix/secure/578d30773830547920e159db9e95b4ce2670b2c791019207a0b1cd66317b79ce/1792931041/SKY-SPORTS-MAIN-EVENT-UK.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/ea95f0e6248709903f69a35759381777b36b3543b2dadfa970fe3f92beb45036/1792931944/SKY-SPORTS-MAIN-EVENT-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/fribourg-vs-bayern-munich-e1c662fa3743.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -2263,12 +2307,16 @@ https://vix.cdnfan.site/tflix/secure/6867ac584ba7cdf366fb9a9a160010aa10765aeaa0c
 =======
 https://vix.cdnfan.site/tflix/secure/2c0126f5a11a96e33dd1649df63229bda01dea3bbce9a22580320e5a781c5c09/1792931097/ONE-SOCCER.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/a56f804084cb807a11e1e1617309ccc4ebc0abedf4c3636930ab6c487e3563cd/1792931999/ONE-SOCCER.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/rio-ave-vs-famalicao-afb80ef5d7b2.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -2375,12 +2423,16 @@ https://vix.cdnfan.site/tflix/secure/8e6a2a0d55b216bd22b5149f3061599dd66e441785c
 =======
 https://vix.cdnfan.site/tflix/secure/c17267587d7a5d8aebeb3bf44d861751f270c09e4815d66bb04e53b37a4d8564/1792931130/SPORT-TV-6-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/7b2ef22799fd1f12a30597efb22ec265d5342fb68e322c810d4e444af9b0e5bb/1792932030/SPORT-TV-6-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/n-madeira-vs-braga-1a507e8af535.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -2431,12 +2483,16 @@ https://vix.cdnfan.site/tflix/secure/b9597950e06f04eb7ba10afe4575e14a53e9ce63d51
 =======
 https://vix.cdnfan.site/tflix/secure/9e35738ffc81622f92dca3a6c3b65e2a9551452f64be3c9e0d6742df21c88457/1792931167/SPORT-TV-2-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/e6875cde9aa8208e48190739fb819808304edde7736b4f6f7cf6825a5b5cb0c7/1792932067/SPORT-TV-2-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/cavalry-vs-vancouver-c3b7d79b2f59.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -2498,12 +2554,16 @@ https://vix.cdnfan.site/tflix/secure/45e408f9b19278dbf363fccf32966e61434c1c75bce
 =======
 https://vix.cdnfan.site/tflix/secure/55b53404655bf4b39950d97d8bc4d7f914f2ee9f742805d446686e8e62efa796/1792931260/TSN-4.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/a33d844826fa0112814a5096ff589fe7d2fa7955b565b19560521cd260d6b70c/1792932159/TSN-4.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/inter-toronto-vs-atletico-ottawa-f5be676cb81e.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3108,12 +3168,16 @@ https://saka.kpores.ru/tflix/secure/eb4860d19df980a027e0f6af2065c425488e0a823898
 =======
 https://saka.kpores.ru/tflix/secure/aaa449508ae4d992e57dcaba8e5f31b0974cb37bd1453bed51c6dad0a2d9673e/1792931279/FOX-SOCCER-PLUS-US.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/585e935e573ffc133c0a38e651d071168ef11829fc7eb9ec901e85fd3135c65e/1792932178/FOX-SOCCER-PLUS-US.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/sassuolo-vs-lazio-a0c0d1db3635.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3323,12 +3387,16 @@ https://vix.cdnfan.site/tflix/secure/1d7d7de6068eece33015122550c37dc04279e589423
 =======
 https://vix.cdnfan.site/tflix/secure/2c61d7ca17e8f17b787b01c4511adb88700112be846ac9b5df43f62adeb5a9fb/1792931392/SPORT-TV-2-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/d83cd25736564ed1b5799e593e386fe08dcc5453536b2deafb506fb23e1bd5bc/1792932289/SPORT-TV-2-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/fleetwood-vs-arsenal-6456a1bf1017.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3741,12 +3809,16 @@ https://vix.cdnfan.site/tflix/secure/045dbdb91dbc53ab1926d6383ff796bebd262a55a12
 =======
 https://vix.cdnfan.site/tflix/secure/dded2c7fa238e1424180bafc255ddd0bc70e55107319d9504e67fb46c4d94a41/1792931566/TSN-3.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/38a81f267fe116cabecc37afca1323ed06b639f56ffbe2bf9eabcaa7c5df1369/1792932381/SPORT-TV-3-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/bournemouth-vs-aston-villa-50623ca120c2.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3955,12 +4027,16 @@ https://vix.cdnfan.site/tflix/secure/7654b7b4903ea0d2709f6cd8e11559a1de918697b3f
 =======
 https://vix.cdnfan.site/tflix/secure/c754f870ff6e6567729cfcb75d00061c4b5550340f809558ad239b2d0840dfff/1792931585/SPORT-TV-5-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/2096dbeb14c3b1f7d4ebf1545a5dc49e022d2c323f4f6016a51c5e14f8f8c544/1792932461/SPORT-TV-5-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/monza-vs-naples-047f354905d1.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -3975,12 +4051,16 @@ https://saka.kpores.ru/tflix/secure/a2415bbb64055448a9a9f42cead7dad52cdb383285bd
 =======
 https://saka.kpores.ru/tflix/secure/adc6d8313d6d693fe706ed1ba46b40c0ecb9701c32d840f74d100ee048233987/1792931622/TNT-SPORTS-1-UK.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/f4ebea1d8b0192323cf2fe709dd5d7dbeb6ce0a499769fc38df481da6f823107/1792932497/TNT-SPORTS-1-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/liverpool-vs-chelsea-d3149aa0b564.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -4129,12 +4209,16 @@ https://saka.kpores.ru/tflix/secure/74234f3098f7bea9e29c6423c4742b9f6b2f93631763
 =======
 https://saka.kpores.ru/tflix/secure/f5adeb764fb48dec755e42ffab7928824d702fb05ccb888d46152012b0ef1e53/1792927020/SKY-SPORTS-MAIN-EVENT-UK.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/94b727993a3414a21ed828fa699e770f9f611ae3201c1f604d324ea5104eaf21/1792932534/SKY-SPORTS-MAIN-EVENT-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/toronto-vs-dc-united-660f90558413.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 https://vix.cdnfan.site/tflix/secure/5b42c019c125d35e4153fc0ad312c5f1ab4626506af7f7b44bb471fb883f9ed1/1792913386/TSN-3.m3u8
@@ -4202,12 +4286,16 @@ https://saka.kpores.ru/tflix/secure/8bb6f8cafa60f296bff30860a3d2cf0ea9b90f89e901
 =======
 https://saka.kpores.ru/tflix/secure/88961b2830e2356f3684f4c60713767406e5cc4586bc92bc5489c8ece2e7dabf/1792931659/SKY-SPORTS-MAIN-EVENT-UK.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/31ed6af67d081dfd753dfe97ff2ca642be9c489d323cc496f3ec262dbb7c9a90/1792932571/TSN-3.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/frosinone-vs-lecce-7ef781f5dd55.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -4416,12 +4504,16 @@ https://vix.cdnfan.site/tflix/secure/ca7b443c08b83878f1d7a71fd5ba55e87ea1ef484e8
 =======
 https://vix.cdnfan.site/tflix/secure/3798fda8abc26cf9c5f28285898904fe3f51c20c2beda05b08075e3bc7db004b/1792931696/SPORT-TV-3-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/fd364e40b14df9bc3cfdbd0497c0854f762c37c6f577b769ba174e566159994b/1792932589/SPORT-TV-3-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/al-nassr-vs-al-kholood-d8ac030819e3.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -4631,12 +4723,16 @@ https://vix.cdnfan.site/tflix/secure/09f547eda0f3f29ba06519826d78e76c8634f674c30
 =======
 https://vix.cdnfan.site/tflix/secure/5578afb61ece1bf7101bbfa45b5f7c2f957ee66ab6c81b96df25c34371dd59d0/1792931733/SPORT-TV-4-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/47c642a762316e8cbabf6ef0572390bd7baf5f72367cd30bb79601326f354755/1792932626/SPORT-TV-4-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/fiorentina-vs-atalanta-2f16b1c65c47.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -4843,12 +4939,16 @@ https://vix.cdnfan.site/tflix/secure/ec97ed36ae3ee5e9c912b6ce275aae19ce10882c067
 =======
 https://vix.cdnfan.site/tflix/secure/462f60bb3dd044377226719cc453cd40b3f2614b81da6ef4b8a0ef863aa1a8df/1792931771/SPORT-TV-3-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/cd2dd618cce092431e5e84968278d9479dc12bc1cbea7fd9518b5e7e33deccdb/1792932663/SPORT-TV-3-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/al-shabab-vs-al-ahli-b53cf55d33d1.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5057,12 +5157,16 @@ https://vix.cdnfan.site/tflix/secure/1eea5317bff512dcc313e31cbe4d7d8ca7c18c2b6aa
 =======
 https://vix.cdnfan.site/tflix/secure/232f2b4f2bacf681923bb53f21c6fcf8a5576a66cf88ccc343e420c1ea60c020/1792931845/SPORT-TV-3-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/ecff31bf50fb9bdf0014bed11bad1920315f1fd5ce7c149b59e7252150b6a992/1792932736/SPORT-TV-3-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/villarreal-vs-espanyol-0f8d3cffe2e4.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5272,12 +5376,16 @@ https://saka.kpores.ru/tflix/secure/806320f2c17eab475bbf79110f8fe1174984688fabc1
 =======
 https://saka.kpores.ru/tflix/secure/20196c35ee518ff1689fdb1c2eea6378a54710157076fc3278949df467124520/1792931882/ESPN-DEPORTS.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/4457a7feccfad40c592a1a8a38b41c31a4ac72c6835eeabcd53d25a57bcea116/1792932773/ESPN-DEPORTS.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lille-vs-rc-lens-14f35cb435a3.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5487,12 +5595,16 @@ https://vix.cdnfan.site/tflix/secure/b1555004d08ef70aef74d7d06a3e403cad9ba4c1b32
 =======
 https://vix.cdnfan.site/tflix/secure/637e1c8e8c136b2500dc38cb0120e3eb0c0c087c58965c0942ca61c75914f814/1792931901/SPORT-TV-2-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/c010d4601aea43f9b804bff1d5d503120652971df6209215635a4060c10a54b4/1792932791/SPORT-TV-2-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/hull-city-vs-ipswich-town-4b1525f675fb.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5702,12 +5814,16 @@ https://saka.kpores.ru/tflix/secure/f6c40b56605b94eea1e3b51e7f4f747129a67a23330a
 =======
 https://saka.kpores.ru/tflix/secure/0d320646a8246e8db2499947d8a32190b902eacf5cbbfa69820d1ae3e7923b78/1792931957/SKY-SPORT-4-NZ.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/ad17e96f4968a271a2b419271a0c1a5331f9d4aa5982e0bf66b5cac5d7cea449/1792932847/SKY-SPORT-4-NZ.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/coventry-vs-sunderland-02db155f0f96.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -5917,12 +6033,16 @@ https://saka.kpores.ru/tflix/secure/096d28fa37c1bb5d8f07a771c7c27567f7b72b3de90f
 =======
 https://saka.kpores.ru/tflix/secure/b3dc9954430ee12086d33b3ef6a5e8d127d3ab9ea9fa0c61dd38ffe51fefa620/1792931994/SKY-SPORT-6-NZ.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/de82e73fabaeab2d09145c750226f935c71e7f10aba07750afcf3514f8bedf0e/1792932884/SKY-SPORT-6-NZ.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/rayo-vallecano-vs-celta-vigo-9f964f9bd7cb.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -6132,12 +6252,16 @@ https://saka.kpores.ru/tflix/secure/c8e163c6598eb3803b01746b93c5f6c0e348bf0a7e37
 =======
 https://saka.kpores.ru/tflix/secure/2338b3a51236900423ce3ef1624803ab4cec265babc2fb465df76e4cff12e80d/1792932031/ESPN-DEPORTS.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/2fc59670cbd4b4a7ad1a4788c57bf7eba8d3653845d3fa1bf5b918991669fa91/1792932920/ESPN-DEPORTS.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/nice-vs-rennes-ff496cf66cb9.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -6347,12 +6471,16 @@ https://vix.cdnfan.site/tflix/secure/71eeb4827d0f04c917fa56b7c34c191853243915b69
 =======
 https://vix.cdnfan.site/tflix/secure/d64cd12b99a44fa23e5e161363e55c4208c1628fe372b95fde607519fa0e05bf/1792932045/SPORT-TV-4-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/9a40b40fa92afd461288ea66a409ca12d06c31c1cee66c94a8a284fa5c0ca620/1792932933/SPORT-TV-4-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/al-hilal-vs-al-fateh-29947b310e55.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -6562,12 +6690,16 @@ https://vix.cdnfan.site/tflix/secure/41cba019d124a836afc1fa1f2075cf827311e2ff934
 =======
 https://vix.cdnfan.site/tflix/secure/c339ef6f1080be9e12ad7a888225c199caba01920db6efe0481ccc2f3c7fb5aa/1792932101/SPORT-TV-6-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/c17213a92a7b18bf2073a1468efeff862042bfe55b9ed697c2171af743882544/1792932988/SPORT-TV-6-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lyon-vs-angers-15f45e88f99b.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -6777,12 +6909,16 @@ https://vix.cdnfan.site/tflix/secure/e2cd3afab82e61a79a40c192c07114cecd4c815d5f9
 =======
 https://vix.cdnfan.site/tflix/secure/8f3dc5a01743556d3d61b39a8e02624eead886acb71bf9488f96310419224b3a/1792932138/SPORT-TV-4-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/53d6a5684b5cef4d6699d2051cdf1efef06bdb60a8c50424b058d0b934c2b621/1792933025/SPORT-TV-4-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/lazio-vs-cagliari-52618ff781dd.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -6992,12 +7128,16 @@ https://vix.cdnfan.site/tflix/secure/f67eb280757b07d334c60ba251041f9f1cbcade7043
 =======
 https://vix.cdnfan.site/tflix/secure/401f089d4c75ff66f0293935595f447ce49bd3a898b50f67110838813b908f41/1792932287/SPORT-TV-2-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/f864e7c08aea1f1cc3e4fa10d7cb6199cdbb3d6e8db0ac213b3e92b0ea8597f9/1792933172/SPORT-TV-2-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/paris-fc-vs-as-monaco-8475ad59f7b6.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -7206,12 +7346,16 @@ https://vix.cdnfan.site/tflix/secure/1cd1eceaff01fe6378dcf8d5d7963f405805cd44e73
 =======
 https://vix.cdnfan.site/tflix/secure/13d655fd98f4e96fdee302544c702a20b7b1100e6b3946783eb77662fa59271e/1792932324/SPORT-TV-3-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/a43dbb1d515ce8a338b08f5b190dbe8e672e6b88ec1f303b617f3d91014b7786/1792933209/SPORT-TV-3-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/liverpool-vs-arsenal-9aa1458439fb.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -7374,12 +7518,16 @@ https://saka.kpores.ru/tflix/secure/375e230c619d3eb8117acbe20bb5e5c71e4d9acfda97
 =======
 https://saka.kpores.ru/tflix/secure/b41dba383f99431bfe2c2d6dc12402bb8de3d3bb56950a3742f931bfbdc45a84/1792932362/SKY-SPORTS-MAIN-EVENT-UK.m3u8
 >>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/27fc9edfff8b89b56be90bc73dd2d73d9c8b7917a4e8872b6f38cd83476a9e65/1792933246/SKY-SPORTS-MAIN-EVENT-UK.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/maritimo-vs-santa-clara-55d19ccddaf1.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://event.kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://event.kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://event.kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://event.kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -7588,12 +7736,16 @@ https://vix.cdnfan.site/tflix/secure/6e244d823b6a2c127c5269b80de05d8ac9e9c1100b0
 =======
 https://vix.cdnfan.site/tflix/secure/99d83872b39fa6b0503e9dce591107cb0473d761f51120ea7be964aaccd6ac22/1792932436/SPORT-TV-2-PT.m3u8
 >>>>>>> Stashed changes
+=======
+https://vix.cdnfan.site/tflix/secure/33f857c09578b17cd4a89044136c23067a172811c6518e4d909609524240067c/1792933319/SPORT-TV-2-PT.m3u8
+>>>>>>> Stashed changes
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/ath-bilbao-vs-real-sociedad-4c57038e69bb.png" group-title="Tflix Live",STARTS IN vs 0 (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -7755,4 +7907,7 @@ https://saka.kpores.ru/tflix/secure/bbe9a64b13234c23443b06a04d5b0c5946cadeadef2c
 >>>>>>> Stashed changes
 =======
 https://saka.kpores.ru/tflix/secure/70baafcc619b1010e9d27253f55c0c43355165c4f417192a98e70131944e0f25/1792932473/ESPN-DEPORTS.m3u8
+>>>>>>> Stashed changes
+=======
+https://saka.kpores.ru/tflix/secure/fdc86e006dd339de47f0c6943d27147c39a7f9145c0eb854cbe03ac2b43c061f/1792933356/ESPN-DEPORTS.m3u8
 >>>>>>> Stashed changes
