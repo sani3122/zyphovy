@@ -1,25 +1,25 @@
 #EXTM3U
-# generated: 2026-10-25 15:26 UTC
+# generated: 2026-10-25 15:41 UTC
 # source: https://tflix.su/
 # streams: 3
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-pittsburgh-steelers-d9a20e4a845b.png" group-title="Tflix Live",297 vs Man United (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/new-orleans-saints-vs-pittsburgh-steelers-d9a20e4a845b.png" group-title="Tflix Live",320 vs Man United (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/28668a014f9f68dc066da638be3bcbda88a2867b9d40b4fe6f69c1e22e77edc0/1792950736/NFL-NETWORK.m3u8
+https://saka.kpores.ru/tflix/secure/784d2e27bb11edb8173f93d8c126cd14110868c0da843036909dff65571b98c9/1792951638/NFL-NETWORK.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/konyaspor-vs-genclerbirligi-55d1259da0f1.png" group-title="Tflix Live",297 vs Man United (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/konyaspor-vs-genclerbirligi-55d1259da0f1.png" group-title="Tflix Live",320 vs Man United (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/65320ed22793c99ae30055198b160169756470e169d1a42a6392b95ca15b2e52/1792950786/BEIN-SPORTS-1-TR.m3u8
+https://saka.kpores.ru/tflix/secure/fcfd774ee7d86864487fd87979edbcc90df1382185bd85d3d44313c9bcb78a98/1792951688/BEIN-SPORTS-1-TR.m3u8
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-4-afternoon-839928ba8876.png" group-title="Tflix Live",297 vs Man United (Source 1)
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/sani3122/zyphovy/main/logos/european-darts-championship-day-4-afternoon-839928ba8876.png" group-title="Tflix Live",320 vs Man United (Source 1)
 #EXTVLCOPT:http-referrer=https://kpores.ru/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
 #EXTVLCOPT:http-origin=https://kpores.ru
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://kpores.ru/&User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36&Origin=https://kpores.ru
-https://saka.kpores.ru/tflix/secure/bc23381d1e570899e81f3f21d0e13ec0f7261136490ccafb880909dda9a173af/1792950848/SKY-SPORT-2-NZ.m3u8
+https://saka.kpores.ru/tflix/secure/70bfba2406c0a0f135b5bd29cf77e2642324d7976fd4772a774e719830a9ec14/1792951754/SKY-SPORT-2-NZ.m3u8
